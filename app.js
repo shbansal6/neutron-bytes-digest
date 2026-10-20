@@ -167,7 +167,7 @@ async function start(){
   overrides=edits.articles||{};
   hidden=new Set(edits.hidden||[]);
   metadata=Array.isArray(news)?{}:news;
-  articles=(Array.isArray(news)?news:news.articles||[]).filter(a=>a.date&&a.title&&a.url&&!hidden.has(a.url+'::'+a.title)).map(hydrate).sort((a,b)=>b.date.localeCompare(a.date)||a.title.localeCompare(b.title));
+  articles=(Array.isArray(news)?news:news.articles||[]).filter(a=>a.date&&a.title&&a.url&&/[A-Za-z]{3,}/.test(a.title)&&!hidden.has(a.url+'::'+a.title)).map(hydrate).sort((a,b)=>b.date.localeCompare(a.date)||a.title.localeCompare(b.title));
   briefings=loadBriefings(weeklyData);
   renderNav();initEvents();updateView();
  }catch(e){$('archive-content').innerHTML='<div class="empty">The archive could not load. Please refresh the page. '+esc(e.message)+'</div>';console.error(e);}
