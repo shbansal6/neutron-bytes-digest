@@ -65,8 +65,8 @@
               ],
               "categories": [
                 "Offtakes & customers",
-                "Capital & financing",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Capital & financing"
               ],
               "search_text": "Google Kairos Power Tennessee Valley Authority US Department of Energy Kairos secures $643M for Hermes 2 demonstration reactor Neutron Bytes reported $643 million of combined financing for Kairos Power’s Hermes 2 program: $368 million from investors and $275 million from DOE. Hermes 2 is a planned 50 MWe grid-connected demonstration in Tennessee, aligned with the Google/Kairos/TVA offtake arrangement. The report separately describes an up-to-$100 million Samsung C&T partnership; that figure should not automatically be added to the $643 million total.",
               "importance_score": 45
@@ -110,7 +110,8 @@
               ],
               "categories": [
                 "Construction & licensing",
-                "Capital & financing"
+                "Capital & financing",
+                "Policy & international"
               ],
               "entities": [
                 "Westinghouse",
@@ -172,7 +173,8 @@
               "url": "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/",
               "source": "Neutron Bytes",
               "technologies": [
-                "Traditional fission"
+                "Traditional fission",
+                "Advanced fission"
               ],
               "categories": [
                 "Capital & financing"
@@ -341,7 +343,7 @@
         },
         {
           "category": "Construction & licensing",
-          "takeaway": "9 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "takeaway": "10 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
             {
               "date": "2026-10-16",
@@ -358,8 +360,8 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Fuel & supply chain",
                 "Construction & licensing",
+                "Fuel & supply chain",
                 "Policy & international"
               ],
               "search_text": "US Nuclear Regulatory Commission Bluecore buys LEU for proposed 10 MWe floating reactor Bluecore Energy reported acquiring uranium hexafluoride enriched to 4.95% U-235 while beginning NRC / Coast Guard engagement on a proposed 10 MWe barge-based PWR. It is a tangible fuel-procurement and regulatory step, not a licensed maritime nuclear station; marine classification and siting remain material hurdles.",
@@ -417,11 +419,43 @@
               ],
               "categories": [
                 "Offtakes & customers",
-                "Capital & financing",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Capital & financing"
               ],
               "search_text": "Google Kairos Power Tennessee Valley Authority US Department of Energy Kairos secures $643M for Hermes 2 demonstration reactor Neutron Bytes reported $643 million of combined financing for Kairos Power’s Hermes 2 program: $368 million from investors and $275 million from DOE. Hermes 2 is a planned 50 MWe grid-connected demonstration in Tennessee, aligned with the Google/Kairos/TVA offtake arrangement. The report separately describes an up-to-$100 million Samsung C&T partnership; that figure should not automatically be added to the $643 million total.",
               "importance_score": 45
+            },
+            {
+              "date": "2026-10-16",
+              "title": "DOE and ABS plan work on commercial maritime nuclear applications",
+              "summary": "The American Bureau of Shipping and US Department of Energy announced cooperation to advance research and feasibility for nuclear-powered ships and floating nuclear installations; this is preparatory work, not a licensed fleet.",
+              "category": "Policy & international",
+              "url": "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/",
+              "source": "Neutron Bytes",
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Construction & licensing",
+                "Policy & international"
+              ],
+              "entities": [
+                "American Bureau of Shipping",
+                "ABS",
+                "DOE",
+                "maritime nuclear",
+                "US Department of Energy"
+              ],
+              "search_text": "American Bureau of Shipping ABS DOE maritime nuclear US Department of Energy DOE and ABS plan work on commercial maritime nuclear applications The American Bureau of Shipping and US Department of Energy announced cooperation to advance research and feasibility for nuclear-powered ships and floating nuclear installations; this is preparatory work, not a licensed fleet.",
+              "importance_score": 38,
+              "links": [
+                {
+                  "label": "NucNet",
+                  "url": "https://www.nucnet.org/news/abs-and-doe-join-forces-to-advance-use-of-commercial-nuclear-technology-at-sea-10-3-2026"
+                }
+              ],
+              "source_heading": "ABS and DOE Collaborate on the Use of Nuclear Technology at Sea",
+              "editorial": true
             },
             {
               "date": "2026-10-16",
@@ -435,7 +469,8 @@
               ],
               "categories": [
                 "Construction & licensing",
-                "Capital & financing"
+                "Capital & financing",
+                "Policy & international"
               ],
               "entities": [
                 "Westinghouse",
@@ -518,8 +553,8 @@
                 "Advanced fission"
               ],
               "categories": [
-                "Fuel & supply chain",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Fuel & supply chain"
               ],
               "search_text": "US Nuclear Regulatory Commission & & & Bluecore Energy Secures Uranium for 10 MW Floating SMR Bluecore Energy , a maritime nuclear energy company developing compact, water-cooled nuclear power systems, based in Long Beach, CA, announced significant progress across several critical elements of its first system, including the purchase of low-enriched uranium (LEU) from WMC, continued pre-application engagement with the U.S. Nuclear Regulatory Commission and U.S. Coast Guard, and progress with its maritime classification pathway with the American Bureau of Shipping (ABS). The…",
               "importance_score": 23
@@ -610,7 +645,7 @@
         },
         {
           "category": "Policy & international",
-          "takeaway": "8 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "takeaway": "9 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
             {
               "date": "2026-10-16",
@@ -627,8 +662,8 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Fuel & supply chain",
                 "Construction & licensing",
+                "Fuel & supply chain",
                 "Policy & international"
               ],
               "search_text": "US Nuclear Regulatory Commission Bluecore buys LEU for proposed 10 MWe floating reactor Bluecore Energy reported acquiring uranium hexafluoride enriched to 4.95% U-235 while beginning NRC / Coast Guard engagement on a proposed 10 MWe barge-based PWR. It is a tangible fuel-procurement and regulatory step, not a licensed maritime nuclear station; marine classification and siting remain material hurdles.",
@@ -678,6 +713,7 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Construction & licensing",
                 "Policy & international"
               ],
               "entities": [
@@ -696,6 +732,46 @@
                 }
               ],
               "source_heading": "ABS and DOE Collaborate on the Use of Nuclear Technology at Sea",
+              "editorial": true
+            },
+            {
+              "date": "2026-10-16",
+              "title": "Westinghouse faces future V.C. Summer relicensing and completion hurdles",
+              "summary": "The October 16 Neutron Bytes roundup examined the challenges associated with completing and relicensing the previously halted V.C. Summer AP1000 project. Discussion of potential resumption should not be mistaken for an approved final investment decision.",
+              "category": "Construction & licensing",
+              "url": "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/",
+              "source": "Neutron Bytes",
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Construction & licensing",
+                "Capital & financing",
+                "Policy & international"
+              ],
+              "entities": [
+                "Westinghouse",
+                "V.C. Summer",
+                "AP1000",
+                "US Nuclear Regulatory Commission"
+              ],
+              "search_text": "Westinghouse V.C. Summer AP1000 US Nuclear Regulatory Commission Westinghouse faces future V.C. Summer relicensing and completion hurdles The October 16 Neutron Bytes roundup examined the challenges associated with completing and relicensing the previously halted V.C. Summer AP1000 project. Discussion of potential resumption should not be mistaken for an approved final investment decision.",
+              "importance_score": 38,
+              "links": [
+                {
+                  "label": "press statement",
+                  "url": "https://www.nrc.gov/about-nrc/news-releases/2026/26-080"
+                },
+                {
+                  "label": "Brookfield",
+                  "url": "https://www.brookfield.com/"
+                },
+                {
+                  "label": "South Carolina utility Santee Cooper",
+                  "url": "https://www.santeecooper.com/"
+                }
+              ],
+              "source_heading": "Challenges Ahead for Westinghouse to Re-license V.C. Summer",
               "editorial": true
             },
             {
@@ -859,8 +935,8 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Fuel & supply chain",
                 "Construction & licensing",
+                "Fuel & supply chain",
                 "Policy & international"
               ],
               "search_text": "US Nuclear Regulatory Commission Bluecore buys LEU for proposed 10 MWe floating reactor Bluecore Energy reported acquiring uranium hexafluoride enriched to 4.95% U-235 while beginning NRC / Coast Guard engagement on a proposed 10 MWe barge-based PWR. It is a tangible fuel-procurement and regulatory step, not a licensed maritime nuclear station; marine classification and siting remain material hurdles.",
@@ -895,8 +971,8 @@
                 "Advanced fission"
               ],
               "categories": [
-                "Fuel & supply chain",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Fuel & supply chain"
               ],
               "search_text": "US Nuclear Regulatory Commission & & & Bluecore Energy Secures Uranium for 10 MW Floating SMR Bluecore Energy , a maritime nuclear energy company developing compact, water-cooled nuclear power systems, based in Long Beach, CA, announced significant progress across several critical elements of its first system, including the purchase of low-enriched uranium (LEU) from WMC, continued pre-application engagement with the U.S. Nuclear Regulatory Commission and U.S. Coast Guard, and progress with its maritime classification pathway with the American Bureau of Shipping (ABS). The…",
               "importance_score": 23
@@ -934,7 +1010,8 @@
               "url": "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/",
               "source": "Neutron Bytes",
               "technologies": [
-                "Traditional fission"
+                "Traditional fission",
+                "Advanced fission"
               ],
               "categories": [
                 "Fuel & supply chain"
@@ -1118,8 +1195,8 @@
               ],
               "categories": [
                 "Offtakes & customers",
-                "Capital & financing",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Capital & financing"
               ],
               "search_text": "Google Kairos Power Tennessee Valley Authority US Department of Energy Kairos secures $643M for Hermes 2 demonstration reactor Neutron Bytes reported $643 million of combined financing for Kairos Power’s Hermes 2 program: $368 million from investors and $275 million from DOE. Hermes 2 is a planned 50 MWe grid-connected demonstration in Tennessee, aligned with the Google/Kairos/TVA offtake arrangement. The report separately describes an up-to-$100 million Samsung C&T partnership; that figure should not automatically be added to the $643 million total.",
               "importance_score": 45
@@ -1140,34 +1217,6 @@
           "category": "Capital & financing",
           "takeaway": "8 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
-            {
-              "date": "2026-10-09",
-              "title": "Google and Constellation announce major uprate PPA",
-              "category": "Restarts & uprates",
-              "summary": "Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
-              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
-              "links": [
-                {
-                  "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
-                  "label": "Original · ANS Nuclear Newswire report direct… ↗"
-                }
-              ],
-              "source": "Neutron Bytes",
-              "entities": [
-                "Constellation Energy",
-                "Google"
-              ],
-              "technologies": [
-                "Traditional fission"
-              ],
-              "categories": [
-                "Restarts & uprates",
-                "Offtakes & customers",
-                "Capital & financing"
-              ],
-              "search_text": "Constellation Energy Google Google and Constellation announce major uprate PPA Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
-              "importance_score": 70
-            },
             {
               "date": "2026-10-09",
               "title": "Google’s 20-Year $4.3 Billion Deal for Nuclear Power",
@@ -1198,11 +1247,40 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Restarts & uprates",
                 "Offtakes & customers",
                 "Capital & financing"
               ],
               "search_text": "Constellation Energy Google Google’s 20-Year $4.3 Billion Deal for Nuclear Power Google and Constellation Energy announced a long-term strategic clean energy collaboration to bring 890 MW of new, reliable nuclear capacity onto the PJM Interconnection grid to meet growing demand and increase grid reliability. The massive effort will involve uprates in the power levels of 11 of Constellation’s fleet of megawatt class nuclear reactors. The agreement $4.3 billion of new investment by Constellation. The 20-year power purchase agreement (PPA) by Google with…",
-              "importance_score": 68
+              "importance_score": 88
+            },
+            {
+              "date": "2026-10-09",
+              "title": "Google and Constellation announce major uprate PPA",
+              "category": "Restarts & uprates",
+              "summary": "Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
+              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
+              "links": [
+                {
+                  "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
+                  "label": "Original · ANS Nuclear Newswire report direct… ↗"
+                }
+              ],
+              "source": "Neutron Bytes",
+              "entities": [
+                "Constellation Energy",
+                "Google"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Restarts & uprates",
+                "Offtakes & customers",
+                "Capital & financing"
+              ],
+              "search_text": "Constellation Energy Google Google and Constellation announce major uprate PPA Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
+              "importance_score": 70
             },
             {
               "date": "2026-10-09",
@@ -1258,6 +1336,7 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Restarts & uprates",
                 "Capital & financing"
               ],
               "search_text": "Vistra US Department of Energy EDF DOE Inks $4.2 Billion Loan to Nuclear Power Plants in Ohio and Pennsylvania The U.S. Department of Energy’s (DOE) Office of Energy Dominance Financing (EDF) announced a conditional loan commitment of up to $4.2 billion to finance nuclear uprates and modernization across Vistra’s nuclear fleet in Pennsylvania and Ohio. The announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. (PJM) region. The projects will add 433 MW of new nuclear capacity…",
@@ -1393,9 +1472,9 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Policy & international",
                 "Construction & licensing",
-                "Fuel & supply chain"
+                "Fuel & supply chain",
+                "Policy & international"
               ],
               "search_text": "NASA lunar-fission debate NB critiqued a New York Times report on nuclear reactors for lunar missions, contrasting U.S., Chinese and Russian timelines, proposed ~100 kWe-class lunar surface systems, remote siting and HALEU fuel constraints. This is principally analysis of proposed technology and risk , not a new funded commercial nuclear plant.",
               "importance_score": 10
@@ -1513,78 +1592,133 @@
           ]
         },
         {
-          "category": "Policy & international",
-          "takeaway": "3 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "category": "Restarts & uprates",
+          "takeaway": "4 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
             {
-              "date": "2026-10-10",
-              "title": "NASA lunar-fission debate",
-              "category": "Policy & international",
-              "summary": "NB critiqued a New York Times report on nuclear reactors for lunar missions, contrasting U.S., Chinese and Russian timelines, proposed ~100 kWe-class lunar surface systems, remote siting and HALEU fuel constraints. This is principally analysis of proposed technology and risk , not a new funded commercial nuclear plant.",
-              "url": "https://neutronbytes.com/2026/10/10/a-few-beers-short-of-a-six-pack-where-the-new-york-times-missed-a-few-facts-about-nuclear-reactors-on-the-moon/",
-              "links": [],
+              "date": "2026-10-09",
+              "title": "Google’s 20-Year $4.3 Billion Deal for Nuclear Power",
+              "source_heading": "Google’s 20-Year $4.3 Billion Deal for Nuclear Power",
+              "summary": "Google and Constellation Energy announced a long-term strategic clean energy collaboration to bring 890 MW of new, reliable nuclear capacity onto the PJM Interconnection grid to meet growing demand and increase grid reliability. The massive effort will involve uprates in the power levels of 11 of Constellation’s fleet of megawatt class nuclear reactors. The agreement $4.3 billion of new investment by Constellation. The 20-year power purchase agreement (PPA) by Google with…",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
               "source": "Neutron Bytes",
-              "entities": [],
+              "links": [
+                {
+                  "label": "reported by the New York Times",
+                  "url": "https://www.nytimes.com/2026/10/06/climate/nuclear-power-plant-google-data-centers.html?smid=nytcore-android-share"
+                },
+                {
+                  "label": "ANS Nuclear Newswire",
+                  "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/"
+                },
+                {
+                  "label": "5 GW of domestic nuclear energy expansion",
+                  "url": "https://www.energy.gov/ne/articles/nations-nuclear-reactor-fleet-rise"
+                }
+              ],
+              "entities": [
+                "Constellation Energy",
+                "Google"
+              ],
               "technologies": [
                 "Traditional fission"
               ],
               "categories": [
-                "Policy & international",
-                "Construction & licensing",
-                "Fuel & supply chain"
+                "Restarts & uprates",
+                "Offtakes & customers",
+                "Capital & financing"
               ],
-              "search_text": "NASA lunar-fission debate NB critiqued a New York Times report on nuclear reactors for lunar missions, contrasting U.S., Chinese and Russian timelines, proposed ~100 kWe-class lunar surface systems, remote siting and HALEU fuel constraints. This is principally analysis of proposed technology and risk , not a new funded commercial nuclear plant.",
-              "importance_score": 10
+              "search_text": "Constellation Energy Google Google’s 20-Year $4.3 Billion Deal for Nuclear Power Google and Constellation Energy announced a long-term strategic clean energy collaboration to bring 890 MW of new, reliable nuclear capacity onto the PJM Interconnection grid to meet growing demand and increase grid reliability. The massive effort will involve uprates in the power levels of 11 of Constellation’s fleet of megawatt class nuclear reactors. The agreement $4.3 billion of new investment by Constellation. The 20-year power purchase agreement (PPA) by Google with…",
+              "importance_score": 88
             },
             {
               "date": "2026-10-09",
-              "title": "BWXT BANR selected for New Brunswick concept",
-              "category": "Policy & international",
-              "summary": "Prodigy Clean Energy and First Nations partners proposed a transportable plant at Belledune comprising two BWXT BANR microreactors . Each BANR was described as 22 MWe / 75 MWt , implying around 44 MWe if both are built. The proposed power-purchase framework and early-2030s target were preliminary.",
+              "title": "Google and Constellation announce major uprate PPA",
+              "category": "Restarts & uprates",
+              "summary": "Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
               "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
               "links": [
                 {
-                  "url": "https://www.world-nuclear-news.org/articles/bwxts-banr-microreactor-selected-for-canadian-project",
-                  "label": "Original · World Nuclear News article cited b… ↗"
+                  "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
+                  "label": "Original · ANS Nuclear Newswire report direct… ↗"
                 }
               ],
               "source": "Neutron Bytes",
               "entities": [
-                "BWXT"
+                "Constellation Energy",
+                "Google"
               ],
               "technologies": [
                 "Traditional fission"
               ],
               "categories": [
-                "Policy & international"
+                "Restarts & uprates",
+                "Offtakes & customers",
+                "Capital & financing"
               ],
-              "search_text": "BWXT BWXT BANR selected for New Brunswick concept Prodigy Clean Energy and First Nations partners proposed a transportable plant at Belledune comprising two BWXT BANR microreactors . Each BANR was described as 22 MWe / 75 MWt , implying around 44 MWe if both are built. The proposed power-purchase framework and early-2030s target were preliminary.",
-              "importance_score": 28
+              "search_text": "Constellation Energy Google Google and Constellation announce major uprate PPA Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
+              "importance_score": 70
             },
             {
-              "date": "2026-10-08",
-              "title": "Westinghouse–Korea nuclear export settlement faces new market tests",
-              "summary": "A guest analysis examined how the 2025 Westinghouse/KHNP settlement affects export fees, market access, Dukovany and the new US–Korea proposed reactor framework. Reported settlement terms are contested or confidential and should not be mistaken for new binding October contracts.",
-              "category": "Policy & international",
-              "url": "https://neutronbytes.com/2026/10/08/how-westinghouse-and-korea-carve-up-the-nuclear-reactor-export-market/",
+              "date": "2026-10-09",
+              "title": "DOE conditional financing for Vistra uprates",
+              "category": "Restarts & uprates",
+              "summary": "NB described a conditional loan commitment of up to $4.2 billion for Vistra's Beaver Valley, Davis-Besse and Perry modernization/uprate programs, adding a projected 433 MW of capacity in Pennsylvania and Ohio. The optional treatment of Comanche Peak was described separately. It was a conditional commitment , not funded cash disbursed.",
+              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
+              "links": [
+                {
+                  "url": "https://www.energy.gov/EDF",
+                  "label": "Original · DOE EDF ↗"
+                }
+              ],
               "source": "Neutron Bytes",
+              "entities": [
+                "Vistra",
+                "US Department of Energy"
+              ],
               "technologies": [
                 "Traditional fission"
               ],
               "categories": [
-                "Policy & international"
+                "Restarts & uprates",
+                "Capital & financing"
+              ],
+              "search_text": "Vistra US Department of Energy DOE conditional financing for Vistra uprates NB described a conditional loan commitment of up to $4.2 billion for Vistra's Beaver Valley, Davis-Besse and Perry modernization/uprate programs, adding a projected 433 MW of capacity in Pennsylvania and Ohio. The optional treatment of Comanche Peak was described separately. It was a conditional commitment , not funded cash disbursed.",
+              "importance_score": 65
+            },
+            {
+              "date": "2026-10-09",
+              "title": "DOE Inks $4.2 Billion Loan to Nuclear Power Plants in Ohio and Pennsylvania",
+              "source_heading": "DOE Inks $4.2 Billion Loan to Nuclear Power Plants in Ohio and Pennsylvania",
+              "summary": "The U.S. Department of Energy’s (DOE) Office of Energy Dominance Financing (EDF) announced a conditional loan commitment of up to $4.2 billion to finance nuclear uprates and modernization across Vistra’s nuclear fleet in Pennsylvania and Ohio. The announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. (PJM) region. The projects will add 433 MW of new nuclear capacity…",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
+              "source": "Neutron Bytes",
+              "links": [
+                {
+                  "label": "Office of Energy Dominance Financing",
+                  "url": "https://www.energy.gov/EDF"
+                },
+                {
+                  "label": "PJM Interconnection, L.L.C.",
+                  "url": "https://www.pjm.com/about-pjm"
+                }
               ],
               "entities": [
-                "Westinghouse",
-                "KHNP",
-                "KEPCO",
-                "Dukovany",
-                "South Korea",
-                "Czech Republic"
+                "Vistra",
+                "US Department of Energy",
+                "EDF"
               ],
-              "search_text": "Westinghouse KHNP KEPCO Dukovany South Korea Czech Republic Westinghouse–Korea nuclear export settlement faces new market tests A guest analysis examined how the 2025 Westinghouse/KHNP settlement affects export fees, market access, Dukovany and the new US–Korea proposed reactor framework. Reported settlement terms are contested or confidential and should not be mistaken for new binding October contracts.",
-              "importance_score": 25,
-              "links": []
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Restarts & uprates",
+                "Capital & financing"
+              ],
+              "search_text": "Vistra US Department of Energy EDF DOE Inks $4.2 Billion Loan to Nuclear Power Plants in Ohio and Pennsylvania The U.S. Department of Energy’s (DOE) Office of Energy Dominance Financing (EDF) announced a conditional loan commitment of up to $4.2 billion to finance nuclear uprates and modernization across Vistra’s nuclear fleet in Pennsylvania and Ohio. The announcement will deliver more reliable American energy, strengthen the grid, lower costs, and meet growing power demand across the 13-state PJM Interconnection, L.L.C. (PJM) region. The projects will add 433 MW of new nuclear capacity…",
+              "importance_score": 65
             }
           ]
         },
@@ -1605,9 +1739,9 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Policy & international",
                 "Construction & licensing",
-                "Fuel & supply chain"
+                "Fuel & supply chain",
+                "Policy & international"
               ],
               "search_text": "NASA lunar-fission debate NB critiqued a New York Times report on nuclear reactors for lunar missions, contrasting U.S., Chinese and Russian timelines, proposed ~100 kWe-class lunar surface systems, remote siting and HALEU fuel constraints. This is principally analysis of proposed technology and risk , not a new funded commercial nuclear plant.",
               "importance_score": 10
@@ -1672,6 +1806,82 @@
               ],
               "search_text": "Army Janus Program Antares BWXT General Atomics Radiant Westinghouse Nuclear Innovation Alliance US Army Janus microreactor programme and NIA project tracker reviewed Neutron Bytes reviewed the Army Janus programme's five selected vendors and bases, potential funding up to $2.2 billion, and the Nuclear Innovation Alliance's tracker of military microreactor concepts and procurement. Deployment is planned, not completed.",
               "importance_score": 22,
+              "links": []
+            }
+          ]
+        },
+        {
+          "category": "Policy & international",
+          "takeaway": "3 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "items": [
+            {
+              "date": "2026-10-10",
+              "title": "NASA lunar-fission debate",
+              "category": "Policy & international",
+              "summary": "NB critiqued a New York Times report on nuclear reactors for lunar missions, contrasting U.S., Chinese and Russian timelines, proposed ~100 kWe-class lunar surface systems, remote siting and HALEU fuel constraints. This is principally analysis of proposed technology and risk , not a new funded commercial nuclear plant.",
+              "url": "https://neutronbytes.com/2026/10/10/a-few-beers-short-of-a-six-pack-where-the-new-york-times-missed-a-few-facts-about-nuclear-reactors-on-the-moon/",
+              "links": [],
+              "source": "Neutron Bytes",
+              "entities": [],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Construction & licensing",
+                "Fuel & supply chain",
+                "Policy & international"
+              ],
+              "search_text": "NASA lunar-fission debate NB critiqued a New York Times report on nuclear reactors for lunar missions, contrasting U.S., Chinese and Russian timelines, proposed ~100 kWe-class lunar surface systems, remote siting and HALEU fuel constraints. This is principally analysis of proposed technology and risk , not a new funded commercial nuclear plant.",
+              "importance_score": 10
+            },
+            {
+              "date": "2026-10-09",
+              "title": "BWXT BANR selected for New Brunswick concept",
+              "category": "Policy & international",
+              "summary": "Prodigy Clean Energy and First Nations partners proposed a transportable plant at Belledune comprising two BWXT BANR microreactors . Each BANR was described as 22 MWe / 75 MWt , implying around 44 MWe if both are built. The proposed power-purchase framework and early-2030s target were preliminary.",
+              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
+              "links": [
+                {
+                  "url": "https://www.world-nuclear-news.org/articles/bwxts-banr-microreactor-selected-for-canadian-project",
+                  "label": "Original · World Nuclear News article cited b… ↗"
+                }
+              ],
+              "source": "Neutron Bytes",
+              "entities": [
+                "BWXT"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Policy & international"
+              ],
+              "search_text": "BWXT BWXT BANR selected for New Brunswick concept Prodigy Clean Energy and First Nations partners proposed a transportable plant at Belledune comprising two BWXT BANR microreactors . Each BANR was described as 22 MWe / 75 MWt , implying around 44 MWe if both are built. The proposed power-purchase framework and early-2030s target were preliminary.",
+              "importance_score": 28
+            },
+            {
+              "date": "2026-10-08",
+              "title": "Westinghouse–Korea nuclear export settlement faces new market tests",
+              "summary": "A guest analysis examined how the 2025 Westinghouse/KHNP settlement affects export fees, market access, Dukovany and the new US–Korea proposed reactor framework. Reported settlement terms are contested or confidential and should not be mistaken for new binding October contracts.",
+              "category": "Policy & international",
+              "url": "https://neutronbytes.com/2026/10/08/how-westinghouse-and-korea-carve-up-the-nuclear-reactor-export-market/",
+              "source": "Neutron Bytes",
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Policy & international"
+              ],
+              "entities": [
+                "Westinghouse",
+                "KHNP",
+                "KEPCO",
+                "Dukovany",
+                "South Korea",
+                "Czech Republic"
+              ],
+              "search_text": "Westinghouse KHNP KEPCO Dukovany South Korea Czech Republic Westinghouse–Korea nuclear export settlement faces new market tests A guest analysis examined how the 2025 Westinghouse/KHNP settlement affects export fees, market access, Dukovany and the new US–Korea proposed reactor framework. Reported settlement terms are contested or confidential and should not be mistaken for new binding October contracts.",
+              "importance_score": 25,
               "links": []
             }
           ]
@@ -1779,98 +1989,9 @@
           ]
         },
         {
-          "category": "Restarts & uprates",
-          "takeaway": "2 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
-          "items": [
-            {
-              "date": "2026-10-09",
-              "title": "Google and Constellation announce major uprate PPA",
-              "category": "Restarts & uprates",
-              "summary": "Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
-              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
-              "links": [
-                {
-                  "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
-                  "label": "Original · ANS Nuclear Newswire report direct… ↗"
-                }
-              ],
-              "source": "Neutron Bytes",
-              "entities": [
-                "Constellation Energy",
-                "Google"
-              ],
-              "technologies": [
-                "Traditional fission"
-              ],
-              "categories": [
-                "Restarts & uprates",
-                "Offtakes & customers",
-                "Capital & financing"
-              ],
-              "search_text": "Constellation Energy Google Google and Constellation announce major uprate PPA Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
-              "importance_score": 70
-            },
-            {
-              "date": "2026-10-09",
-              "title": "DOE conditional financing for Vistra uprates",
-              "category": "Restarts & uprates",
-              "summary": "NB described a conditional loan commitment of up to $4.2 billion for Vistra's Beaver Valley, Davis-Besse and Perry modernization/uprate programs, adding a projected 433 MW of capacity in Pennsylvania and Ohio. The optional treatment of Comanche Peak was described separately. It was a conditional commitment , not funded cash disbursed.",
-              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
-              "links": [
-                {
-                  "url": "https://www.energy.gov/EDF",
-                  "label": "Original · DOE EDF ↗"
-                }
-              ],
-              "source": "Neutron Bytes",
-              "entities": [
-                "Vistra",
-                "US Department of Energy"
-              ],
-              "technologies": [
-                "Traditional fission"
-              ],
-              "categories": [
-                "Restarts & uprates",
-                "Capital & financing"
-              ],
-              "search_text": "Vistra US Department of Energy DOE conditional financing for Vistra uprates NB described a conditional loan commitment of up to $4.2 billion for Vistra's Beaver Valley, Davis-Besse and Perry modernization/uprate programs, adding a projected 433 MW of capacity in Pennsylvania and Ohio. The optional treatment of Comanche Peak was described separately. It was a conditional commitment , not funded cash disbursed.",
-              "importance_score": 65
-            }
-          ]
-        },
-        {
           "category": "Offtakes & customers",
           "takeaway": "2 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
-            {
-              "date": "2026-10-09",
-              "title": "Google and Constellation announce major uprate PPA",
-              "category": "Restarts & uprates",
-              "summary": "Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
-              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
-              "links": [
-                {
-                  "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
-                  "label": "Original · ANS Nuclear Newswire report direct… ↗"
-                }
-              ],
-              "source": "Neutron Bytes",
-              "entities": [
-                "Constellation Energy",
-                "Google"
-              ],
-              "technologies": [
-                "Traditional fission"
-              ],
-              "categories": [
-                "Restarts & uprates",
-                "Offtakes & customers",
-                "Capital & financing"
-              ],
-              "search_text": "Constellation Energy Google Google and Constellation announce major uprate PPA Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
-              "importance_score": 70
-            },
             {
               "date": "2026-10-09",
               "title": "Google’s 20-Year $4.3 Billion Deal for Nuclear Power",
@@ -1901,11 +2022,40 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Restarts & uprates",
                 "Offtakes & customers",
                 "Capital & financing"
               ],
               "search_text": "Constellation Energy Google Google’s 20-Year $4.3 Billion Deal for Nuclear Power Google and Constellation Energy announced a long-term strategic clean energy collaboration to bring 890 MW of new, reliable nuclear capacity onto the PJM Interconnection grid to meet growing demand and increase grid reliability. The massive effort will involve uprates in the power levels of 11 of Constellation’s fleet of megawatt class nuclear reactors. The agreement $4.3 billion of new investment by Constellation. The 20-year power purchase agreement (PPA) by Google with…",
-              "importance_score": 68
+              "importance_score": 88
+            },
+            {
+              "date": "2026-10-09",
+              "title": "Google and Constellation announce major uprate PPA",
+              "category": "Restarts & uprates",
+              "summary": "Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
+              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
+              "links": [
+                {
+                  "url": "https://www.ans.org/news/2026-10-06/article-8467/google-constellation-reach-11unit-uprate-plan-constellation-to-invest-43-billion/",
+                  "label": "Original · ANS Nuclear Newswire report direct… ↗"
+                }
+              ],
+              "source": "Neutron Bytes",
+              "entities": [
+                "Constellation Energy",
+                "Google"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Restarts & uprates",
+                "Offtakes & customers",
+                "Capital & financing"
+              ],
+              "search_text": "Constellation Energy Google Google and Constellation announce major uprate PPA Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
+              "importance_score": 70
             }
           ]
         }
@@ -1934,6 +2084,7 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Construction & licensing",
                 "Fuel & supply chain",
                 "Policy & international"
               ],
@@ -1977,6 +2128,7 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Construction & licensing",
                 "Fuel & supply chain",
                 "Policy & international"
               ],
@@ -2122,8 +2274,8 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Policy & international",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Policy & international"
               ],
               "entities": [
                 "West Virginia",
@@ -2186,8 +2338,8 @@
                 "Fusion"
               ],
               "categories": [
-                "Policy & international",
-                "Capital & financing"
+                "Capital & financing",
+                "Policy & international"
               ],
               "search_text": "California nuclear/fusion legislation NB reported California signed laws intended to accelerate nuclear fission, fusion and quantum-related development, with $30 million in associated investment. This is a state policy measure rather than a specific project financing close.",
               "importance_score": 40
@@ -2221,8 +2373,81 @@
         },
         {
           "category": "Construction & licensing",
-          "takeaway": "6 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "takeaway": "8 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
+            {
+              "date": "2026-10-02",
+              "title": "General Matter files Paducah uranium enrichment licence application",
+              "summary": "General Matter filed an NRC application for a planned uranium enrichment facility at the former Paducah site. The initial 10 CFR 70 licence would cover lower-enrichment material, with a separate HALEU amendment planned for 2027; commercial production is not yet licensed.",
+              "category": "Fuel & supply chain",
+              "url": "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/",
+              "source": "Neutron Bytes",
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Construction & licensing",
+                "Fuel & supply chain",
+                "Policy & international"
+              ],
+              "entities": [
+                "General Matter",
+                "Paducah",
+                "NRC",
+                "HALEU",
+                "DOE",
+                "US Nuclear Regulatory Commission",
+                "US Department of Energy",
+                "Orano"
+              ],
+              "search_text": "General Matter Paducah NRC HALEU DOE US Nuclear Regulatory Commission US Department of Energy Orano General Matter files Paducah uranium enrichment licence application General Matter filed an NRC application for a planned uranium enrichment facility at the former Paducah site. The initial 10 CFR 70 licence would cover lower-enrichment material, with a separate HALEU amendment planned for 2027; commercial production is not yet licensed.",
+              "importance_score": 38,
+              "links": [
+                {
+                  "label": "WNN",
+                  "url": "https://world-nuclear-news.org/articles/general-matter-submits-enrichment-plant-licence-application"
+                },
+                {
+                  "label": "General Matter",
+                  "url": "https://generalmatter.com/"
+                },
+                {
+                  "label": "Paducah, KY",
+                  "url": "https://www.google.com/maps/place/Paducah+Gaseous+Diffusion+Plant/@37.110519,-88.8261649,30810m/data=!3m1!1e3!4m6!3m5!1s0x8879f78d2b3c1a69:0x7a30d0af42972e0e!8m2!3d37.1116142!4d-88.807148!16s%2Fm%2F064k777?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D"
+                }
+              ],
+              "source_heading": "General Matter Submits License Application to NRC for Paducah Enrichment Plant",
+              "editorial": true
+            },
+            {
+              "date": "2026-10-02",
+              "title": "NANO Nuclear agrees to acquire licensed fuel-processing assets",
+              "summary": "NANO Nuclear and subsidiary HALEU Energy Fuel entered an asset purchase agreement with Radnostix / International Isotopes for NRC-licensed depleted-uranium conversion and fluorine-extraction project assets in New Mexico. The previously licensed facility was never built; further activities require approvals.",
+              "category": "Fuel & supply chain",
+              "url": "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/",
+              "source": "Neutron Bytes",
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Construction & licensing",
+                "Fuel & supply chain",
+                "Policy & international"
+              ],
+              "entities": [
+                "NANO Nuclear",
+                "Radnostix",
+                "International Isotopes",
+                "HALEU",
+                "NRC",
+                "US Nuclear Regulatory Commission"
+              ],
+              "search_text": "NANO Nuclear Radnostix International Isotopes HALEU NRC US Nuclear Regulatory Commission NANO Nuclear agrees to acquire licensed fuel-processing assets NANO Nuclear and subsidiary HALEU Energy Fuel entered an asset purchase agreement with Radnostix / International Isotopes for NRC-licensed depleted-uranium conversion and fluorine-extraction project assets in New Mexico. The previously licensed facility was never built; further activities require approvals.",
+              "importance_score": 38,
+              "links": [],
+              "source_heading": "NANO Nuclear Energy to Acquire NRC-Licensed U.S. Nuclear Fuel Processing Assets",
+              "editorial": true
+            },
             {
               "date": "2026-10-02",
               "title": "Holtec submits PSAR for two Palisades SMR-300 units",
@@ -2323,8 +2548,8 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Policy & international",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Policy & international"
               ],
               "entities": [
                 "West Virginia",
@@ -2416,6 +2641,7 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Restarts & uprates",
                 "Offtakes & customers",
                 "Capital & financing"
               ],
@@ -2427,7 +2653,7 @@
                 "PJM"
               ],
               "search_text": "Amazon AWS Constellation Energy Calvert Cliffs PJM Amazon and Constellation sign 20-year, 690 MW Calvert Cliffs PPA Amazon and Constellation announced a 20-year power purchase arrangement covering 690 MW, including 190 MW of planned Calvert Cliffs nuclear uprates between 2030 and 2032. The customer commitment supports more than $3 billion of investment and a potential licence extension, not 690 MW of newly built capacity.",
-              "importance_score": 50,
+              "importance_score": 70,
               "links": [
                 {
                   "label": "PJM",
@@ -2523,8 +2749,8 @@
                 "Fusion"
               ],
               "categories": [
-                "Policy & international",
-                "Capital & financing"
+                "Capital & financing",
+                "Policy & international"
               ],
               "search_text": "California nuclear/fusion legislation NB reported California signed laws intended to accelerate nuclear fission, fusion and quantum-related development, with $30 million in associated investment. This is a state policy measure rather than a specific project financing close.",
               "importance_score": 40
@@ -2707,6 +2933,7 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Construction & licensing",
                 "Fuel & supply chain",
                 "Policy & international"
               ],
@@ -2750,6 +2977,7 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Construction & licensing",
                 "Fuel & supply chain",
                 "Policy & international"
               ],
@@ -2812,6 +3040,49 @@
           ]
         },
         {
+          "category": "Restarts & uprates",
+          "takeaway": "1 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "items": [
+            {
+              "date": "2026-10-02",
+              "title": "Amazon and Constellation sign 20-year, 690 MW Calvert Cliffs PPA",
+              "summary": "Amazon and Constellation announced a 20-year power purchase arrangement covering 690 MW, including 190 MW of planned Calvert Cliffs nuclear uprates between 2030 and 2032. The customer commitment supports more than $3 billion of investment and a potential licence extension, not 690 MW of newly built capacity.",
+              "category": "Offtakes & customers",
+              "url": "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/",
+              "source": "Neutron Bytes",
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Restarts & uprates",
+                "Offtakes & customers",
+                "Capital & financing"
+              ],
+              "entities": [
+                "Amazon",
+                "AWS",
+                "Constellation Energy",
+                "Calvert Cliffs",
+                "PJM"
+              ],
+              "search_text": "Amazon AWS Constellation Energy Calvert Cliffs PJM Amazon and Constellation sign 20-year, 690 MW Calvert Cliffs PPA Amazon and Constellation announced a 20-year power purchase arrangement covering 690 MW, including 190 MW of planned Calvert Cliffs nuclear uprates between 2030 and 2032. The customer commitment supports more than $3 billion of investment and a potential licence extension, not 690 MW of newly built capacity.",
+              "importance_score": 70,
+              "links": [
+                {
+                  "label": "PJM",
+                  "url": "https://www.pjm.com/-/media/DotCom/about-pjm/pjm-zones.pdf"
+                },
+                {
+                  "label": "western shore of the Chesapeake Bay",
+                  "url": "https://www.google.com/maps/place/Calvert+Cliffs+Nuclear+Power+Plant/@38.3515816,-76.5324561,30297m/data=!3m1!1e3!4m6!3m5!1s0x89b77884a658803b:0xf1c1c09b56ba15a!8m2!3d38.4313673!4d-76.4416848!16zL20vMDV5MTVk?entry=ttu&g_ep=EgoyMDI2MDkzMC4wIKXMDSoASAFQAw%3D%3D"
+                }
+              ],
+              "source_heading": "Constellation and Amazon Set a 20-Year Power Purchase Agreement",
+              "editorial": true
+            }
+          ]
+        },
+        {
           "category": "Offtakes & customers",
           "takeaway": "1 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
@@ -2826,6 +3097,7 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Restarts & uprates",
                 "Offtakes & customers",
                 "Capital & financing"
               ],
@@ -2837,7 +3109,7 @@
                 "PJM"
               ],
               "search_text": "Amazon AWS Constellation Energy Calvert Cliffs PJM Amazon and Constellation sign 20-year, 690 MW Calvert Cliffs PPA Amazon and Constellation announced a 20-year power purchase arrangement covering 690 MW, including 190 MW of planned Calvert Cliffs nuclear uprates between 2030 and 2032. The customer commitment supports more than $3 billion of investment and a potential licence extension, not 690 MW of newly built capacity.",
-              "importance_score": 50,
+              "importance_score": 70,
               "links": [
                 {
                   "label": "PJM",
@@ -2886,10 +3158,11 @@
                 "Traditional fission"
               ],
               "categories": [
+                "Restarts & uprates",
                 "Construction & licensing"
               ],
               "search_text": "Google Georgia Power Vogtle Hatch Google to Invest in Uprates at Georgia Power Under the agreement, which is subject to approval by the Georgia Public Service Commission (PSC), Google will support uprates on Georgia Power’s owned portion of the nuclear units at Plants Vogtle and Hatch that will allow the facilities to add approximately 96 MW of new capacity to the electric grid to serve Georgia Power customers. Google’s subscription is expected to enable approximately $900 million in projected benefits to customers over the life of the units. The actual amount…",
-              "importance_score": 45
+              "importance_score": 65
             },
             {
               "date": "2026-09-26",
@@ -2933,9 +3206,9 @@
                 "Advanced fission"
               ],
               "categories": [
-                "Capital & financing",
                 "Construction & licensing",
-                "Fuel & supply chain"
+                "Fuel & supply chain",
+                "Capital & financing"
               ],
               "search_text": "Kairos Power Kairos and Samsung C&T term sheet Samsung C&T agreed to pursue a $100 million strategic investment in Kairos Power, linked to engineering, procurement and construction collaboration. This is financing/industrial partnership progress, subject to definitive terms.",
               "importance_score": 40
@@ -2956,8 +3229,8 @@
                 "Advanced fission"
               ],
               "categories": [
-                "Capital & financing",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Capital & financing"
               ],
               "search_text": "Kairos Power Kairos Power & Samsung in $100M Investment for EPC Services Kairos Power and Samsung C&T Engineering & Construction Group announced the signing of a binding term sheet for Samsung C&T to make a $100 million strategic investment in Kairos Power. The companies will collaborate on the commercial deployment of Kairos Power’s fluoride salt-cooled, high-temperature reactor technology (KP-FHR) to address rising global energy demand. Samsung C&T has agreed to provide up to $100 million through a combination of direct investment and in-kind engineering…",
               "importance_score": 40
@@ -2983,9 +3256,9 @@
                 "Advanced fission"
               ],
               "categories": [
-                "Capital & financing",
                 "Construction & licensing",
-                "Fuel & supply chain"
+                "Fuel & supply chain",
+                "Capital & financing"
               ],
               "search_text": "Kairos Power Kairos and Samsung C&T term sheet Samsung C&T agreed to pursue a $100 million strategic investment in Kairos Power, linked to engineering, procurement and construction collaboration. This is financing/industrial partnership progress, subject to definitive terms.",
               "importance_score": 40
@@ -3006,8 +3279,8 @@
                 "Advanced fission"
               ],
               "categories": [
-                "Capital & financing",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Capital & financing"
               ],
               "search_text": "Kairos Power Kairos Power & Samsung in $100M Investment for EPC Services Kairos Power and Samsung C&T Engineering & Construction Group announced the signing of a binding term sheet for Samsung C&T to make a $100 million strategic investment in Kairos Power. The companies will collaborate on the commercial deployment of Kairos Power’s fluoride salt-cooled, high-temperature reactor technology (KP-FHR) to address rising global energy demand. Samsung C&T has agreed to provide up to $100 million through a combination of direct investment and in-kind engineering…",
               "importance_score": 40
@@ -3128,9 +3401,9 @@
                 "Advanced fission"
               ],
               "categories": [
-                "Capital & financing",
                 "Construction & licensing",
-                "Fuel & supply chain"
+                "Fuel & supply chain",
+                "Capital & financing"
               ],
               "search_text": "Kairos Power Kairos and Samsung C&T term sheet Samsung C&T agreed to pursue a $100 million strategic investment in Kairos Power, linked to engineering, procurement and construction collaboration. This is financing/industrial partnership progress, subject to definitive terms.",
               "importance_score": 40
@@ -3198,6 +3471,37 @@
               "categories": [],
               "search_text": "Google Inertia Fusion’s Target Design Validated by Ignition-Benchmarked Fusion Codes In a press statement Inertia said it has shown its Laser Indirect Drive (LID) design can produce enough fusion energy to generate between 250 MWe and 1.3 GWe of grid electricity, which is many times greater than its benchmark for initial power plant operations. These simulation results, developed through Inertia’s strategic partnership with Lawrence Livermore National Laboratory (LLNL), mark the completion of a critical task on Inertia’s Top Ten Things we set out to achieve in phase…",
               "importance_score": 23
+            }
+          ]
+        },
+        {
+          "category": "Restarts & uprates",
+          "takeaway": "1 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "items": [
+            {
+              "date": "2026-09-26",
+              "title": "Google to Invest in Uprates at Georgia Power",
+              "source_heading": "Google to Invest in Uprates at Georgia Power",
+              "summary": "Under the agreement, which is subject to approval by the Georgia Public Service Commission (PSC), Google will support uprates on Georgia Power’s owned portion of the nuclear units at Plants Vogtle and Hatch that will allow the facilities to add approximately 96 MW of new capacity to the electric grid to serve Georgia Power customers. Google’s subscription is expected to enable approximately $900 million in projected benefits to customers over the life of the units. The actual amount…",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/09/26/kairos-samsung-in-100m-deal-for-epc-services/",
+              "source": "Neutron Bytes",
+              "links": [],
+              "entities": [
+                "Google",
+                "Georgia Power",
+                "Vogtle",
+                "Hatch"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Restarts & uprates",
+                "Construction & licensing"
+              ],
+              "search_text": "Google Georgia Power Vogtle Hatch Google to Invest in Uprates at Georgia Power Under the agreement, which is subject to approval by the Georgia Public Service Commission (PSC), Google will support uprates on Georgia Power’s owned portion of the nuclear units at Plants Vogtle and Hatch that will allow the facilities to add approximately 96 MW of new capacity to the electric grid to serve Georgia Power customers. Google’s subscription is expected to enable approximately $900 million in projected benefits to customers over the life of the units. The actual amount…",
+              "importance_score": 65
             }
           ]
         },
@@ -4394,11 +4698,11 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Offtakes & customers",
-                "Restarts & uprates"
+                "Restarts & uprates",
+                "Offtakes & customers"
               ],
               "search_text": "Google Fortum Google Signs Up For Electricity From Finnish Nuclear Power Plant ( WNN ) Global IT platform Google has signed a long-term power purchase agreement with Finland’s Fortum covering up to 50% of the Loviisa nuclear power plant’s capacity and providing financial certainty for power uprates and lifetime extensions until 2050. The Power Purchase Agreement (PPA) between Fortum and Google covers the life extension period of the Loviisa nuclear power plant. The agreement will start in 2028 with a reduced capacity and will cover 50% of the Loviisa plant’s…",
-              "importance_score": 38
+              "importance_score": 58
             },
             {
               "date": "2026-09-08",
@@ -4498,8 +4802,8 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Policy & international",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Policy & international"
               ],
               "search_text": "US Nuclear Regulatory Commission NRC Proposes Broad Overhaul of Nuclear Reactor Regulations The Nuclear Regulatory Commission has proposed a broad overhaul of its regulations governing nuclear reactor licensing and oversight, eliminating outdated requirements, increasing regulatory flexibility and using more risk-informed approaches to support safe and efficient nuclear deployment. The proposed rule is part of the NRC’s implementation of Executive Order 14300, which directs the agency to modernize its regulatory framework. The changes would apply to both existing nuclear…",
               "importance_score": 20
@@ -4580,11 +4884,11 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Offtakes & customers",
-                "Restarts & uprates"
+                "Restarts & uprates",
+                "Offtakes & customers"
               ],
               "search_text": "Google Fortum Google Signs Up For Electricity From Finnish Nuclear Power Plant ( WNN ) Global IT platform Google has signed a long-term power purchase agreement with Finland’s Fortum covering up to 50% of the Loviisa nuclear power plant’s capacity and providing financial certainty for power uprates and lifetime extensions until 2050. The Power Purchase Agreement (PPA) between Fortum and Google covers the life extension period of the Loviisa nuclear power plant. The agreement will start in 2028 with a reduced capacity and will cover 50% of the Loviisa plant’s…",
-              "importance_score": 38
+              "importance_score": 58
             },
             {
               "date": "2026-09-08",
@@ -4642,8 +4946,8 @@
                 "Traditional fission"
               ],
               "categories": [
-                "Policy & international",
-                "Construction & licensing"
+                "Construction & licensing",
+                "Policy & international"
               ],
               "search_text": "US Nuclear Regulatory Commission NRC Proposes Broad Overhaul of Nuclear Reactor Regulations The Nuclear Regulatory Commission has proposed a broad overhaul of its regulations governing nuclear reactor licensing and oversight, eliminating outdated requirements, increasing regulatory flexibility and using more risk-informed approaches to support safe and efficient nuclear deployment. The proposed rule is part of the NRC’s implementation of Executive Order 14300, which directs the agency to modernize its regulatory framework. The changes would apply to both existing nuclear…",
               "importance_score": 20
