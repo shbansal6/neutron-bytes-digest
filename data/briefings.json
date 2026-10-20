@@ -703,8 +703,8 @@
       "week_start": "2026-10-05",
       "week_end": "2026-10-11",
       "title": "Neutron Bytes — week of October 05, 2026",
-      "overview": "12 distinct source-linked developments found in Neutron Bytes coverage. News may appear in multiple tagged sector sections.",
-      "article_count": 12,
+      "overview": "13 distinct source-linked developments found in Neutron Bytes coverage. News may appear in multiple tagged sector sections.",
+      "article_count": 13,
       "generated_at": "2026-10-20",
       "sections": [
         {
@@ -954,6 +954,108 @@
           ]
         },
         {
+          "category": "Other developments",
+          "takeaway": "3 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "items": [
+            {
+              "date": "2026-10-10",
+              "title": "Where the New York Times Missed a Few Facts About Nuclear Reactors on the Moon",
+              "source_heading": "Where the New York Times Missed a Few Facts About Nuclear Reactors on the Moon",
+              "summary": "The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/10/10/a-few-beers-short-of-a-six-pack-where-the-new-york-times-missed-a-few-facts-about-nuclear-reactors-on-the-moon/",
+              "source": "Neutron Bytes",
+              "links": [
+                {
+                  "label": "reports",
+                  "url": "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html?smid=nytcore-ios-share"
+                },
+                {
+                  "label": "lunar ice exists",
+                  "url": "https://science.nasa.gov/moon/moon-water-and-ices/"
+                },
+                {
+                  "label": "Edwin Lyman,",
+                  "url": "https://www.ucs.org/about/people/edwin-lyman"
+                }
+              ],
+              "entities": [
+                "US Department of Energy"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [],
+              "search_text": "US Department of Energy Where the New York Times Missed a Few Facts About Nuclear Reactors on the Moon The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
+              "importance_score": 15
+            },
+            {
+              "date": "2026-10-08",
+              "title": "Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses",
+              "source_heading": "Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses",
+              "summary": "In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/10/08/qa-with-the-nuclear-innovation-alliance-keeping-track-of-microreactors-for-military-uses/",
+              "source": "Neutron Bytes",
+              "links": [
+                {
+                  "label": "announced",
+                  "url": "https://neutronbytes.com/2026/08/28/u-s-army-opens-the-checkbook-for-2-2-billion-to-build-microreactors-at-five-locations/"
+                },
+                {
+                  "label": "Janus Program",
+                  "url": "https://neutronbytes.com/2025/10/19/army-goes-nuclear-microreactors-set-for-us-bases-by-2028/"
+                },
+                {
+                  "label": "press statement",
+                  "url": "https://www.army.mil/article/294891/army_reaches_agreement_with_private_industry_for_nuclear_micro_reactors"
+                }
+              ],
+              "entities": [
+                "US Nuclear Regulatory Commission"
+              ],
+              "technologies": [
+                "Microreactors"
+              ],
+              "categories": [],
+              "search_text": "US Nuclear Regulatory Commission Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
+              "importance_score": 22
+            },
+            {
+              "date": "2026-10-08",
+              "title": "How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market",
+              "source_heading": "How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market",
+              "summary": "Guest Blog Post for Neutron Bytes by: Elliot Marsh, NeutronRise In January 2025, Westinghouse, Korea Electric Power Corporation and Korea Hydro and Nuclear Power announced a global settlement that ended years of litigation over reactor technology. Westinghouse framed the deal as a path to future cooperation on new nuclear projects worldwide.",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/10/08/how-westinghouse-and-korea-carve-up-the-nuclear-reactor-export-market/",
+              "source": "Neutron Bytes",
+              "links": [
+                {
+                  "label": "NeutronRise",
+                  "url": "https://neutronrise.com/"
+                },
+                {
+                  "label": "global settlement",
+                  "url": "https://info.westinghousenuclear.com/news/westinghouse-announces-global-settlement-agreement-with-kepco-and-khnp"
+                },
+                {
+                  "label": "agreed to a non-binding framework",
+                  "url": "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/"
+                }
+              ],
+              "entities": [
+                "Westinghouse"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [],
+              "search_text": "Westinghouse How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market Guest Blog Post for Neutron Bytes by: Elliot Marsh, NeutronRise In January 2025, Westinghouse, Korea Electric Power Corporation and Korea Hydro and Nuclear Power announced a global settlement that ended years of litigation over reactor technology. Westinghouse framed the deal as a path to future cooperation on new nuclear projects worldwide.",
+              "importance_score": 20
+            }
+          ]
+        },
+        {
           "category": "Policy & international",
           "takeaway": "3 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
@@ -1141,76 +1243,6 @@
               ],
               "search_text": "Vistra US Department of Energy DOE conditional financing for Vistra uprates NB described a conditional loan commitment of up to $4.2 billion for Vistra's Beaver Valley, Davis-Besse and Perry modernization/uprate programs, adding a projected 433 MW of capacity in Pennsylvania and Ohio. The optional treatment of Comanche Peak was described separately. It was a conditional commitment , not funded cash disbursed.",
               "importance_score": 65
-            }
-          ]
-        },
-        {
-          "category": "Other developments",
-          "takeaway": "2 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
-          "items": [
-            {
-              "date": "2026-10-08",
-              "title": "Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses",
-              "source_heading": "Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses",
-              "summary": "In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
-              "category": "Other nuclear",
-              "url": "https://neutronbytes.com/2026/10/08/qa-with-the-nuclear-innovation-alliance-keeping-track-of-microreactors-for-military-uses/",
-              "source": "Neutron Bytes",
-              "links": [
-                {
-                  "label": "announced",
-                  "url": "https://neutronbytes.com/2026/08/28/u-s-army-opens-the-checkbook-for-2-2-billion-to-build-microreactors-at-five-locations/"
-                },
-                {
-                  "label": "Janus Program",
-                  "url": "https://neutronbytes.com/2025/10/19/army-goes-nuclear-microreactors-set-for-us-bases-by-2028/"
-                },
-                {
-                  "label": "press statement",
-                  "url": "https://www.army.mil/article/294891/army_reaches_agreement_with_private_industry_for_nuclear_micro_reactors"
-                }
-              ],
-              "entities": [
-                "US Nuclear Regulatory Commission"
-              ],
-              "technologies": [
-                "Microreactors"
-              ],
-              "categories": [],
-              "search_text": "US Nuclear Regulatory Commission Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
-              "importance_score": 22
-            },
-            {
-              "date": "2026-10-08",
-              "title": "How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market",
-              "source_heading": "How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market",
-              "summary": "Guest Blog Post for Neutron Bytes by: Elliot Marsh, NeutronRise In January 2025, Westinghouse, Korea Electric Power Corporation and Korea Hydro and Nuclear Power announced a global settlement that ended years of litigation over reactor technology. Westinghouse framed the deal as a path to future cooperation on new nuclear projects worldwide.",
-              "category": "Other nuclear",
-              "url": "https://neutronbytes.com/2026/10/08/how-westinghouse-and-korea-carve-up-the-nuclear-reactor-export-market/",
-              "source": "Neutron Bytes",
-              "links": [
-                {
-                  "label": "NeutronRise",
-                  "url": "https://neutronrise.com/"
-                },
-                {
-                  "label": "global settlement",
-                  "url": "https://info.westinghousenuclear.com/news/westinghouse-announces-global-settlement-agreement-with-kepco-and-khnp"
-                },
-                {
-                  "label": "agreed to a non-binding framework",
-                  "url": "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/"
-                }
-              ],
-              "entities": [
-                "Westinghouse"
-              ],
-              "technologies": [
-                "Traditional fission"
-              ],
-              "categories": [],
-              "search_text": "Westinghouse How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market Guest Blog Post for Neutron Bytes by: Elliot Marsh, NeutronRise In January 2025, Westinghouse, Korea Electric Power Corporation and Korea Hydro and Nuclear Power announced a global settlement that ended years of litigation over reactor technology. Westinghouse framed the deal as a path to future cooperation on new nuclear projects worldwide.",
-              "importance_score": 20
             }
           ]
         },
