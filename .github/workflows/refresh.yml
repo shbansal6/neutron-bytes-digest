@@ -47,6 +47,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/articles.json data/briefings.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update Neutron Bytes archive and briefings [skip ci]"
+            git commit -m "Update Neutron Bytes archive and briefings"
             git push
           fi
