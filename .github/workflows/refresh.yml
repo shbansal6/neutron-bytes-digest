@@ -31,6 +31,8 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install --disable-pip-version-check -r requirements.txt
+      - name: Validate interactive website script before publishing
+        run: node --check app.js
       - name: Reconcile Neutron Bytes reports and regenerate source-linked weekly archive
         run: python scripts/refresh.py
       - name: Commit source-linked JSON; connected Vercel Git integration redeploys
