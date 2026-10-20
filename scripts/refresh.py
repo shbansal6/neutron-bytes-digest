@@ -1,171 +1,277 @@
 #!/usr/bin/env python3
-"""Neutron Bytes public feed → source-linked archive and weekly briefing.
-Uses no API key. It never copies an entire Neutron Bytes story.
+"""Neutron Bytes public-source reconciliation and editorial-preserving refresh.
+
+Discovery sources:
+- Dated entries from Neutron Bytes Nuclear category archive, including older pages
+- The publicly available Neutron Bytes RSS feed as a fallback
+- Existing indexed article source URLs and independently curated entries
+
+One roundup post can yield MANY separate topical news records. Materiality scores
+determine prominence, never inclusion. No third-party or paid APIs.
 """
 import datetime as dt
 import email.utils
 import json
 import os
 import re
-import xml.etree.ElementTree as ET
+import time
 from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor
+from difflib import SequenceMatcher
 from pathlib import Path
+from urllib.parse import urlsplit, urlunsplit
 from zoneinfo import ZoneInfo
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, NavigableString
 from taxonomy import enrich_record
 
-ROOT=Path(__file__).resolve().parents[1]
-DATA=ROOT/'data'
-TODAY=dt.datetime.now(ZoneInfo('America/Chicago')).date()
-FEEDS=[
- 'https://neutronbytes.com/category/nuclear/feed/',
- 'https://neutronbytes.com/feed/'
-]
-HEADERS={'User-Agent':'NeutronBytesResearchArchive/1.0 (public-source reading and attribution)'}
-WEEK_START=dt.date(2026,9,7)
-SOURCE='Neutron Bytes'
+ROOT = Path(__file__).resolve().parents[1]
+DATA = ROOT / "data"
+TODAY = dt.datetime.now(ZoneInfo("America/Chicago")).date()
+START = dt.date(2020, 1, 1)
+END = min(TODAY, dt.date(2026, 12, 31))
+SOURCE = "Neutron Bytes"
+BASE = "https://neutronbytes.com"
+POST_RE = re.compile(r"^https?://(?:www\.)?neutronbytes\.com/(20\d{2})/(\d{2})/(\d{2})/[^/?#]+/?$", re.I)
+COMMON = requests.Session()
+COMMON.headers.update({"User-Agent": "NuclearDigestSourceIndex/1.0 (source-linked short summaries; respect Neutron Bytes)", "Accept": "text/html, application/rss+xml, application/xml"})
+LIMIT_PAGES = 200  # Safety bound on archive navigation, never an article-selection cap
+ARTICLE_WORKERS = 3  # Polite site load
+MAX_PER_RUN = 350  # Backfill checkpoint per GitHub Actions execution; continue next week
+FIRST_WEEK = dt.date(2026, 9, 7)
+
+def normal_url(url):
+    if not url:return ""
+    p = urlsplit(url)
+    if p.scheme not in ("https","http") or p.hostname not in ("neutronbytes.com","www.neutronbytes.com"):return ""
+    fixed=urlunsplit(("https","neutronbytes.com",p.path.rstrip("/")+"/","",""))
+    return fixed if POST_RE.match(fixed) else ""
+
+def date_url(url):
+    m = POST_RE.match(normal_url(url))
+    if not m:return None
+    try:return dt.date(*(int(m.group(i)) for i in range(1,4)))
+    except ValueError:return None
 
 def get(url):
     try:
-        r=requests.get(url,headers=HEADERS,timeout=30)
-        return r.content if r.status_code==200 else b''
+        r=COMMON.get(url,timeout=28)
+        if r.status_code==200 and r.content:
+            return r.content
     except requests.RequestException:
-        return b''
+        pass
+    return b""
 
-def slim(text,limit=490):
-    s=re.sub(r'\s+',' ',text or '').strip()
-    return s if len(s)<=limit else s[:limit].rsplit(' ',1)[0].rstrip(' ,;:')+'…'
+def short(text,maxlen=500):
+    s=re.sub(r"\s+"," ",text or "").strip()
+    return s if len(s)<=maxlen else s[:maxlen].rsplit(" ",1)[0].rstrip(" ,;:")+"…"
 
-def source_links(node, post_url):
-    out=[];seen={post_url}
-    for a in node.select('a[href]'):
-        raw=a.get('href','').strip()
-        if not raw.startswith('http'):continue
-        if not raw.startswith(('http://','https://')):continue
-        if raw in seen:continue
-        if any(word in raw.lower() for word in ('twitter.com','facebook.com','share?','mailto:','neutronbytes.com/category/')):continue
-        txt=a.get_text(' ',strip=True) or raw.split('/')[2]
-        if len(txt)<3:continue
-        seen.add(raw);out.append({'label':slim(txt,45),'url':raw})
-        if len(out)>=3:break
-    return out
+def title_norm(s):
+    return re.sub(r"[^a-z0-9 ]","",str(s).lower()).strip()
 
-def records_from_item(item):
-    title=(item.findtext('title') or '').strip()
-    link=(item.findtext('link') or '').strip()
-    date_raw=item.findtext('pubDate')
-    try: date=email.utils.parsedate_to_datetime(date_raw).date()
-    except (ValueError,TypeError):return []
-    if not (dt.date(2020,1,1)<=date<=TODAY):return []
-    if not link.startswith('https://neutronbytes.com/') or not title:return []
-    text=item.findtext('{http://purl.org/rss/1.0/modules/content/}encoded') or item.findtext('description') or ''
-    soup=BeautifulSoup(text,'html.parser')
-    # Gather individual WNN-like headlines from a newsletter post, so one bundled
-    # NB post can generate separate tagged developments with the correct post URL.
-    body=soup.find('div',class_='entry-content') or soup
-    for junk in body.select('script,style,iframe,form,figure,figcaption'):junk.decompose()
-    headings=body.find_all(['h2','h3'])
-    sections=[]
-    if headings:
-        # Reduce feed articles to substantive h2/h3 sections only, retaining one
-        # entry per specific event and excluding generic sidebar/footnote headings.
-        for h in headings:
-            heading=slim(h.get_text(' ',strip=True),145)
-            if not (9<=len(heading)<=145):continue
-            if re.search(r'^(?:references|related|notes|contact|updated|sponsors|support|subscription|about the author|click here)\b',heading,re.I):continue
-            chunks=[]; links=[]
-            for node in h.next_elements:
-                if getattr(node,'name',None) in ('h2','h3'):break
-                if getattr(node,'name',None)=='p':
-                    s=node.get_text(' ',strip=True)
-                    if len(s)>=32:chunks.append(s)
-                    if len(chunks)>=6:break
-                if getattr(node,'name',None)=='a' and node.has_attr('href'):
-                    links.append(node)
-            desc=slim(' '.join(chunks),490)
-            if len(desc)<65:continue
-            # Only hyperlinks in the headline's own content block.
-            wrapper=BeautifulSoup(''.join(str(x) for x in links[:25]),'html.parser')
-            sections.append((heading,desc,source_links(wrapper,link),' '.join(chunks)))
-            if len(sections)>=25:break
-    if not sections:
-        paras=[p.get_text(' ',strip=True) for p in body.find_all('p')]
-        paras=[p for p in paras if len(p)>40]
-        summary=slim(' '.join(paras[:3]),490)
-        if len(summary)>65:
-            sections=[(title,summary,source_links(body,link),' '.join(paras[:8]))]
-    out=[];seen=set()
-    for heading,description,links,bodytext in sections:
-        key=heading.casefold()
-        if key in seen:continue
-        seen.add(key)
-        rec={'date':date.isoformat(),'title':heading,'summary':description,
-             'category':'Other nuclear','url':link,'source':SOURCE,'links':links}
-        out.append(enrich_record(rec,bodytext))
-    return out
+def indexed_key(a):
+    return (normal_url(a.get("url","")),title_norm(a.get("source_heading") or a.get("title","")))
 
-def collect():
-    found={}
-    for feed in FEEDS:
-        raw=get(feed)
-        if not raw:continue
-        try:root=ET.fromstring(raw)
-        except ET.ParseError:continue
-        for item in root.findall('.//item'):
-            for a in records_from_item(item):
-                k=(a['url'].rstrip('/'),a['title'].casefold())
-                found[k]=a
-    print('Feed items:',len(found),flush=True)
+def source_links(nodes,original):
+    """Record links found within the specific news section, not sidebars."""
+    links=[];seen={original.rstrip("/")}
+    for a in nodes:
+        href=a.get("href","").strip()
+        if not href.startswith(("https://","http://")):continue
+        if any(block in href.lower() for block in ("facebook.com","twitter.com","mailto:","bsky.app","linkedin.com","buymeacoffee.com")):continue
+        if href.rstrip("/") in seen:continue
+        label=short(a.get_text(" ",strip=True),55)
+        if len(label)<3:continue
+        seen.add(href.rstrip("/"));links.append({"label":label,"url":href})
+        if len(links)>=3:break
+    return links
+
+def sections_from_html(body, post_url, date, post_title):
+    """Treat top-level h2s as separate news sections; retain subheading content."""
+    headings=body.find_all("h2")
+    results=[]
+    for i,h in enumerate(headings):
+        name=short(h.get_text(" ",strip=True),150)
+        if not (10<=len(name)<=150):continue
+        if re.search(r"^(analysis|about the author|references|footnotes|sources|support|subscribe|comment|read more|like this|related)\b",name,re.I):
+            continue
+        parts=[];links=[]
+        for sibling in h.next_elements:
+            if getattr(sibling,"name",None)=="h2":break
+            if getattr(sibling,"name",None)=="p":
+                # Only count each paragraph once
+                ptext=sibling.get_text(" ",strip=True)
+                if len(ptext)>40 and ptext not in parts:parts.append(ptext)
+            if getattr(sibling,"name",None)=="a" and sibling.has_attr("href"):
+                links.append(sibling)
+            if len(parts)>=12:break
+        if not parts:continue
+        desc=short(" ".join(parts[:2]),490)
+        if len(desc)<70:continue
+        context=" ".join(parts[:8])
+        entry={"date":date.isoformat(),"title":name,"source_heading":name,
+               "summary":desc,"category":"Other nuclear",
+               "url":post_url,"source":SOURCE,"links":source_links(links,post_url)}
+        results.append(enrich_record(entry,context))
+        if len(results)>=35:break
+    if not results:
+        # Unsectioned standalone article: still index its main headline.
+        ps=[p.get_text(" ",strip=True) for p in body.find_all("p")]
+        ps=[p for p in ps if len(p)>60]
+        if ps:
+            entry={"date":date.isoformat(),"title":post_title,"source_heading":post_title,
+                   "summary":short(" ".join(ps[:2]),490),"category":"Other nuclear",
+                   "url":post_url,"source":SOURCE,"links":source_links(body.select("a[href]"),post_url)}
+            results=[enrich_record(entry," ".join(ps[:8]))]
+    return results
+
+def parse_post(url):
+    raw=get(url)
+    if not raw:return []
+    html=BeautifulSoup(raw,"html.parser")
+    article=html.find("article") or html
+    title_tag=article.select_one("h1.entry-title") or article.find("h1")
+    title=title_tag.get_text(" ",strip=True) if title_tag else url.rstrip("/").split("/")[-1].replace("-"," ")
+    content=article.select_one(".entry-content") or article.select_one(".post-content") or article
+    for x in content.select("script,style,form,footer,.sharedaddy,.jp-relatedposts,.comments-area"):
+        x.decompose()
+    d=date_url(url)
+    if not d or not (START<=d<=END):return []
+    return sections_from_html(content,url,d,title)
+
+def discover_posts():
+    """Crawl the publisher's dated public archive; do not assume 10 RSS items = all posts."""
+    seen=set();found=[]
+    for page in range(1,LIMIT_PAGES+1):
+        path="/category/nuclear/" if page==1 else f"/category/nuclear/page/{page}/"
+        raw=get(BASE+path)
+        if not raw:
+            print("Archive page inaccessible:",path,flush=True)
+            break
+        soup=BeautifulSoup(raw,"html.parser")
+        urls=[]
+        for a in soup.select("h1.entry-title a[href],h2.entry-title a[href],article h2 a[href]"):
+            u=normal_url(a.get("href",""))
+            if u:urls.append(u)
+        if not urls:
+            # Some WordPress themes omit the entry-title CSS selector
+            for a in soup.select("article a[href]"):
+                u=normal_url(a.get("href",""))
+                if u:urls.append(u)
+        urls=list(dict.fromkeys(urls))
+        if not urls:
+            print("No post links in",path,flush=True);break
+        new=[u for u in urls if u not in seen]
+        if not new:break
+        found.extend(new);seen.update(new)
+        dates=[date_url(u) for u in urls if date_url(u)]
+        # WordPress category pages display newest first. Include full 2020–2026.
+        if dates and max(dates)<START:break
+        if page%10==0:print("Archive pages:",page,"posts discovered:",len(found),flush=True)
+        time.sleep(.2)
     return found
 
-def mkweeks(articles, old):
-    start=TODAY-dt.timedelta(days=TODAY.weekday()+7)
-    preserved={x['week_start']:x for x in old if x.get('editorial') and x.get('week_start')}
-    out=[]
-    while start>=WEEK_START:
-        end=start+dt.timedelta(days=6)
-        key=start.isoformat()
-        if key in preserved:
-            out.append(preserved[key])
+def feed_posts():
+    urls=[]
+    for source in [BASE+"/category/nuclear/feed/",BASE+"/feed/"]:
+        raw=get(source)
+        if not raw:continue
+        try:
+            import xml.etree.ElementTree as ET
+            root=ET.fromstring(raw)
+            for item in root.findall(".//item"):
+                u=normal_url(item.findtext("link"))
+                if u:urls.append(u)
+        except ET.ParseError:pass
+    return list(dict.fromkeys(urls))
+
+def load_json(path,default):
+    try:return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError,ValueError,UnicodeError):return default
+
+def merge_one(existing,story):
+    key=indexed_key(story)
+    if key in existing:
+        old=existing[key]
+        # Preserve richer manually researched summaries and source links.
+        if len(old.get("summary",""))<len(story.get("summary","")) and not old.get("editorial"):
+            old["summary"]=story["summary"]
+        old["links"]=old.get("links") or story.get("links") or []
+        old["entities"]=list(dict.fromkeys((old.get("entities") or [])+(story.get("entities") or [])))
+        old["technologies"]=list(dict.fromkeys((old.get("technologies") or [])+(story.get("technologies") or [])))
+        old["categories"]=list(dict.fromkeys((old.get("categories") or [])+(story.get("categories") or [])))
+        enrich_record(old)
+        return False
+    # The same roundup may be indexed under a paraphrased editorial title.
+    # Require both same dated post URL and strong headline similarity before merging.
+    for old_key,old in existing.items():
+        if old_key[0]!=key[0]:continue
+        a=title_norm(old.get("title",""));b=title_norm(story.get("title",""))
+        if SequenceMatcher(None,a,b).ratio()>=.78:
+            old["source_heading"]=story.get("source_heading",story["title"])
+            old["entities"]=list(dict.fromkeys((old.get("entities") or [])+(story.get("entities") or [])))
+            old["categories"]=list(dict.fromkeys((old.get("categories") or [])+(story.get("categories") or [])))
+            enrich_record(old)
+            return False
+    existing[key]=story
+    return True
+
+def build_briefings(records,previous):
+    week=TODAY-dt.timedelta(days=TODAY.weekday()+7)
+    researched={x["week_start"]:x for x in previous if x.get("editorial") and x.get("week_start")}
+    issues=[]
+    while week>=FIRST_WEEK:
+        end=week+dt.timedelta(days=6)
+        key=week.isoformat()
+        if key in researched:
+            issues.append(researched[key])
         else:
-            items=[a for a in articles if key<=a['date']<=end.isoformat()]
-            if items:
-                by=defaultdict(list)
-                for a in items:
-                    by[(a.get('categories') or ['Other developments'])[0]].append(a)
-                sections=[]
-                for c,events in sorted(by.items(),key=lambda z:-len(z[1])):
-                    sections.append({'category':c,'takeaway':f'{len(events)} Neutron Bytes developments, including '+ '; '.join(x['title'] for x in events[:2])+'.','items':events})
-                out.append({'week_start':key,'week_end':end.isoformat(),'title':'Nuclear sector news — week of '+start.strftime('%B %d, %Y'),
-                            'overview':f'{len(items)} source-linked nuclear developments covered in Neutron Bytes. Grouped by subject, with original reporting links. No independent verification implied.',
-                            'article_count':len(items),'generated_at':TODAY.isoformat(),'sections':sections})
-        start-=dt.timedelta(days=7)
-    return out[:7]
+            stories=[a for a in records if key<=a["date"]<=end.isoformat()]
+            if stories:
+                groups=defaultdict(list)
+                for a in stories:
+                    for cat in (a.get("categories") or ["Other developments"]):
+                        groups[cat].append(a)
+                sections=[{"category":cat,"takeaway":f"{len(items)} source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.","items":items}
+                          for cat,items in sorted(groups.items(),key=lambda x:-len(x[1]))]
+                issues.append({"week_start":key,"week_end":end.isoformat(),"title":"Neutron Bytes — week of "+week.strftime("%B %d, %Y"),
+                  "overview":f"{len(stories)} distinct source-linked developments found in Neutron Bytes coverage. News may appear in multiple tagged sector sections.",
+                  "article_count":len(stories),"generated_at":TODAY.isoformat(),"sections":sections})
+        week-=dt.timedelta(days=7)
+    return issues[:7]
 
 def main():
-    if os.getenv('GITHUB_EVENT_NAME')=='schedule' and dt.datetime.now(ZoneInfo('America/Chicago')).hour!=7:
-        print('Different Central-time hour; skipping daylight-saving redundant run');return
+    if os.getenv("GITHUB_EVENT_NAME")=="schedule" and dt.datetime.now(ZoneInfo("America/Chicago")).hour!=7:
+        print("Skipping redundant non-7AM daylight-saving schedule");return
     DATA.mkdir(exist_ok=True)
-    path=DATA/'articles.json'
-    info=json.loads(path.read_text(encoding='utf-8')) if path.exists() else {'articles':[]}
-    records={}
-    for a in info['articles']:
-        if a.get('url') and a.get('title'):
-            records[(a['url'].rstrip('/'),a['title'].casefold())]=a
-    newer=collect()
-    records.update(newer)
-    articles=list(records.values())
-    for a in articles:enrich_record(a)
-    articles.sort(key=lambda a:(a['date'],a.get('importance_score',0)),reverse=True)
-    path.write_text(json.dumps({'updated_at':TODAY.isoformat(),
-      'methodology':'Independent source-linked digest, no caps; Neutron Bytes post URLs plus only cited links. Each article may have multiple tags. Source updates via public WordPress RSS feed.',
-      'articles':articles},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    briefing_path=DATA/'briefings.json'
-    try:old=json.loads(briefing_path.read_text(encoding='utf-8')).get('briefings',[])
-    except (OSError,ValueError):old=[]
-    weeks=mkweeks(articles,old)
-    briefing_path.write_text(json.dumps({'generated_at':TODAY.isoformat(),'briefings':weeks},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print('News:',len(articles),'weekly reports:',len(weeks),flush=True)
+    archive_path=DATA/"articles.json"
+    old=load_json(archive_path,{"articles":[]}).get("articles",[])
+    existing={indexed_key(a):a for a in old if a.get("url") and a.get("date") and a.get("title")}
+    paths=discover_posts()
+    for u in feed_posts():
+        if u not in paths:paths.insert(0,u)
+    # Keep prior URLs in the census; removes dependence on current RSS pagination.
+    old_urls=set(a["url"] for a in old if a.get("url"))
+    never_before=[u for u in paths if u not in old_urls and START<=date_url(u)<=END]
+    # Reprocess a rolling window of recent posts to detect NEW sub-stories or edits.
+    recent=[u for u in paths if date_url(u) and date_url(u)>=TODAY-dt.timedelta(days=75)]
+    todo=list(dict.fromkeys(recent+never_before))[:MAX_PER_RUN]
+    print("Publisher posts:",len(paths),"new post URLs:",len(never_before),"fetching:",len(todo),flush=True)
+    n=0
+    with ThreadPoolExecutor(max_workers=ARTICLE_WORKERS) as pool:
+        for sub in pool.map(parse_post,todo):
+            for story in sub:
+                if merge_one(existing,story):n+=1
+    rows=list(existing.values())
+    for a in rows:enrich_record(a)
+    rows.sort(key=lambda x:(x["date"],x.get("importance_score",0)),reverse=True)
+    archive_path.write_text(json.dumps({"updated_at":TODAY.isoformat(),
+      "methodology":"Neutron Bytes dated category archive plus RSS cross-check; individual h2 news sections extracted; no article score cutoff. Subsequent runs continue unfinished 2020–2026 reconciliation.",
+      "publisher_posts_discovered":len(paths),"unindexed_source_posts":max(0,len(never_before)-len(todo)),
+      "articles":rows},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    brief_path=DATA/"briefings.json"
+    weekly=build_briefings(rows,load_json(brief_path,{"briefings":[]}).get("briefings",[]))
+    brief_path.write_text(json.dumps({"generated_at":TODAY.isoformat(),"briefings":weekly},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    print("New story records:",n,"total:",len(rows),"weekly issues:",len(weekly),flush=True)
 
-if __name__=='__main__':main()
+if __name__=="__main__":main()
