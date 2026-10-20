@@ -145,7 +145,10 @@ def parse_post(url):
     html=BeautifulSoup(raw,"html.parser")
     article=html.find("article") or html
     title_tag=article.select_one("h1.entry-title") or article.find("h1")
-    title=title_tag.get_text(" ",strip=True) if title_tag else url.rstrip("/").split("/")[-1].replace("-"," ")
+    title=title_tag.get_text(" ",strip=True) if title_tag else ""
+    if not re.search(r"[A-Za-z]{3,}",title):
+        meta=html.find("meta",attrs={"property":"og:title"})
+        title=(meta.get("content","") if meta else "") or url.rstrip("/").split("/")[-1].replace("-"," ")
     content=article.select_one(".entry-content") or article.select_one(".post-content") or article
     for x in content.select("script,style,form,footer,.sharedaddy,.jp-relatedposts,.comments-area"):
         x.decompose()
@@ -284,7 +287,7 @@ def main():
     rows=[]
     for a in existing.values():
         k=a.get("url","")+"::"+a.get("title","")
-        if k in suppressed:continue
+        if k in suppressed or not re.search(r"[A-Za-z]{3,}",a.get("title","")):continue
         correction=corrections.get(k,{})
         if correction:
             a["entities"]=list(dict.fromkeys((a.get("entities") or [])+(correction.get("entities") or [])))
