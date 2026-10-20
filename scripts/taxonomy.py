@@ -28,7 +28,7 @@ RX={
 'Microreactors':r'\b(microreactor|micro-reactor|micro reactor|nuclear battery|evinci|e-vinci|project pele|janus program)\b',
 'Advanced fission':r'\b(smr|small modular|advanced reactor|molten salt|fast reactor|bwrx.300|xe.100|kairos|x.energy|oklo|terrapower|nuscale|natrium|pebble.bed|htgr|gen.iv)\b',
 'Traditional fission':r'\b(ap1000|epr|vver|candu|pressuri[sz]ed water|boiling water|traditional fission|large reactor|existing nuclear|nuclear plant|reactor fleet|vogtle|calvert cliffs|palisades|duane arnold)\b',
-'Restarts & uprates':r'\b(restart|re-start|uprate|capacity increase|power increase|power boost|life extension|lifetime extension|extended operation|long.term operation|refurbish|reactor refurbishment|efficiency upgrade)\b',
+'Restarts & uprates':r'\b(restarts?|re-start|uprates?|capacity increase|power increase|power boost|life extension|lifetime extension|extended operation|long.term operation|refurbish|reactor refurbishment|efficiency upgrade)\b',
 'Offtakes & customers':r'\b(offtake|off.take|power purchase|ppa\b|energy supply agreement|electricity supply|electricity purchase|power supply agreement|subscribe to (?:a portion|output)|subscription to electricity|contracted power|supply power to|long.term power agreement)\b',
 'Construction & licensing':r'\b(construction|commission|criticality|grid connection|grid.connected|licen[cs]|permit|siting|environmental impact|design certification|first power|first concrete|site preparation|reactor building)\b',
 'Fuel & supply chain':r'\b(uranium|haleu|leu\b|enrich|centrifuge|triso|mox\b|fuel cycle|fuel fabrication|fuel supply|conversion plant|steam generator|reactor component|procurement|supply chain)\b',
@@ -65,6 +65,9 @@ def enrich_record(a, article_excerpt=''):
     title=a.get('title','')
     summary=a.get('summary','')
     description=a.get('description','')
+    protected_tech=list(a.get('technologies') or []) if a.get('editorial') else []
+    protected_themes=list(a.get('categories') or []) if a.get('editorial') else []
+    protected_importance=a.get('importance_score',0) if a.get('editorial') else 0
     main=' '.join((title,summary,description))
     full=' '.join((main,article_excerpt))
     existing=list(a.get('entities') or [])
@@ -105,10 +108,10 @@ def enrich_record(a, article_excerpt=''):
     # Keep no more than three high-relevance commercial tags. Rank score is
     # for topic fit, not a quota on whether the article is in the archive.
     selected=sorted([(v,k) for k,v in scored.items() if v>=3],key=lambda vk:(-vk[0],CATEGORIES.index(vk[1])))[:3]
-    a['technologies']=[t for t in TECHNOLOGIES if t in tech]
-    a['categories']=[label for _,label in selected]
+    a['technologies']=[t for t in TECHNOLOGIES if t in tech or t in protected_tech]
+    a['categories']=[label for label in CATEGORIES if label in [c for _,c in selected] or label in protected_themes]
     a['search_text']=' '.join(a['entities']+[title,summary])
-    a['importance_score']=importance(a,full)
+    a['importance_score']=max(importance(a,full),int(protected_importance or 0))
     return a
 
 def importance(a,full):
@@ -124,7 +127,7 @@ def importance(a,full):
     elif re.search(r'\b(signed|agreed|contract|approved|licensed|issued|permit granted|power purchase agreement)\b',full,re.I):score+=18
     elif re.search(r'\b(plans|proposed|considering|aims|mou|non.binding|feasibility)\b',title,re.I):score+=7
     # Market relevance and strategic significance
-    if re.search(r'\b(new nuclear capacity|uprate|restart|first of a kind|commercial reactor|fuel supply)\b',full,re.I):score+=20
+    if re.search(r'\b(new nuclear capacity|uprates?|restarts?|first of a kind|commercial reactor|fuel supply)\b',full,re.I):score+=20
     if re.search(r'\b(google|amazon|microsoft|oracle|meta|constellation|westinghouse|tva|nrc|doe)\b',full,re.I):score+=10
     if re.search(r'\b(first|milestone|largest|new|initial|agreement)\b',title,re.I):score+=5
     if re.search(r'\b(podcast|opinion|guest column|viewpoint)\b',title,re.I):score-=12
