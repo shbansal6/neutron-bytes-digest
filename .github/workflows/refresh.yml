@@ -33,8 +33,14 @@ jobs:
       - run: pip install --disable-pip-version-check -r requirements.txt
       - name: Validate interactive website script before publishing
         run: node --check app.js
+      - name: Check Python collector syntax
+        run: python -m py_compile scripts/refresh.py scripts/taxonomy.py scripts/audit.py
       - name: Reconcile Neutron Bytes reports and regenerate source-linked weekly archive
         run: python scripts/refresh.py
+      - name: Validate archive completeness
+        run: python scripts/audit.py
+      - name: Test rendered homepage and global searches
+        run: node scripts/smoke.js
       - name: Commit source-linked JSON; connected Vercel Git integration redeploys
         run: |
           git config user.name "github-actions[bot]"
