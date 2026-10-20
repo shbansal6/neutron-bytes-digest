@@ -250,6 +250,8 @@ def main():
     paths=discover_posts()
     for u in feed_posts():
         if u not in paths:paths.insert(0,u)
+    if not paths:
+        raise RuntimeError('Neutron Bytes source archive and RSS both unavailable; refusing to mark data as refreshed')
     # Keep prior URLs in the census; removes dependence on current RSS pagination.
     old_urls=set(a["url"] for a in old if a.get("url"))
     never_before=[u for u in paths if u not in old_urls and date_url(u) is not None and START<=date_url(u)<=END]
