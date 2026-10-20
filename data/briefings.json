@@ -4,30 +4,14 @@
     {
       "week_start": "2026-10-12",
       "week_end": "2026-10-18",
-      "title": "Nuclear developments — week of 2026-10-12",
-      "overview": "A source-linked summary of 4 Neutron Bytes news developments across 4 themes. Each item links to the original dated Neutron Bytes report; historical coverage is still being expanded.",
+      "title": "Nuclear sector news — week of October 12, 2026",
+      "overview": "4 source-linked nuclear developments covered in Neutron Bytes. Grouped by subject, with original reporting links. No independent verification implied.",
       "article_count": 4,
       "generated_at": "2026-10-19",
-      "editorial": false,
       "sections": [
         {
-          "category": "Capital & financing",
-          "takeaway": "1 recorded development this week, including Kairos secures $643M for Hermes 2 demonstration reactor.",
-          "items": [
-            {
-              "date": "2026-10-16",
-              "title": "Kairos secures $643M for Hermes 2 demonstration reactor",
-              "category": "Capital & financing",
-              "summary": "Neutron Bytes reported $643 million of combined financing for Kairos Power’s Hermes 2 program: $368 million from investors and $275 million from DOE. Hermes 2 is a planned 50 MWe grid-connected demonstration in Tennessee, aligned with the Google/Kairos/TVA offtake arrangement. The report separately describes an up-to-$100 million Samsung C&T partnership; that figure should not automatically be added to the $643 million total.",
-              "url": "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/",
-              "links": [],
-              "source": "Neutron Bytes"
-            }
-          ]
-        },
-        {
           "category": "Construction & licensing",
-          "takeaway": "1 recorded development this week, including NRC updates AP1000 design certification through 2066.",
+          "takeaway": "2 Neutron Bytes developments, including NRC updates AP1000 design certification through 2066; Other Oct. 9 reactor and fusion milestones..",
           "items": [
             {
               "date": "2026-10-16",
@@ -36,13 +20,49 @@
               "summary": "The NRC updated and renewed Westinghouse AP1000 design certification, incorporating lessons from Vogtle Units 3 and 4 and extending the certification through 2066. This may reduce repetitive design review for future units, but site-specific approvals and construction permits remain necessary.",
               "url": "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/",
               "links": [],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "US Nuclear Regulatory Commission",
+                "Westinghouse",
+                "Vogtle"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Construction & licensing",
+                "Policy & international"
+              ],
+              "search_text": "US Nuclear Regulatory Commission Westinghouse Vogtle NRC updates AP1000 design certification through 2066 The NRC updated and renewed Westinghouse AP1000 design certification, incorporating lessons from Vogtle Units 3 and 4 and extending the certification through 2066. This may reduce repetitive design review for future units, but site-specific approvals and construction permits remain necessary.",
+              "importance_score": 20
+            },
+            {
+              "date": "2026-10-15",
+              "title": "Other Oct. 9 reactor and fusion milestones.",
+              "category": "Fusion & research",
+              "summary": "In the same digest NB reported technical milestones for INL's MARVEL microreactor , Zap Energy's fusion capacitor prototype and an additional $30.5 million DOE award to Xcimer Energy . Treat progress toward criticality, engineering-prototype approval and fusion milestone funding as separate developments.",
+              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
+              "links": [],
+              "source": "Neutron Bytes",
+              "entities": [
+                "US Department of Energy"
+              ],
+              "technologies": [
+                "Microreactors",
+                "Fusion"
+              ],
+              "categories": [
+                "Construction & licensing",
+                "Capital & financing"
+              ],
+              "search_text": "US Department of Energy Other Oct. 9 reactor and fusion milestones. In the same digest NB reported technical milestones for INL's MARVEL microreactor , Zap Energy's fusion capacitor prototype and an additional $30.5 million DOE award to Xcimer Energy . Treat progress toward criticality, engineering-prototype approval and fusion milestone funding as separate developments.",
+              "importance_score": 32
             }
           ]
         },
         {
           "category": "Fuel & supply chain",
-          "takeaway": "1 recorded development this week, including Bluecore buys LEU for proposed 10 MWe floating reactor.",
+          "takeaway": "1 Neutron Bytes developments, including Bluecore buys LEU for proposed 10 MWe floating reactor.",
           "items": [
             {
               "date": "2026-10-16",
@@ -51,22 +71,51 @@
               "summary": "Bluecore Energy reported acquiring uranium hexafluoride enriched to 4.95% U-235 while beginning NRC / Coast Guard engagement on a proposed 10 MWe barge-based PWR. It is a tangible fuel-procurement and regulatory step, not a licensed maritime nuclear station; marine classification and siting remain material hurdles.",
               "url": "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/",
               "links": [],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "US Nuclear Regulatory Commission"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Fuel & supply chain",
+                "Construction & licensing",
+                "Policy & international"
+              ],
+              "search_text": "US Nuclear Regulatory Commission Bluecore buys LEU for proposed 10 MWe floating reactor Bluecore Energy reported acquiring uranium hexafluoride enriched to 4.95% U-235 while beginning NRC / Coast Guard engagement on a proposed 10 MWe barge-based PWR. It is a tangible fuel-procurement and regulatory step, not a licensed maritime nuclear station; marine classification and siting remain material hurdles.",
+              "importance_score": 51
             }
           ]
         },
         {
-          "category": "Fusion",
-          "takeaway": "1 recorded development this week, including Other Oct. 9 reactor and fusion milestones..",
+          "category": "Offtakes & customers",
+          "takeaway": "1 Neutron Bytes developments, including Kairos secures $643M for Hermes 2 demonstration reactor.",
           "items": [
             {
-              "date": "2026-10-15",
-              "title": "Other Oct. 9 reactor and fusion milestones.",
-              "category": "Fusion & research",
-              "summary": "In the same digest NB reported technical milestones for INL's MARVEL microreactor , Zap Energy's fusion capacitor prototype and an additional $30.5 million DOE award to Xcimer Energy . Treat progress toward criticality, engineering-prototype approval and fusion milestone funding as separate developments.",
-              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
+              "date": "2026-10-16",
+              "title": "Kairos secures $643M for Hermes 2 demonstration reactor",
+              "category": "Capital & financing",
+              "summary": "Neutron Bytes reported $643 million of combined financing for Kairos Power’s Hermes 2 program: $368 million from investors and $275 million from DOE. Hermes 2 is a planned 50 MWe grid-connected demonstration in Tennessee, aligned with the Google/Kairos/TVA offtake arrangement. The report separately describes an up-to-$100 million Samsung C&T partnership; that figure should not automatically be added to the $643 million total.",
+              "url": "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/",
               "links": [],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "Google",
+                "Kairos Power",
+                "Tennessee Valley Authority",
+                "US Department of Energy"
+              ],
+              "technologies": [
+                "Advanced fission"
+              ],
+              "categories": [
+                "Offtakes & customers",
+                "Capital & financing",
+                "Construction & licensing"
+              ],
+              "search_text": "Google Kairos Power Tennessee Valley Authority US Department of Energy Kairos secures $643M for Hermes 2 demonstration reactor Neutron Bytes reported $643 million of combined financing for Kairos Power’s Hermes 2 program: $368 million from investors and $275 million from DOE. Hermes 2 is a planned 50 MWe grid-connected demonstration in Tennessee, aligned with the Google/Kairos/TVA offtake arrangement. The report separately describes an up-to-$100 million Samsung C&T partnership; that figure should not automatically be added to the $643 million total.",
+              "importance_score": 45
             }
           ]
         }
@@ -75,15 +124,14 @@
     {
       "week_start": "2026-10-05",
       "week_end": "2026-10-11",
-      "title": "Nuclear developments — week of 2026-10-05",
-      "overview": "A source-linked summary of 5 Neutron Bytes news developments across 3 themes. Each item links to the original dated Neutron Bytes report; historical coverage is still being expanded.",
+      "title": "Nuclear sector news — week of October 05, 2026",
+      "overview": "5 source-linked nuclear developments covered in Neutron Bytes. Grouped by subject, with original reporting links. No independent verification implied.",
       "article_count": 5,
       "generated_at": "2026-10-19",
-      "editorial": false,
       "sections": [
         {
           "category": "Policy & international",
-          "takeaway": "2 recorded developments this week, including NASA lunar-fission debate; BWXT BANR selected for New Brunswick concept.",
+          "takeaway": "2 Neutron Bytes developments, including NASA lunar-fission debate; BWXT BANR selected for New Brunswick concept.",
           "items": [
             {
               "date": "2026-10-10",
@@ -92,7 +140,18 @@
               "summary": "NB critiqued a New York Times report on nuclear reactors for lunar missions, contrasting U.S., Chinese and Russian timelines, proposed ~100 kWe-class lunar surface systems, remote siting and HALEU fuel constraints. This is principally analysis of proposed technology and risk , not a new funded commercial nuclear plant.",
               "url": "https://neutronbytes.com/2026/10/10/a-few-beers-short-of-a-six-pack-where-the-new-york-times-missed-a-few-facts-about-nuclear-reactors-on-the-moon/",
               "links": [],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Policy & international",
+                "Construction & licensing",
+                "Fuel & supply chain"
+              ],
+              "search_text": "NASA lunar-fission debate NB critiqued a New York Times report on nuclear reactors for lunar missions, contrasting U.S., Chinese and Russian timelines, proposed ~100 kWe-class lunar surface systems, remote siting and HALEU fuel constraints. This is principally analysis of proposed technology and risk , not a new funded commercial nuclear plant.",
+              "importance_score": 10
             },
             {
               "date": "2026-10-09",
@@ -106,13 +165,24 @@
                   "label": "Original · World Nuclear News article cited b… ↗"
                 }
               ],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "BWXT"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Policy & international"
+              ],
+              "search_text": "BWXT BWXT BANR selected for New Brunswick concept Prodigy Clean Energy and First Nations partners proposed a transportable plant at Belledune comprising two BWXT BANR microreactors . Each BANR was described as 22 MWe / 75 MWt , implying around 44 MWe if both are built. The proposed power-purchase framework and early-2030s target were preliminary.",
+              "importance_score": 28
             }
           ]
         },
         {
           "category": "Restarts & uprates",
-          "takeaway": "2 recorded developments this week, including Google and Constellation announce major uprate PPA; DOE conditional financing for Vistra uprates.",
+          "takeaway": "2 Neutron Bytes developments, including Google and Constellation announce major uprate PPA; DOE conditional financing for Vistra uprates.",
           "items": [
             {
               "date": "2026-10-09",
@@ -126,7 +196,21 @@
                   "label": "Original · ANS Nuclear Newswire report direct… ↗"
                 }
               ],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "Constellation Energy",
+                "Google"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Restarts & uprates",
+                "Offtakes & customers",
+                "Capital & financing"
+              ],
+              "search_text": "Constellation Energy Google Google and Constellation announce major uprate PPA Google/Constellation announced a 20-year arrangement targeting 890 MW incremental output from uprates across 11 existing reactors in PJM and $4.3 billion of related Constellation investment, as reported by NB. A separate 15-year / 2,700 MW energy-supply arrangement was described in the same report; do not add this to the 890 MW of new uprate capacity . A third collaboration covered a five-year technology/AI agreement. These are three separate commercial arrangements.",
+              "importance_score": 70
             },
             {
               "date": "2026-10-09",
@@ -140,13 +224,26 @@
                   "label": "Original · DOE EDF ↗"
                 }
               ],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "Vistra",
+                "US Department of Energy"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Restarts & uprates",
+                "Capital & financing"
+              ],
+              "search_text": "Vistra US Department of Energy DOE conditional financing for Vistra uprates NB described a conditional loan commitment of up to $4.2 billion for Vistra's Beaver Valley, Davis-Besse and Perry modernization/uprate programs, adding a projected 433 MW of capacity in Pennsylvania and Ohio. The optional treatment of Comanche Peak was described separately. It was a conditional commitment , not funded cash disbursed.",
+              "importance_score": 65
             }
           ]
         },
         {
           "category": "Capital & financing",
-          "takeaway": "1 recorded development this week, including Type One Energy raises $200M.",
+          "takeaway": "1 Neutron Bytes developments, including Type One Energy raises $200M.",
           "items": [
             {
               "date": "2026-10-09",
@@ -155,7 +252,18 @@
               "summary": "Type One Energy's $200 million Series B , co-led by Breakthrough Energy Ventures and Clutterbuck Capital, supports Project Infinity and its stellarator fusion approach. The proposed 400 MWe Infinity Two power plant at TVA's Bull Run site is a planned demonstration/commercialization objective, not an operational reactor.",
               "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
               "links": [],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "Tennessee Valley Authority"
+              ],
+              "technologies": [
+                "Fusion"
+              ],
+              "categories": [
+                "Capital & financing"
+              ],
+              "search_text": "Tennessee Valley Authority Type One Energy raises $200M Type One Energy's $200 million Series B , co-led by Breakthrough Energy Ventures and Clutterbuck Capital, supports Project Infinity and its stellarator fusion approach. The proposed 400 MWe Infinity Two power plant at TVA's Bull Run site is a planned demonstration/commercialization objective, not an operational reactor.",
+              "importance_score": 45
             }
           ]
         }
@@ -164,30 +272,14 @@
     {
       "week_start": "2026-09-28",
       "week_end": "2026-10-04",
-      "title": "Nuclear developments — week of 2026-09-28",
-      "overview": "A source-linked summary of 2 Neutron Bytes news developments across 2 themes. Each item links to the original dated Neutron Bytes report; historical coverage is still being expanded.",
+      "title": "Nuclear sector news — week of September 28, 2026",
+      "overview": "2 source-linked nuclear developments covered in Neutron Bytes. Grouped by subject, with original reporting links. No independent verification implied.",
       "article_count": 2,
       "generated_at": "2026-10-19",
-      "editorial": false,
       "sections": [
         {
-          "category": "Construction & licensing",
-          "takeaway": "1 recorded development this week, including TVA receives Clinch River BWRX-300 construction permit.",
-          "items": [
-            {
-              "date": "2026-09-30",
-              "title": "TVA receives Clinch River BWRX-300 construction permit",
-              "category": "Construction & licensing",
-              "summary": "NRC granted a construction permit for Clinch River Unit 1 , GE Vernova Hitachi's 300 MWe BWRX-300 SMR, marking a shift from TVA's 2025 application to regulatory authorization. This is not an operating license or final investment decision; NB reported construction timing remained open and TVA continued cost-sharing negotiations. TVA contemplated up to four units at the site, but only Unit 1's permit was the headline action.",
-              "url": "https://neutronbytes.com/2026/09/30/nrc-construction-permit-to-tva-for-bwrx-300/",
-              "links": [],
-              "source": "Neutron Bytes"
-            }
-          ]
-        },
-        {
-          "category": "Fusion",
-          "takeaway": "1 recorded development this week, including California nuclear/fusion legislation.",
+          "category": "Policy & international",
+          "takeaway": "1 Neutron Bytes developments, including California nuclear/fusion legislation.",
           "items": [
             {
               "date": "2026-09-30",
@@ -196,7 +288,48 @@
               "summary": "NB reported California signed laws intended to accelerate nuclear fission, fusion and quantum-related development, with $30 million in associated investment. This is a state policy measure rather than a specific project financing close.",
               "url": "https://neutronbytes.com/2026/09/",
               "links": [],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [],
+              "technologies": [
+                "Fusion"
+              ],
+              "categories": [
+                "Policy & international",
+                "Capital & financing"
+              ],
+              "search_text": "California nuclear/fusion legislation NB reported California signed laws intended to accelerate nuclear fission, fusion and quantum-related development, with $30 million in associated investment. This is a state policy measure rather than a specific project financing close.",
+              "importance_score": 40
+            }
+          ]
+        },
+        {
+          "category": "Construction & licensing",
+          "takeaway": "1 Neutron Bytes developments, including TVA receives Clinch River BWRX-300 construction permit.",
+          "items": [
+            {
+              "date": "2026-09-30",
+              "title": "TVA receives Clinch River BWRX-300 construction permit",
+              "category": "Construction & licensing",
+              "summary": "NRC granted a construction permit for Clinch River Unit 1 , GE Vernova Hitachi's 300 MWe BWRX-300 SMR, marking a shift from TVA's 2025 application to regulatory authorization. This is not an operating license or final investment decision; NB reported construction timing remained open and TVA continued cost-sharing negotiations. TVA contemplated up to four units at the site, but only Unit 1's permit was the headline action.",
+              "url": "https://neutronbytes.com/2026/09/30/nrc-construction-permit-to-tva-for-bwrx-300/",
+              "links": [],
+              "source": "Neutron Bytes",
+              "entities": [
+                "GE Vernova",
+                "Tennessee Valley Authority",
+                "US Nuclear Regulatory Commission",
+                "BWRX-300"
+              ],
+              "technologies": [
+                "Advanced fission"
+              ],
+              "categories": [
+                "Construction & licensing",
+                "Capital & financing",
+                "Policy & international"
+              ],
+              "search_text": "GE Vernova Tennessee Valley Authority US Nuclear Regulatory Commission BWRX-300 TVA receives Clinch River BWRX-300 construction permit NRC granted a construction permit for Clinch River Unit 1 , GE Vernova Hitachi's 300 MWe BWRX-300 SMR, marking a shift from TVA's 2025 application to regulatory authorization. This is not an operating license or final investment decision; NB reported construction timing remained open and TVA continued cost-sharing negotiations. TVA contemplated up to four units at the site, but only Unit 1's permit was the headline action.",
+              "importance_score": 33
             }
           ]
         }
@@ -205,15 +338,14 @@
     {
       "week_start": "2026-09-21",
       "week_end": "2026-09-27",
-      "title": "Nuclear developments — week of 2026-09-21",
-      "overview": "A source-linked summary of 1 Neutron Bytes news developments across 1 themes. Each item links to the original dated Neutron Bytes report; historical coverage is still being expanded.",
+      "title": "Nuclear sector news — week of September 21, 2026",
+      "overview": "1 source-linked nuclear developments covered in Neutron Bytes. Grouped by subject, with original reporting links. No independent verification implied.",
       "article_count": 1,
       "generated_at": "2026-10-19",
-      "editorial": false,
       "sections": [
         {
           "category": "Capital & financing",
-          "takeaway": "1 recorded development this week, including Kairos and Samsung C&T term sheet.",
+          "takeaway": "1 Neutron Bytes developments, including Kairos and Samsung C&T term sheet.",
           "items": [
             {
               "date": "2026-09-26",
@@ -222,7 +354,20 @@
               "summary": "Samsung C&T agreed to pursue a $100 million strategic investment in Kairos Power, linked to engineering, procurement and construction collaboration. This is financing/industrial partnership progress, subject to definitive terms.",
               "url": "https://neutronbytes.com/2026/09/",
               "links": [],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "Kairos Power"
+              ],
+              "technologies": [
+                "Advanced fission"
+              ],
+              "categories": [
+                "Capital & financing",
+                "Construction & licensing",
+                "Fuel & supply chain"
+              ],
+              "search_text": "Kairos Power Kairos and Samsung C&T term sheet Samsung C&T agreed to pursue a $100 million strategic investment in Kairos Power, linked to engineering, procurement and construction collaboration. This is financing/industrial partnership progress, subject to definitive terms.",
+              "importance_score": 40
             }
           ]
         }
@@ -231,54 +376,15 @@
     {
       "week_start": "2026-09-07",
       "week_end": "2026-09-13",
-      "title": "Nuclear developments — week of 2026-09-07",
-      "overview": "A source-linked summary of 8 Neutron Bytes news developments across 4 themes. Each item links to the original dated Neutron Bytes report; historical coverage is still being expanded.",
+      "title": "Nuclear sector news — week of September 07, 2026",
+      "overview": "8 source-linked nuclear developments covered in Neutron Bytes. Grouped by subject, with original reporting links. No independent verification implied.",
       "article_count": 8,
       "generated_at": "2026-10-19",
-      "editorial": false,
       "sections": [
         {
-          "category": "Fuel & supply chain",
-          "takeaway": "1 recorded development this week, including Centrus signs HALEU supply contracts.",
-          "items": [
-            {
-              "date": "2026-09-12",
-              "title": "Centrus signs HALEU supply contracts",
-              "category": "Fuel & supply chain",
-              "summary": "Neutron Bytes separately covered multi-year HALEU fuel supply arrangements between Centrus and Radiant , and between Centrus and Antares . Both are supplier/customer deals for future advanced reactor fuel, rather than actual reactor commissioning milestones.",
-              "url": "https://neutronbytes.com/2026/09/",
-              "links": [],
-              "source": "Neutron Bytes"
-            }
-          ]
-        },
-        {
           "category": "Capital & financing",
-          "takeaway": "4 recorded developments this week, including Bluecore raises maritime-nuclear seed capital; Holtec launches proposed nuclear-sector IPO.",
+          "takeaway": "4 Neutron Bytes developments, including ABB and Rolls-Royce SMR sign deployment MOU; World Nuclear Association issues project-finance guidance.",
           "items": [
-            {
-              "date": "2026-09-08",
-              "title": "Bluecore raises maritime-nuclear seed capital",
-              "category": "Capital & financing",
-              "summary": "Bluecore Energy announced a $50 million seed round following an earlier $10 million pre-seed , targeting floating nuclear systems initially designed for about 10 MWe per unit. Its barge and non-fueled demonstration hardware at the Port of Long Beach were R&D assets, not an operating nuclear barge.",
-              "url": "https://neutronbytes.com/2026/09/08/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant-in-iowa/#:~:text=Bluecore%20Energy%20Raises%20%2450%20Million%20Seed%20Round%20for%20Maritime%20Nuclear%20Deployment",
-              "links": [
-                {
-                  "url": "https://www.bluecore.energy/",
-                  "label": "Bluecore Energy (linked in Neutron Bytes) ↗"
-                }
-              ],
-              "source": "Neutron Bytes"
-            },
-            {
-              "date": "2026-09-08",
-              "title": "Holtec launches proposed nuclear-sector IPO",
-              "category": "Capital & financing",
-              "summary": "Holtec Nuclear Corporation announced a proposed 50 million-share Class A offering at $15–$18/share , implying $750–900 million gross initial offering value if priced in range and sold, before any underwriter option. It also contemplated a 7.5 million-share greenshoe . The filing was a proposed IPO , not confirmation of proceeds received or trading commenced.",
-              "url": "https://neutronbytes.com/2026/09/08/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant-in-iowa/#:~:text=Holtec%20Nuclear%20Corporation%20Announces%20Launch%20of%20Initial%20Public%20Offering",
-              "links": [],
-              "source": "Neutron Bytes"
-            },
             {
               "date": "2026-09-08",
               "title": "ABB and Rolls-Royce SMR sign deployment MOU",
@@ -286,7 +392,18 @@
               "summary": "ABB and Rolls-Royce SMR agreed to investigate integration of electrification, controls and automation for the 470 MWe UK SMR design. The understanding was a supplier/engineering collaboration, not an awarded reactor EPC contract.",
               "url": "https://neutronbytes.com/2026/09/08/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant-in-iowa/#:~:text=ABB%20And%20Rolls-Royce%20To%20Cooperate%20On%20SMR%20Deployment",
               "links": [],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "Rolls-Royce SMR"
+              ],
+              "technologies": [
+                "Advanced fission"
+              ],
+              "categories": [
+                "Capital & financing"
+              ],
+              "search_text": "Rolls-Royce SMR ABB and Rolls-Royce SMR sign deployment MOU ABB and Rolls-Royce SMR agreed to investigate integration of electrification, controls and automation for the 470 MWe UK SMR design. The understanding was a supplier/engineering collaboration, not an awarded reactor EPC contract.",
+              "importance_score": 41
             },
             {
               "date": "2026-09-08",
@@ -300,13 +417,65 @@
                   "label": "Original · WNA Nuclear Investment Guide ↗"
                 }
               ],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Capital & financing"
+              ],
+              "search_text": "World Nuclear Association issues project-finance guidance WNA published a World Nuclear Investment Guide examining capital structure, risk allocation, investment readiness and the supply-chain finance gap; NB cited modeling of more than $250 billion/year potential nuclear financing requirements and $6 trillion through 2050 . These are industry scenario/market estimates, not signed financing commitments.",
+              "importance_score": 40
+            },
+            {
+              "date": "2026-09-08",
+              "title": "Bluecore raises maritime-nuclear seed capital",
+              "category": "Capital & financing",
+              "summary": "Bluecore Energy announced a $50 million seed round following an earlier $10 million pre-seed , targeting floating nuclear systems initially designed for about 10 MWe per unit. Its barge and non-fueled demonstration hardware at the Port of Long Beach were R&D assets, not an operating nuclear barge.",
+              "url": "https://neutronbytes.com/2026/09/08/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant-in-iowa/#:~:text=Bluecore%20Energy%20Raises%20%2450%20Million%20Seed%20Round%20for%20Maritime%20Nuclear%20Deployment",
+              "links": [
+                {
+                  "url": "https://www.bluecore.energy/",
+                  "label": "Bluecore Energy (linked in Neutron Bytes) ↗"
+                }
+              ],
+              "source": "Neutron Bytes",
+              "entities": [],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Capital & financing"
+              ],
+              "search_text": "Bluecore raises maritime-nuclear seed capital Bluecore Energy announced a $50 million seed round following an earlier $10 million pre-seed , targeting floating nuclear systems initially designed for about 10 MWe per unit. Its barge and non-fueled demonstration hardware at the Port of Long Beach were R&D assets, not an operating nuclear barge.",
+              "importance_score": 35
+            },
+            {
+              "date": "2026-09-08",
+              "title": "Holtec launches proposed nuclear-sector IPO",
+              "category": "Capital & financing",
+              "summary": "Holtec Nuclear Corporation announced a proposed 50 million-share Class A offering at $15–$18/share , implying $750–900 million gross initial offering value if priced in range and sold, before any underwriter option. It also contemplated a 7.5 million-share greenshoe . The filing was a proposed IPO , not confirmation of proceeds received or trading commenced.",
+              "url": "https://neutronbytes.com/2026/09/08/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant-in-iowa/#:~:text=Holtec%20Nuclear%20Corporation%20Announces%20Launch%20of%20Initial%20Public%20Offering",
+              "links": [],
+              "source": "Neutron Bytes",
+              "entities": [
+                "Holtec"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Capital & financing"
+              ],
+              "search_text": "Holtec Holtec launches proposed nuclear-sector IPO Holtec Nuclear Corporation announced a proposed 50 million-share Class A offering at $15–$18/share , implying $750–900 million gross initial offering value if priced in range and sold, before any underwriter option. It also contemplated a 7.5 million-share greenshoe . The filing was a proposed IPO , not confirmation of proceeds received or trading commenced.",
+              "importance_score": 17
             }
           ]
         },
         {
           "category": "Construction & licensing",
-          "takeaway": "2 recorded developments this week, including South Korea examines truck-transportable microreactor; TerraPower frames prospective UK Natrium rollout.",
+          "takeaway": "2 Neutron Bytes developments, including South Korea examines truck-transportable microreactor; TerraPower frames prospective UK Natrium rollout.",
           "items": [
             {
               "date": "2026-09-08",
@@ -320,7 +489,16 @@
                   "label": "Original LinkedIn study (access may require sign-in) ↗"
                 }
               ],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [],
+              "technologies": [
+                "Microreactors"
+              ],
+              "categories": [
+                "Construction & licensing"
+              ],
+              "search_text": "South Korea examines truck-transportable microreactor A Korean consortium outlined feasibility findings for a road-transportable reactor, emphasizing licensing, security and supply-chain issues. Separately, NB reported the 170 MWe i-SMR standard-design approval application and described a four-unit 680 MWe Daegu concept; these are distinct reactor programs and remain at assessment/licensing stages.",
+              "importance_score": 23
             },
             {
               "date": "2026-09-08",
@@ -334,13 +512,50 @@
                   "label": "Reuters original report ↗"
                 }
               ],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "TerraPower"
+              ],
+              "technologies": [
+                "Advanced fission"
+              ],
+              "categories": [
+                "Construction & licensing"
+              ],
+              "search_text": "TerraPower TerraPower frames prospective UK Natrium rollout TerraPower said UK Natrium electricity by 2034 was possible, dependent on licensing and site selection; the company had entered the UK Generic Design Assessment process. The target followed the first Wyoming project and was not a UK FID or binding construction order.",
+              "importance_score": 10
+            }
+          ]
+        },
+        {
+          "category": "Fuel & supply chain",
+          "takeaway": "1 Neutron Bytes developments, including Centrus signs HALEU supply contracts.",
+          "items": [
+            {
+              "date": "2026-09-12",
+              "title": "Centrus signs HALEU supply contracts",
+              "category": "Fuel & supply chain",
+              "summary": "Neutron Bytes separately covered multi-year HALEU fuel supply arrangements between Centrus and Radiant , and between Centrus and Antares . Both are supplier/customer deals for future advanced reactor fuel, rather than actual reactor commissioning milestones.",
+              "url": "https://neutronbytes.com/2026/09/",
+              "links": [],
+              "source": "Neutron Bytes",
+              "entities": [
+                "Centrus"
+              ],
+              "technologies": [
+                "Advanced fission"
+              ],
+              "categories": [
+                "Fuel & supply chain"
+              ],
+              "search_text": "Centrus Centrus signs HALEU supply contracts Neutron Bytes separately covered multi-year HALEU fuel supply arrangements between Centrus and Radiant , and between Centrus and Antares . Both are supplier/customer deals for future advanced reactor fuel, rather than actual reactor commissioning milestones.",
+              "importance_score": 30
             }
           ]
         },
         {
           "category": "Restarts & uprates",
-          "takeaway": "1 recorded development this week, including Duane Arnold restart loan reaches financial close.",
+          "takeaway": "1 Neutron Bytes developments, including Duane Arnold restart loan reaches financial close.",
           "items": [
             {
               "date": "2026-09-08",
@@ -354,7 +569,22 @@
                   "label": "Original · NextEra/Google 2025 supply arrange… ↗"
                 }
               ],
-              "source": "Neutron Bytes"
+              "source": "Neutron Bytes",
+              "entities": [
+                "NextEra Energy",
+                "US Department of Energy",
+                "Duane Arnold"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [
+                "Restarts & uprates",
+                "Offtakes & customers",
+                "Capital & financing"
+              ],
+              "search_text": "NextEra Energy US Department of Energy Duane Arnold Duane Arnold restart loan reaches financial close DOE reported closing a loan of up to $1.9 billion to NextEra Energy for restoring the Duane Arnold reactor in Iowa. This advances the restart's financing relative to the 2025 offtake announcement; it is not the date on which the reactor resumed power generation.",
+              "importance_score": 52
             }
           ]
         }
