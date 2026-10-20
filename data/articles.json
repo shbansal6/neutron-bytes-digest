@@ -25,7 +25,9 @@
       ],
       "search_text": "Poland Pątnów BWRX-300 SGE ZE PAK Poland six-unit SMR venture proposed at Pątnów A Polish joint venture proposal envisions six BWRX-300 reactors and up to 1,800 MW at Pątnów. The venture remains a proposed project and is not a completed financing or construction decision.",
       "importance_score": 76,
-      "links": []
+      "links": [],
+      "source_heading": "Joint Venture Formed for Six-Unit SMR Plant in Poland",
+      "editorial": true
     },
     {
       "date": "2026-10-16",
@@ -48,7 +50,9 @@
       ],
       "search_text": "Newcleo MOX France Newcleo opens French MOX fuel development centre Newcleo inaugurated a French centre for mixed-oxide nuclear fuel engineering and testing, supporting its fast-reactor fuel qualification plans. This is a development facility, not full commercial MOX production.",
       "importance_score": 72,
-      "links": []
+      "links": [],
+      "source_heading": "Newcleo Opens MOX fuel Development Center",
+      "editorial": true
     },
     {
       "date": "2026-10-16",
@@ -72,7 +76,9 @@
       ],
       "search_text": "DOE Molten Chloride Reactor Experiment MCRE DOE funding advances molten-chloride reactor experiment The US Department of Energy provided additional cost-shared support for a molten-chloride reactor experiment under development. The initiative targets research milestones rather than near-term grid-scale generation.",
       "importance_score": 69,
-      "links": []
+      "links": [],
+      "source_heading": "DOE Funds Next Steps for Molten Chloride Reactor",
+      "editorial": true
     },
     {
       "date": "2026-10-16",
@@ -96,7 +102,9 @@
       ],
       "search_text": "American Bureau of Shipping ABS DOE maritime nuclear DOE and ABS plan work on commercial maritime nuclear applications The American Bureau of Shipping and US Department of Energy announced cooperation to advance research and feasibility for nuclear-powered ships and floating nuclear installations; this is preparatory work, not a licensed fleet.",
       "importance_score": 68,
-      "links": []
+      "links": [],
+      "source_heading": "ABS and DOE Collaborate on the Use of Nuclear Technology at Sea",
+      "editorial": true
     },
     {
       "date": "2026-10-16",
@@ -120,7 +128,9 @@
       ],
       "search_text": "ASP Isotopes South Africa uranium enrichment ASP Isotopes announces South African uranium enrichment plans South Africa's ASP Isotopes described plans for a new uranium enrichment facility, a proposed fuel-cycle investment requiring further development and licensing before commercial output.",
       "importance_score": 68,
-      "links": []
+      "links": [],
+      "source_heading": "South Africa’s ASP Isotopes to Build Uranium Enrichment Plant",
+      "editorial": true
     },
     {
       "date": "2026-10-16",
@@ -142,7 +152,9 @@
       ],
       "search_text": "Germany fusion Germany launches programme to promote private fusion investment Germany announced an initiative intended to attract private-sector funding and accelerate fusion development. It is a policy and investment-promotion measure, not a completed fusion plant.",
       "importance_score": 65,
-      "links": []
+      "links": [],
+      "source_heading": "Germany Launches Program to Promote Private Investment In Fusion",
+      "editorial": true
     },
     {
       "date": "2026-10-16",
@@ -165,7 +177,9 @@
       ],
       "search_text": "Westinghouse V.C. Summer AP1000 Westinghouse faces future V.C. Summer relicensing and completion hurdles The October 16 Neutron Bytes roundup examined the challenges associated with completing and relicensing the previously halted V.C. Summer AP1000 project. Discussion of potential resumption should not be mistaken for an approved final investment decision.",
       "importance_score": 65,
-      "links": []
+      "links": [],
+      "source_heading": "Challenges Ahead for Westinghouse to Re-license V.C. Summer",
+      "editorial": true
     },
     {
       "date": "2026-10-16",
@@ -299,7 +313,9 @@
       ],
       "search_text": "Xcimer Energy DOE Xcimer Energy receives additional $30.5M DOE fusion milestone award Xcimer announced an additional DOE Milestone-based Fusion Development Program award of up to $30.5 million. The award supports development milestones and does not represent an operating commercial fusion power plant.",
       "importance_score": 78,
-      "links": []
+      "links": [],
+      "source_heading": "Xcimer Energy Receives Additional $30.5 Million Award from DOE Milestone Program",
+      "editorial": true
     },
     {
       "date": "2026-10-09",
@@ -376,7 +392,9 @@
       ],
       "search_text": "MARVEL Idaho National Laboratory DOE DOE MARVEL microreactor reaches additional development milestones Neutron Bytes reported further milestones for Idaho National Laboratory's MARVEL microreactor demonstrator, an experimental platform for microreactor operations and research rather than a commercial power project.",
       "importance_score": 65,
-      "links": []
+      "links": [],
+      "source_heading": "MARVEL Reactor Hits Key Milestones",
+      "editorial": true
     },
     {
       "date": "2026-10-09",
@@ -398,7 +416,9 @@
       ],
       "search_text": "Zap Energy DOE DOE approves Zap Energy fusion capacitor design and prototype DOE approved the design of a key fusion-energy capacitor component and an initial prototype for Zap Energy, as described in Neutron Bytes' October 9 nuclear roundup. This is a research and design milestone, not commercial fusion generation.",
       "importance_score": 64,
-      "links": []
+      "links": [],
+      "source_heading": "DOE Approves Zap Energy’s Fusion Capacitor Design and First Prototype",
+      "editorial": true
     },
     {
       "date": "2026-10-09",
@@ -524,7 +544,9 @@
       ],
       "search_text": "Amazon AWS Constellation Energy Calvert Cliffs PJM Amazon and Constellation sign 20-year, 690 MW Calvert Cliffs PPA Amazon and Constellation announced a 20-year power purchase arrangement covering 690 MW, including 190 MW of planned Calvert Cliffs nuclear uprates between 2030 and 2032. The customer commitment supports more than $3 billion of investment and a potential licence extension, not 690 MW of newly built capacity.",
       "importance_score": 93,
-      "links": []
+      "links": [],
+      "source_heading": "Constellation and Amazon Set a 20-Year Power Purchase Agreement",
+      "editorial": true
     },
     {
       "date": "2026-10-02",
@@ -551,7 +573,9 @@
       ],
       "search_text": "United States South Korea Westinghouse KHNP KEPCO Cameco US–South Korea announces eight-reactor cooperation framework The United States and South Korea announced a proposed framework for six Westinghouse AP1000 and two Korean APR1400 units, targeting construction starts by 2030. The framework describes $120 billion of contemplated financing and supply-chain cooperation, but no utilities or sites had committed to construction.",
       "importance_score": 85,
-      "links": []
+      "links": [],
+      "source_heading": "South Korea and U.S. Ink Massive Nuclear Energy Plan",
+      "editorial": true
     },
     {
       "date": "2026-10-02",
@@ -575,7 +599,9 @@
       ],
       "search_text": "Holtec Palisades NRC SMR-300 Pioneer Holtec submits PSAR for two Palisades SMR-300 units Holtec filed the Preliminary Safety Analysis Report with the NRC as the second stage of its construction permit application for Pioneer 1 and 2, two proposed SMR-300 reactors totaling 680 MW at the Palisades site. The filing advances regulatory review; it is not a construction permit.",
       "importance_score": 82,
-      "links": []
+      "links": [],
+      "source_heading": "Palisades SMR Units 1 & 2 Program Submit PSAR to NRC",
+      "editorial": true
     },
     {
       "date": "2026-10-02",
@@ -601,7 +627,9 @@
       ],
       "search_text": "General Matter Paducah NRC HALEU DOE General Matter files Paducah uranium enrichment licence application General Matter filed an NRC application for a planned uranium enrichment facility at the former Paducah site. The initial 10 CFR 70 licence would cover lower-enrichment material, with a separate HALEU amendment planned for 2027; commercial production is not yet licensed.",
       "importance_score": 80,
-      "links": []
+      "links": [],
+      "source_heading": "General Matter Submits License Application to NRC for Paducah Enrichment Plant",
+      "editorial": true
     },
     {
       "date": "2026-10-02",
@@ -626,7 +654,9 @@
       ],
       "search_text": "American Leadership in Fusion Act DOE US Congress Xcimer Commonwealth Fusion Systems Bipartisan US fusion bill proposes $10 billion of funding Lawmakers introduced the American Leadership in Fusion Act, proposing $10 billion of funding and a dedicated DOE Office of Fusion. This is proposed federal legislation, not an enacted appropriation or committed federal investment.",
       "importance_score": 80,
-      "links": []
+      "links": [],
+      "source_heading": "US Lawmakers Propose Fusion Energy Act With $10 Billion Investment",
+      "editorial": true
     },
     {
       "date": "2026-10-02",
@@ -651,7 +681,9 @@
       ],
       "search_text": "Deployable Energy NRIC Idaho National Laboratory DOME Unity Deployable Energy selected for DOME microreactor testing in 2027 DOE's National Reactor Innovation Center selected Deployable Energy for a planned 2027 experiment at Idaho National Laboratory's DOME test bed. Its transportable helium-cooled Unity nuclear battery targets 1 MWe; testing remains subject to milestones and readiness.",
       "importance_score": 79,
-      "links": []
+      "links": [],
+      "source_heading": "Deployable Energy Selected to Test Its Nuclear Battery at NRIC’s DOME",
+      "editorial": true
     },
     {
       "date": "2026-10-02",
@@ -677,7 +709,9 @@
       ],
       "search_text": "NANO Nuclear Radnostix International Isotopes HALEU NRC NANO Nuclear agrees to acquire licensed fuel-processing assets NANO Nuclear and subsidiary HALEU Energy Fuel entered an asset purchase agreement with Radnostix / International Isotopes for NRC-licensed depleted-uranium conversion and fluorine-extraction project assets in New Mexico. The previously licensed facility was never built; further activities require approvals.",
       "importance_score": 78,
-      "links": []
+      "links": [],
+      "source_heading": "NANO Nuclear Energy to Acquire NRC-Licensed U.S. Nuclear Fuel Processing Assets",
+      "editorial": true
     },
     {
       "date": "2026-10-02",
@@ -703,7 +737,9 @@
       ],
       "search_text": "Raven-Flint Idaho National Laboratory DOE NRC UF6 Raven-Flint advances Idaho uranium conversion process and NRC filing Raven-Flint reported successful UF6 production with a process avoiding elemental fluorine, selection to DOE's Nuclear Energy Launch Pad, and NRC docketing for engineering-scale uranium operations. Its proposed 500-tonne-per-year Torch conversion plant remains under development.",
       "importance_score": 75,
-      "links": []
+      "links": [],
+      "source_heading": "Raven-Flint Plans to Build a Uranium Conversion Plant",
+      "editorial": true
     },
     {
       "date": "2026-10-01",
