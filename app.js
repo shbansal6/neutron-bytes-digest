@@ -7,7 +7,7 @@ const TECHNOLOGIES=['Traditional fission','Advanced fission','Microreactors','Fu
 const THEMES=['Restarts & uprates','Offtakes & customers','Construction & licensing','Fuel & supply chain','Capital & financing','Policy & international'];
 const MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const state={year:'all',month:'all',tech:'all',theme:'all',q:'',sort:'recent',expanded:false,visible:100};
-let articles=[],briefings=[],metadata={},overrides={};
+let articles=[],briefings=[],metadata={},overrides={},hidden=new Set();
 const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function validUrl(u){try{const p=new URL(u);return p.protocol==='https:'||p.protocol==='http:'?p.href:''}catch{return ''}}
 function dateLabel(d){if(!/^\d{4}-\d\d-\d\d$/.test(d))return d||'';return new Date(d+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'})}
@@ -57,11 +57,13 @@ function hydrate(x){
  const inferred=tagsFor(n);
  n.technologies=[...new Set([...(Array.isArray(n.technologies)?n.technologies:[]),...inferred.technologies])].filter(t=>TECHNOLOGIES.includes(t));
  n.categories=[...new Set([...(Array.isArray(n.categories)?n.categories:[]),...inferred.categories])].filter(t=>THEMES.includes(t));
- const edit=overrides[n.url];
+ const edit=overrides[n.url+'::'+n.title]||overrides[n.url];
  if(edit){
    n.entities=[...new Set([...n.entities,...(edit.entities||[])])];
    n.technologies=edit.technologies||n.technologies;
    n.categories=edit.categories||n.categories;
+   if(typeof edit.importance_score==='number')n.importance_score=edit.importance_score;
+   if(edit.search_text)n.search_text=(n.search_text||'')+' '+edit.search_text;
  }
  n.searchblob=[n.title,n.summary,n.category,n.search_text,edit?.search_text,...n.entities,...n.technologies,...n.categories,n.url].join(' ').toLowerCase();
  return n;
@@ -139,7 +141,7 @@ function weekly(start){
  if(!chosen){$('weekly-main').innerHTML='<div class="empty">No weekly editions are indexed yet.</div>';return}
  let h='<div class="weekly-note"><div class="section-eyebrow" style="margin:0">WEEK OF '+dateLabel(chosen.week_start).toUpperCase()+' — '+dateLabel(chosen.week_end).toUpperCase()+'</div><h3>'+esc(chosen.title)+'</h3><p>'+esc(chosen.overview||'Source-linked nuclear market news for the week.')+'</p><div class="notice">'+(chosen.editorial?'Researched briefing':'Automated source-linked roundup')+' · '+Number(chosen.article_count||0)+' news items</div>';
  for(const s of (chosen.sections||[])){h+='<section class="weekly-sector"><h4>'+esc(s.category)+'</h4><p class="explanation">'+esc(s.takeaway||'')+'</p>';
-  for(const item of (s.items||[])){const a=hydrate(item);h+='<div class="weekly-event"><h5>'+esc(a.title)+'</h5><p>'+esc(a.summary)+'</p>'+tagChips(a)+sourceLinks(a)+'</div>'}
+  for(const item of (s.items||[]).filter(item=>!hidden.has(item.url+'::'+item.title))){const a=hydrate(item);h+='<div class="weekly-event"><h5>'+esc(a.title)+'</h5><p>'+esc(a.summary)+'</p>'+tagChips(a)+sourceLinks(a)+'</div>'}
   h+='</section>';
  } h+='</div>';$('weekly-main').innerHTML=h;
 }
@@ -163,8 +165,9 @@ async function start(){
  try{
   const [news,weeklyData,edits]=await Promise.all([fetchJson('data/articles.json'),fetchJson('data/briefings.json').catch(()=>({briefings:[]})),fetchJson('data/editorial_overrides.json').catch(()=>({articles:{}}))]);
   overrides=edits.articles||{};
+  hidden=new Set(edits.hidden||[]);
   metadata=Array.isArray(news)?{}:news;
-  articles=(Array.isArray(news)?news:news.articles||[]).filter(a=>a.date&&a.title&&a.url).map(hydrate).sort((a,b)=>b.date.localeCompare(a.date)||a.title.localeCompare(b.title));
+  articles=(Array.isArray(news)?news:news.articles||[]).filter(a=>a.date&&a.title&&a.url&&!hidden.has(a.url+'::'+a.title)).map(hydrate).sort((a,b)=>b.date.localeCompare(a.date)||a.title.localeCompare(b.title));
   briefings=loadBriefings(weeklyData);
   renderNav();initEvents();updateView();
  }catch(e){$('archive-content').innerHTML='<div class="empty">The archive could not load. Please refresh the page. '+esc(e.message)+'</div>';console.error(e);}
