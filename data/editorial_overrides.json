@@ -1,0 +1,49 @@
+{
+  "notes": "Source-specific correction and duplicate suppression. Since Neutron Bytes bundles many developments under one permalink, corrections MUST be keyed by permalink + title, never permalink alone.",
+  "hidden": [
+    "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/::Deployable Energy Selected to Test Its Nuclear Battery at NIRC’s DOME",
+    "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/::Can the U.S Super Sized Nuclear Deal with South Korea Work?",
+    "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/::Google’s 20-Year $4.3 Billion Deal for Nuclear Power",
+    "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/::DOE Inks $4.2 Billion Loan to Nuclear Power Plants in Ohio and Pennsylvania",
+    "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/::BWXT’s BANR Microreactor Selected for Canadian Project",
+    "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/::Type One Energy Completes $200M Series B Financing",
+    "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/::MARVEL Reactor Hit Key Milestones",
+    "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/::Kairos Lands $643M for Hermes 2 Reactor in Tennessee",
+    "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/::Joint Venture Formed for a Six-Unit SMR Plant in Poland",
+    "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/::& & & Bluecore Energy Secures Uranium for 10 MW Floating SMR",
+    "https://neutronbytes.com/2026/10/16/kairos-lands-643m-for-hermes-2-reactor-in-tennessee/::NRC Updates AP1000 Design Certification, Streamlines Future Reactor Licensing",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::“Commercial” is a Defined Term, not a Marketing Term",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::Force Two: Capital and Supply Chain constraints",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::The Question I Cannot Stop Circling",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::More Paper Reactors Than this Industry has Ever Had",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::The Four Forces that Decide Whether a Reactor Gets Built",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::Force One: Regulatory Credibility",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::Force Three: Organizational Maturity",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::Force Four: Operations and Maintenance",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::Not Short on Entrants. Short on Conversions",
+    "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/::Notes and References",
+    "https://neutronbytes.com/2026/10/08/how-westinghouse-and-korea-carve-up-the-nuclear-reactor-export-market/::how westinghouse and korea carve up the nuclear reactor export market",
+    "https://neutronbytes.com/2026/10/08/how-westinghouse-and-korea-carve-up-the-nuclear-reactor-export-market/::# # #",
+    "https://neutronbytes.com/2026/10/01/west-virginia-cancels-its-bid-to-be-a-doe-lifecycle-campus/::west virginia cancels its bid to be a doe lifecycle campus"
+  ],
+  "articles": {
+    "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/::Amazon and Constellation sign 20-year, 690 MW Calvert Cliffs PPA": {
+      "technologies": [
+        "Traditional fission"
+      ],
+      "categories": [
+        "Offtakes & customers",
+        "Restarts & uprates",
+        "Capital & financing"
+      ],
+      "entities": [
+        "Constellation Energy",
+        "Amazon",
+        "Calvert Cliffs",
+        "PJM Interconnection"
+      ],
+      "importance_score": 93,
+      "search_text": "Amazon Constellation 20-year nuclear PPA 690 MW 190 MW Calvert Cliffs $3 billion investment capacity uprate rel licensing"
+    }
+  }
+}
