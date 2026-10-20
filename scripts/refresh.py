@@ -252,7 +252,7 @@ def main():
         if u not in paths:paths.insert(0,u)
     # Keep prior URLs in the census; removes dependence on current RSS pagination.
     old_urls=set(a["url"] for a in old if a.get("url"))
-    never_before=[u for u in paths if u not in old_urls and START<=date_url(u)<=END]
+    never_before=[u for u in paths if u not in old_urls and date_url(u) is not None and START<=date_url(u)<=END]
     # Reprocess a rolling window of recent posts to detect NEW sub-stories or edits.
     recent=[u for u in paths if date_url(u) and date_url(u)>=TODAY-dt.timedelta(days=75)]
     todo=list(dict.fromkeys(recent+never_before))[:MAX_PER_RUN]
