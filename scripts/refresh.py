@@ -89,11 +89,25 @@ def source_links(nodes,original):
 def sections_from_html(body, post_url, date, post_title):
     """Treat top-level h2s as separate news sections; retain subheading content."""
     headings=body.find_all("h2")
+    # A genuine multi-story roundup has a table-of-contents list matching its
+    # story headings. Never mistake every h2 in a guest essay for another event.
+    sections=[]
+    for ul in body.find_all("ul",limit=7):
+        candidates=[short(li.get_text(" ",strip=True),150) for li in ul.find_all("li",recursive=False)]
+        candidates=[x for x in candidates if 12<=len(x)<=150]
+        matched=[]
+        for heading in headings:
+            hn=title_norm(heading.get_text(" ",strip=True))
+            if any(SequenceMatcher(None,hn,title_norm(entry)).ratio()>=.74 for entry in candidates):
+                matched.append(heading)
+        if len(matched)>=2:
+            sections=matched
+            break
     results=[]
-    for i,h in enumerate(headings):
+    for i,h in enumerate(sections):
         name=short(h.get_text(" ",strip=True),150)
         if not (10<=len(name)<=150):continue
-        if re.search(r"^(analysis|about the author|references|footnotes|sources|support|subscribe|comment|read more|like this|related)\b",name,re.I):
+        if re.search(r"^(analysis|can the |about the author|references|footnotes|sources|support|subscribe|comment|read more|like this|related)\b",name,re.I):
             continue
         parts=[];links=[]
         for sibling in h.next_elements:
@@ -264,8 +278,26 @@ def main():
         for sub in pool.map(parse_post,todo):
             for story in sub:
                 if merge_one(existing,story):n+=1
-    rows=list(existing.values())
-    for a in rows:enrich_record(a)
+    curated=load_json(DATA/"editorial_overrides.json",{})
+    suppressed=set(curated.get("hidden",[]))
+    corrections=curated.get("articles",{})
+    rows=[]
+    for a in existing.values():
+        k=a.get("url","")+"::"+a.get("title","")
+        if k in suppressed:continue
+        correction=corrections.get(k,{})
+        if correction:
+            a["entities"]=list(dict.fromkeys((a.get("entities") or [])+(correction.get("entities") or [])))
+            a["categories"]=correction.get("categories",a.get("categories",[]))
+            a["technologies"]=correction.get("technologies",a.get("technologies",[]))
+            a["importance_score"]=max(a.get("importance_score",0),correction.get("importance_score",0))
+            a["editorial"]=True
+        enrich_record(a)
+        if correction:
+            a["categories"]=correction.get("categories",a.get("categories",[]))
+            a["technologies"]=correction.get("technologies",a.get("technologies",[]))
+            a["importance_score"]=max(a.get("importance_score",0),correction.get("importance_score",0))
+        rows.append(a)
     rows.sort(key=lambda x:(x["date"],x.get("importance_score",0)),reverse=True)
     archive_path.write_text(json.dumps({"updated_at":TODAY.isoformat(),
       "methodology":"Neutron Bytes dated category archive plus RSS cross-check; individual h2 news sections extracted; no article score cutoff. Subsequent runs continue unfinished 2020–2026 reconciliation.",
