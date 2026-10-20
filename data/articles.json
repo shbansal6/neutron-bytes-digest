@@ -308,30 +308,8 @@
     },
     {
       "date": "2026-10-15",
-      "title": "Other Oct. 9 reactor and fusion milestones.",
-      "category": "Fusion & research",
-      "summary": "In the same digest NB reported technical milestones for INL's MARVEL microreactor , Zap Energy's fusion capacitor prototype and an additional $30.5 million DOE award to Xcimer Energy . Treat progress toward criticality, engineering-prototype approval and fusion milestone funding as separate developments.",
-      "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
-      "links": [],
-      "source": "Neutron Bytes",
-      "entities": [
-        "US Department of Energy"
-      ],
-      "technologies": [
-        "Microreactors",
-        "Fusion"
-      ],
-      "categories": [
-        "Construction & licensing",
-        "Capital & financing"
-      ],
-      "search_text": "US Department of Energy Other Oct. 9 reactor and fusion milestones. In the same digest NB reported technical milestones for INL's MARVEL microreactor , Zap Energy's fusion capacitor prototype and an additional $30.5 million DOE award to Xcimer Energy . Treat progress toward criticality, engineering-prototype approval and fusion milestone funding as separate developments.",
-      "importance_score": 32
-    },
-    {
-      "date": "2026-10-15",
-      "title": "# # #",
-      "source_heading": "# # #",
+      "title": "Institutional, Not Neutronic: Why Advanced Reactors Actually Get Built, or Don’t",
+      "source_heading": "Institutional, Not Neutronic: Why Advanced Reactors Actually Get Built, or Don’t",
       "summary": "Guest Column to Neutron Bytes by: Sarah Gibboney, P.E., Founder & CEO Gibboney Nuclear, PLLC . There is an old management parable about primates in an enclosure and a pole with a bunch of bananas. 1 Every animal that climbs up the pole to score of the bananas gets shocked. Eventually the power is cut and new animals are introduced, ones who have never felt the current. The veterans pull them down anyway even though the banana pole is no longer carrying live electricity, because the…",
       "category": "Other nuclear",
       "url": "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/",
@@ -357,7 +335,7 @@
         "Traditional fission"
       ],
       "categories": [],
-      "search_text": "US Nuclear Regulatory Commission # # # Guest Column to Neutron Bytes by: Sarah Gibboney, P.E., Founder & CEO Gibboney Nuclear, PLLC . There is an old management parable about primates in an enclosure and a pole with a bunch of bananas. 1 Every animal that climbs up the pole to score of the bananas gets shocked. Eventually the power is cut and new animals are introduced, ones who have never felt the current. The veterans pull them down anyway even though the banana pole is no longer carrying live electricity, because the…",
+      "search_text": "US Nuclear Regulatory Commission Institutional, Not Neutronic: Why Advanced Reactors Actually Get Built, or Don’t Guest Column to Neutron Bytes by: Sarah Gibboney, P.E., Founder & CEO Gibboney Nuclear, PLLC . There is an old management parable about primates in an enclosure and a pole with a bunch of bananas. 1 Every animal that climbs up the pole to score of the bananas gets shocked. Eventually the power is cut and new animals are introduced, ones who have never felt the current. The veterans pull them down anyway even though the banana pole is no longer carrying live electricity, because the…",
       "importance_score": 10
     },
     {
@@ -378,70 +356,6 @@
         "Policy & international"
       ],
       "search_text": "NASA lunar-fission debate NB critiqued a New York Times report on nuclear reactors for lunar missions, contrasting U.S., Chinese and Russian timelines, proposed ~100 kWe-class lunar surface systems, remote siting and HALEU fuel constraints. This is principally analysis of proposed technology and risk , not a new funded commercial nuclear plant.",
-      "importance_score": 10
-    },
-    {
-      "date": "2026-10-10",
-      "title": "Where the NYT Missed a Few Facts About Nuclear Reactors on the Moon",
-      "source_heading": "Where the NYT Missed a Few Facts About Nuclear Reactors on the Moon",
-      "summary": "The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2026/10/10/a-few-beers-short-of-a-six-pack-where-the-new-york-times-missed-a-few-facts-about-nuclear-reactors-on-the-moon/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "reports",
-          "url": "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html?smid=nytcore-ios-share"
-        },
-        {
-          "label": "lunar ice exists",
-          "url": "https://science.nasa.gov/moon/moon-water-and-ices/"
-        },
-        {
-          "label": "Edwin Lyman,",
-          "url": "https://www.ucs.org/about/people/edwin-lyman"
-        }
-      ],
-      "entities": [
-        "US Department of Energy"
-      ],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [],
-      "search_text": "US Department of Energy Where the NYT Missed a Few Facts About Nuclear Reactors on the Moon The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
-      "importance_score": 10
-    },
-    {
-      "date": "2026-10-10",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2026/10/10/a-few-beers-short-of-a-six-pack-where-the-new-york-times-missed-a-few-facts-about-nuclear-reactors-on-the-moon/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "reports",
-          "url": "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html?smid=nytcore-ios-share"
-        },
-        {
-          "label": "lunar ice exists",
-          "url": "https://science.nasa.gov/moon/moon-water-and-ices/"
-        },
-        {
-          "label": "Edwin Lyman,",
-          "url": "https://www.ucs.org/about/people/edwin-lyman"
-        }
-      ],
-      "entities": [
-        "US Department of Energy"
-      ],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [],
-      "search_text": "US Department of Energy # # # The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
       "importance_score": 10
     },
     {
@@ -682,8 +596,8 @@
     },
     {
       "date": "2026-10-08",
-      "title": "# # #",
-      "source_heading": "# # #",
+      "title": "Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses",
+      "source_heading": "Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses",
       "summary": "In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
       "category": "Other nuclear",
       "url": "https://neutronbytes.com/2026/10/08/qa-with-the-nuclear-innovation-alliance-keeping-track-of-microreactors-for-military-uses/",
@@ -709,8 +623,40 @@
         "Microreactors"
       ],
       "categories": [],
-      "search_text": "US Nuclear Regulatory Commission # # # In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
+      "search_text": "US Nuclear Regulatory Commission Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
       "importance_score": 22
+    },
+    {
+      "date": "2026-10-08",
+      "title": "How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market",
+      "source_heading": "How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market",
+      "summary": "Guest Blog Post for Neutron Bytes by: Elliot Marsh, NeutronRise In January 2025, Westinghouse, Korea Electric Power Corporation and Korea Hydro and Nuclear Power announced a global settlement that ended years of litigation over reactor technology. Westinghouse framed the deal as a path to future cooperation on new nuclear projects worldwide.",
+      "category": "Other nuclear",
+      "url": "https://neutronbytes.com/2026/10/08/how-westinghouse-and-korea-carve-up-the-nuclear-reactor-export-market/",
+      "source": "Neutron Bytes",
+      "links": [
+        {
+          "label": "NeutronRise",
+          "url": "https://neutronrise.com/"
+        },
+        {
+          "label": "global settlement",
+          "url": "https://info.westinghousenuclear.com/news/westinghouse-announces-global-settlement-agreement-with-kepco-and-khnp"
+        },
+        {
+          "label": "agreed to a non-binding framework",
+          "url": "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/"
+        }
+      ],
+      "entities": [
+        "Westinghouse"
+      ],
+      "technologies": [
+        "Traditional fission"
+      ],
+      "categories": [],
+      "search_text": "Westinghouse How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market Guest Blog Post for Neutron Bytes by: Elliot Marsh, NeutronRise In January 2025, Westinghouse, Korea Electric Power Corporation and Korea Hydro and Nuclear Power announced a global settlement that ended years of litigation over reactor technology. Westinghouse framed the deal as a path to future cooperation on new nuclear projects worldwide.",
+      "importance_score": 20
     },
     {
       "date": "2026-10-02",
@@ -1020,6 +966,38 @@
       "links": []
     },
     {
+      "date": "2026-10-01",
+      "title": "West Virginia Cancels Its Bid to be a DOE Lifecycle Campus",
+      "source_heading": "West Virginia Cancels Its Bid to be a DOE Lifecycle Campus",
+      "summary": "In a stunning case of first you see them now you don’t, the State of West Virginia sent a letter on 09/30/26 to the U.S. Department of Energy cancelling its proposal sent earlier in September to be the sixth participant in the agency’s Nuclear Lifecycle Innovation Campus Program (NLIC). The news was first reported by the Charleston, WV, based Charleston Gazette-Mail. Apparently, West Virginia Governor Patrick Morrisey and the state’s Office of Energy Director Nicholas Preservati did…",
+      "category": "Other nuclear",
+      "url": "https://neutronbytes.com/2026/10/01/west-virginia-cancels-its-bid-to-be-a-doe-lifecycle-campus/",
+      "source": "Neutron Bytes",
+      "links": [
+        {
+          "label": "first reported",
+          "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-touted-ability-to-fast-track-permits-listed-potential-sites-in-nuclear-campus-bid/article_eb9cdf83-0134-4c58-a65c-3d1ef7fe93c3.html"
+        },
+        {
+          "label": "West Virginia Governor Patrick Morrisey",
+          "url": "https://governor.wv.gov/"
+        },
+        {
+          "label": "report",
+          "url": "https://static1.squarespace.com/static/55c4c892e4b0d1ec35bc5efb/t/6a6a304aac8cee4d6ee10116/1785344074221/ECA+Guide+on+Nuclear+Lifecycle+Innovation+Campuses.pdf"
+        }
+      ],
+      "entities": [
+        "US Department of Energy"
+      ],
+      "technologies": [
+        "Traditional fission"
+      ],
+      "categories": [],
+      "search_text": "US Department of Energy West Virginia Cancels Its Bid to be a DOE Lifecycle Campus In a stunning case of first you see them now you don’t, the State of West Virginia sent a letter on 09/30/26 to the U.S. Department of Energy cancelling its proposal sent earlier in September to be the sixth participant in the agency’s Nuclear Lifecycle Innovation Campus Program (NLIC). The news was first reported by the Charleston, WV, based Charleston Gazette-Mail. Apparently, West Virginia Governor Patrick Morrisey and the state’s Office of Energy Director Nicholas Preservati did…",
+      "importance_score": 20
+    },
+    {
       "date": "2026-09-30",
       "title": "NRC Approves Construction of Nation’s First Small Modular Reactor",
       "source_heading": "NRC Approves Construction of Nation’s First Small Modular Reactor",
@@ -1078,8 +1056,8 @@
     },
     {
       "date": "2026-09-30",
-      "title": "# # #",
-      "source_heading": "# # #",
+      "title": "Calif Gov Newsom Signs Bills to Accelerate Fusion and Fission",
+      "source_heading": "Calif Gov Newsom Signs Bills to Accelerate Fusion and Fission",
       "summary": "Californian Governor Gavin Newsom has signed new legislation to accelerate the development of nuclear fission, nuclear fusion, and quantum computing industries in California — paired with a $30 million investment to strengthen California’s position as the nation’s leader in these energy technologies. Standing alongside faculty and staff at a quantum lab at UC Berkeley, Governor Newsom announced he has signed legislation to accelerate the development of quantum and fusion energy in…",
       "category": "Other nuclear",
       "url": "https://neutronbytes.com/2026/09/30/calif-gov-newsom-signs-bills-to-accelerate-fusion-and-fission/",
@@ -1105,7 +1083,7 @@
       "categories": [
         "Capital & financing"
       ],
-      "search_text": "# # # Californian Governor Gavin Newsom has signed new legislation to accelerate the development of nuclear fission, nuclear fusion, and quantum computing industries in California — paired with a $30 million investment to strengthen California’s position as the nation’s leader in these energy technologies. Standing alongside faculty and staff at a quantum lab at UC Berkeley, Governor Newsom announced he has signed legislation to accelerate the development of quantum and fusion energy in…",
+      "search_text": "Calif Gov Newsom Signs Bills to Accelerate Fusion and Fission Californian Governor Gavin Newsom has signed new legislation to accelerate the development of nuclear fission, nuclear fusion, and quantum computing industries in California — paired with a $30 million investment to strengthen California’s position as the nation’s leader in these energy technologies. Standing alongside faculty and staff at a quantum lab at UC Berkeley, Governor Newsom announced he has signed legislation to accelerate the development of quantum and fusion energy in…",
       "importance_score": 40
     },
     {
@@ -1167,8 +1145,8 @@
     },
     {
       "date": "2026-09-30",
-      "title": "# # #",
-      "source_heading": "# # #",
+      "title": "NRC Construction Permit to TVA for BWRX-300",
+      "source_heading": "NRC Construction Permit to TVA for BWRX-300",
       "summary": "The Tennessee Valley Authority ( TVA ) achieved a nationally significant milestone in America’s nuclear energy future with the U.S. Nuclear Regulatory Commission’s (NRC) issuing the construction permit for Clinch River Unit 1, a GE Vernova Hitachi Nuclear Energy BWRX-300 small modular reactor (SMR), at TVA’s Clinch River Nuclear Site near Oak Ridge, TN. No construction date has been announced, however TVA said in its press statement, “TVA continues negotiations with industry partners…",
       "category": "Other nuclear",
       "url": "https://neutronbytes.com/2026/09/30/nrc-construction-permit-to-tva-for-bwrx-300/",
@@ -1203,7 +1181,7 @@
         "Construction & licensing",
         "Policy & international"
       ],
-      "search_text": "GE Vernova X-energy Tennessee Valley Authority US Nuclear Regulatory Commission TerraPower NuScale BWRX-300 # # # The Tennessee Valley Authority ( TVA ) achieved a nationally significant milestone in America’s nuclear energy future with the U.S. Nuclear Regulatory Commission’s (NRC) issuing the construction permit for Clinch River Unit 1, a GE Vernova Hitachi Nuclear Energy BWRX-300 small modular reactor (SMR), at TVA’s Clinch River Nuclear Site near Oak Ridge, TN. No construction date has been announced, however TVA said in its press statement, “TVA continues negotiations with industry partners…",
+      "search_text": "GE Vernova X-energy Tennessee Valley Authority US Nuclear Regulatory Commission TerraPower NuScale BWRX-300 NRC Construction Permit to TVA for BWRX-300 The Tennessee Valley Authority ( TVA ) achieved a nationally significant milestone in America’s nuclear energy future with the U.S. Nuclear Regulatory Commission’s (NRC) issuing the construction permit for Clinch River Unit 1, a GE Vernova Hitachi Nuclear Energy BWRX-300 small modular reactor (SMR), at TVA’s Clinch River Nuclear Site near Oak Ridge, TN. No construction date has been announced, however TVA said in its press statement, “TVA continues negotiations with industry partners…",
       "importance_score": 20
     },
     {
@@ -1898,8 +1876,8 @@
     },
     {
       "date": "2026-09-14",
-      "title": "# # #",
-      "source_heading": "# # #",
+      "title": "U.S. Investor Ezra Garnder Sees AI Driving SMRs for Israel",
+      "source_heading": "U.S. Investor Ezra Garnder Sees AI Driving SMRs for Israel",
       "summary": "( YnetNews ) A proposed US-run nuclear and technology complex in the Negev could power data centers and chip production, but investor Ezra Gardner says Israel is delaying the deal over concerns it would lose control of the site. “If you and I stepped into a time machine right now and traveled 20 years into the future, we would see the State of Israel powered by nuclear energy, with data centers everywhere,” Ezra Gardner told the Energya website.",
       "category": "Other nuclear",
       "url": "https://neutronbytes.com/2026/09/14/u-s-investor-ezra-garnder-sees-ai-driving-smrs-for-israel/",
@@ -1925,7 +1903,7 @@
       "categories": [
         "Capital & financing"
       ],
-      "search_text": "# # # ( YnetNews ) A proposed US-run nuclear and technology complex in the Negev could power data centers and chip production, but investor Ezra Gardner says Israel is delaying the deal over concerns it would lose control of the site. “If you and I stepped into a time machine right now and traveled 20 years into the future, we would see the State of Israel powered by nuclear energy, with data centers everywhere,” Ezra Gardner told the Energya website.",
+      "search_text": "U.S. Investor Ezra Garnder Sees AI Driving SMRs for Israel ( YnetNews ) A proposed US-run nuclear and technology complex in the Negev could power data centers and chip production, but investor Ezra Gardner says Israel is delaying the deal over concerns it would lose control of the site. “If you and I stepped into a time machine right now and traveled 20 years into the future, we would see the State of Israel powered by nuclear energy, with data centers everywhere,” Ezra Gardner told the Energya website.",
       "importance_score": 10
     },
     {
@@ -2775,7 +2753,7 @@
     {
       "date": "2026-08-31",
       "title": "inside the nric launch pad progam and the scope of work for each company in it",
-      "source_heading": "inside the nric launch pad progam and the scope of work for each company in it",
+      "source_heading": "Inside the NRIC Launch Pad Program and the Scope of Work for Each Company in It.",
       "summary": "The U.S. The Department of Energy’s National Reactor Innovation Center (NRIC), located at Idaho National Laboratory, announced 13 new projects on 08/24/26 were selected to participate in the Nuclear Energy Launch Pad initiative. The questions inquiring minds want answered are what are these 12 firms (13 projects) actually doing as part of the Launch Pad program and how does the scope of work for each firm tie into the mandated milestones from the Department of Energy as evidence of…",
       "category": "Other nuclear",
       "url": "https://neutronbytes.com/2026/08/31/inside-the-nric-launch-pad-progam-and-the-scope-of-work-for-each-company-in-it/",
@@ -3377,8 +3355,8 @@
     },
     {
       "date": "2026-08-17",
-      "title": "# # #",
-      "source_heading": "# # #",
+      "title": "OPINION: A Compass Reading on the Direction of the Nuclear Renaissance",
+      "source_heading": "OPINION: A Compass Reading on the Direction of the Nuclear Renaissance",
       "summary": "In the range of sizes of nuclear reactors that are needed for a true nuclear renaissance they will come in three sizes. To use visual metaphors, size one, the microreactors at 1-15 MW, are no bigger than a breadbox. Size two, the small modular reactors at 50-300 MW are no bigger than a Buick. Size 3, the big iron plants at 1000 MW or more, are definitely bigger than a barn. If one adds up the combined claims of microreactor developers in terms of actual power generation capacity, at…",
       "category": "Other nuclear",
       "url": "https://neutronbytes.com/2026/08/17/opinion-a-compass-reading-on-the-direction-of-the-nuclear-renaissance/",
@@ -3405,8 +3383,8 @@
         "Microreactors"
       ],
       "categories": [],
-      "search_text": "US Department of Energy Westinghouse # # # In the range of sizes of nuclear reactors that are needed for a true nuclear renaissance they will come in three sizes. To use visual metaphors, size one, the microreactors at 1-15 MW, are no bigger than a breadbox. Size two, the small modular reactors at 50-300 MW are no bigger than a Buick. Size 3, the big iron plants at 1000 MW or more, are definitely bigger than a barn. If one adds up the combined claims of microreactor developers in terms of actual power generation capacity, at…",
-      "importance_score": 23
+      "search_text": "US Department of Energy Westinghouse OPINION: A Compass Reading on the Direction of the Nuclear Renaissance In the range of sizes of nuclear reactors that are needed for a true nuclear renaissance they will come in three sizes. To use visual metaphors, size one, the microreactors at 1-15 MW, are no bigger than a breadbox. Size two, the small modular reactors at 50-300 MW are no bigger than a Buick. Size 3, the big iron plants at 1000 MW or more, are definitely bigger than a barn. If one adds up the combined claims of microreactor developers in terms of actual power generation capacity, at…",
+      "importance_score": 11
     },
     {
       "date": "2026-08-15",
@@ -3732,6 +3710,41 @@
     },
     {
       "date": "2026-08-12",
+      "title": "Transporting HALEU is a Key Milestone on the Critical Path for Startup of Advanced Reactors",
+      "source_heading": "Transporting HALEU is a Key Milestone on the Critical Path for Startup of Advanced Reactors",
+      "summary": "This past spring, a microreactor designed and built by Deployable Energy arrived at Idaho National Laboratory (INL) on the bed of an F-150 pickup. On June 30, two months later, the device reached criticality. The image made the rounds of social media, a micro power reactor delivered like a job site generator and it is a fair symbol of where microreactors are headed as transportable sources of reliable power. But the detail that matters most is the one the photo doesn’t show: the fuel…",
+      "category": "Other nuclear",
+      "url": "https://neutronbytes.com/2026/08/12/transporting-haleu-is-a-key-milestone-on-the-critical-path-for-startup-of-advanced-reactors/",
+      "source": "Neutron Bytes",
+      "links": [
+        {
+          "label": "NeutronRise",
+          "url": "https://neutronrise.com/"
+        },
+        {
+          "label": "Deployable Energy",
+          "url": "https://www.deployable.energy/"
+        },
+        {
+          "label": "the device reached criticality.",
+          "url": "https://www.powermag.com/deployable-energys-unity-nuclear-reactor-achieves-criticality-at-inl-third-under-doe-nuclear-push/"
+        }
+      ],
+      "entities": [
+        "US Nuclear Regulatory Commission"
+      ],
+      "technologies": [
+        "Microreactors"
+      ],
+      "categories": [
+        "Construction & licensing",
+        "Fuel & supply chain"
+      ],
+      "search_text": "US Nuclear Regulatory Commission Transporting HALEU is a Key Milestone on the Critical Path for Startup of Advanced Reactors This past spring, a microreactor designed and built by Deployable Energy arrived at Idaho National Laboratory (INL) on the bed of an F-150 pickup. On June 30, two months later, the device reached criticality. The image made the rounds of social media, a micro power reactor delivered like a job site generator and it is a fair symbol of where microreactors are headed as transportable sources of reliable power. But the detail that matters most is the one the photo doesn’t show: the fuel…",
+      "importance_score": 15
+    },
+    {
+      "date": "2026-08-12",
       "title": "The Bottom Line",
       "source_heading": "The Bottom Line",
       "summary": "The public pictures nuclear transport as a shielding problem, heavy casks, glowing hazards. For fresh HALEU fuel it is almost the opposite. The material is manageable to be near, and the hard part is proving, on paper and to a regulator, that it stays subcritical in a box and in a form and nobody has fully benchmarked either of them yet. That proof sits on the critical path to first criticality, and then on the critical path to every refueling after it. The reactor may arrive on a…",
@@ -3764,43 +3777,9 @@
       "importance_score": 10
     },
     {
-      "date": "2026-08-12",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "This past spring, a microreactor designed and built by Deployable Energy arrived at Idaho National Laboratory (INL) on the bed of an F-150 pickup. On June 30, two months later, the device reached criticality. The image made the rounds of social media, a micro power reactor delivered like a job site generator and it is a fair symbol of where microreactors are headed as transportable sources of reliable power. But the detail that matters most is the one the photo doesn’t show: the fuel…",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2026/08/12/transporting-haleu-is-a-key-milestone-on-the-critical-path-for-startup-of-advanced-reactors/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "NeutronRise",
-          "url": "https://neutronrise.com/"
-        },
-        {
-          "label": "Deployable Energy",
-          "url": "https://www.deployable.energy/"
-        },
-        {
-          "label": "the device reached criticality.",
-          "url": "https://www.powermag.com/deployable-energys-unity-nuclear-reactor-achieves-criticality-at-inl-third-under-doe-nuclear-push/"
-        }
-      ],
-      "entities": [
-        "US Nuclear Regulatory Commission"
-      ],
-      "technologies": [
-        "Microreactors"
-      ],
-      "categories": [
-        "Construction & licensing"
-      ],
-      "search_text": "US Nuclear Regulatory Commission # # # This past spring, a microreactor designed and built by Deployable Energy arrived at Idaho National Laboratory (INL) on the bed of an F-150 pickup. On June 30, two months later, the device reached criticality. The image made the rounds of social media, a micro power reactor delivered like a job site generator and it is a fair symbol of where microreactors are headed as transportable sources of reliable power. But the detail that matters most is the one the photo doesn’t show: the fuel…",
-      "importance_score": 10
-    },
-    {
       "date": "2026-08-11",
-      "title": "# # #",
-      "source_heading": "# # #",
+      "title": "Inside Three-Mile Island’s Quest to Clear Restart Hurdles",
+      "source_heading": "Inside Three-Mile Island’s Quest to Clear Restart Hurdles",
       "summary": "Restarting a Nuclear Reactor: Three-Mile Island’s Workforce and Legal Challenges Guest Blog Post by : Elliot Marsh, NeutronRise This is a summary of the full report. Full text of the report https://neutronrise.com/can-you-restart-a-nuclear-reactor/",
       "category": "Other nuclear",
       "url": "https://neutronbytes.com/2026/08/11/inside-three-mile-islands-quest-to-clear-restart-hurdles/",
@@ -3831,13 +3810,13 @@
       "categories": [
         "Restarts & uprates"
       ],
-      "search_text": "Constellation Energy Microsoft US Nuclear Regulatory Commission Palisades # # # Restarting a Nuclear Reactor: Three-Mile Island’s Workforce and Legal Challenges Guest Blog Post by : Elliot Marsh, NeutronRise This is a summary of the full report. Full text of the report https://neutronrise.com/can-you-restart-a-nuclear-reactor/",
+      "search_text": "Constellation Energy Microsoft US Nuclear Regulatory Commission Palisades Inside Three-Mile Island’s Quest to Clear Restart Hurdles Restarting a Nuclear Reactor: Three-Mile Island’s Workforce and Legal Challenges Guest Blog Post by : Elliot Marsh, NeutronRise This is a summary of the full report. Full text of the report https://neutronrise.com/can-you-restart-a-nuclear-reactor/",
       "importance_score": 30
     },
     {
       "date": "2026-08-11",
-      "title": "# # #",
-      "source_heading": "# # #",
+      "title": "Atomic Comic ~ Add Water and Microwave",
+      "source_heading": "Atomic Comic ~ Add Water and Microwave",
       "summary": "Vaibhav Sinha, Ph.D ., who holds this degree in nuclear engineering from Missouri University of Science and Technology, has created a vibrant cartoon series called “ Nuclear Fun Hub ” and is posting the cartoons on Linkedin. He has graciously allowed Neutron Bytes to post some of his humorous and informative creations with entertain and educate readers on a wide variety of nuclear energy topics. From time-to-time Neutron Bytes will post as a stand alone message one of his amazingly…",
       "category": "Other nuclear",
       "url": "https://neutronbytes.com/2026/08/11/atomic-comic-for-08-11-26/",
@@ -3848,7 +3827,7 @@
         "Traditional fission"
       ],
       "categories": [],
-      "search_text": "# # # Vaibhav Sinha, Ph.D ., who holds this degree in nuclear engineering from Missouri University of Science and Technology, has created a vibrant cartoon series called “ Nuclear Fun Hub ” and is posting the cartoons on Linkedin. He has graciously allowed Neutron Bytes to post some of his humorous and informative creations with entertain and educate readers on a wide variety of nuclear energy topics. From time-to-time Neutron Bytes will post as a stand alone message one of his amazingly…",
+      "search_text": "Atomic Comic ~ Add Water and Microwave Vaibhav Sinha, Ph.D ., who holds this degree in nuclear engineering from Missouri University of Science and Technology, has created a vibrant cartoon series called “ Nuclear Fun Hub ” and is posting the cartoons on Linkedin. He has graciously allowed Neutron Bytes to post some of his humorous and informative creations with entertain and educate readers on a wide variety of nuclear energy topics. From time-to-time Neutron Bytes will post as a stand alone message one of his amazingly…",
       "importance_score": 10
     },
     {
@@ -4685,62 +4664,6 @@
       ],
       "search_text": "Idaho Advanced Energy Consortium Lands $40M for Nuclear Realated Economic Development in Idao and Wyoming The Idaho Advanced Energy Consortium (IAEC) announced that the U.S. Department of Commerce’s Economic Development Administration (EDA) has awarded the Intermountain-west Nuclear Energy Corridor (INEC) Tech Hub $31 million in Implementation Funding. Combined with matching contributions from INEC’s 45+ stakeholder partners, the award brings more than $40 million to the Idaho-Wyoming region. “The Tech Hub designation and funding award reflects the strength of our entire IAEC membership,”…",
       "importance_score": 22
-    },
-    {
-      "date": "2026-07-24",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "For decades cartoon humor about nuclear energy was often linked to a TV show called the ‘The Simpsons.” According to the profile in Wikipedia , The Simpsons was a satirical depiction of American life, epitomized by the Simpson family, which consists of Homer, Marge, Bart, Lisa, and Maggie. Set in the fictional town of Springfield, in an unspecified location in the United States, it caricatures society, Western culture, television, and the human condition. Widely regarded as one of the…",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2026/07/24/neutron-bytes-adds-atomic-comics/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "profile in Wikipedia",
-          "url": "https://en.wikipedia.org/wiki/The_Simpsons"
-        }
-      ],
-      "entities": [],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [],
-      "search_text": "# # # For decades cartoon humor about nuclear energy was often linked to a TV show called the ‘The Simpsons.” According to the profile in Wikipedia , The Simpsons was a satirical depiction of American life, epitomized by the Simpson family, which consists of Homer, Marge, Bart, Lisa, and Maggie. Set in the fictional town of Springfield, in an unspecified location in the United States, it caricatures society, Western culture, television, and the human condition. Widely regarded as one of the…",
-      "importance_score": 10
-    },
-    {
-      "date": "2026-07-22",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "The New York Times in extensive coverage reported that the Trump administration plans to announce a broad nuclear agreement—known as a 123 Agreement —with Saudi Arabia. Last week CNN reported that the nuclear deal was “in limbo.” The deal was first reported on Tuesday 7/21 by the Wall Street Journal. The deal establishes a framework for civilian nuclear cooperation, potentially allowing the kingdom to enrich uranium or reprocess plutonium on its own soil following a joint economic…",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2026/07/22/u-s-inks-enrichment-deal-with-saudi-arabia/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "New York Times",
-          "url": "https://www.nytimes.com/2026/07/21/us/politics/trump-saudi-nuclear-deal.html"
-        },
-        {
-          "label": "123 Agreement",
-          "url": "https://www.energy.gov/nnsa/123-agreements-peaceful-cooperation"
-        },
-        {
-          "label": "CNN reported",
-          "url": "https://www.cnn.com/2026/07/18/politics/saudi-arabia-trump-nuclear-enrichment"
-        }
-      ],
-      "entities": [
-        "Westinghouse"
-      ],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [
-        "Fuel & supply chain"
-      ],
-      "search_text": "Westinghouse # # # The New York Times in extensive coverage reported that the Trump administration plans to announce a broad nuclear agreement—known as a 123 Agreement —with Saudi Arabia. Last week CNN reported that the nuclear deal was “in limbo.” The deal was first reported on Tuesday 7/21 by the Wall Street Journal. The deal establishes a framework for civilian nuclear cooperation, potentially allowing the kingdom to enrich uranium or reprocess plutonium on its own soil following a joint economic…",
-      "importance_score": 10
     },
     {
       "date": "2026-07-19",
@@ -7913,37 +7836,6 @@
       ],
       "search_text": "Google Grid connection Requested for Commonwealth Fusion Plant ( WNN ) Commonwealth Fusion Systems has applied to connect its first ARC fusion power plant to PJM Interconnection, the largest US competitive wholesale electricity market. The plant is expected to start up in the early 2030s. Commonwealth Fusion Systems (CFS), a Massachusetts Institute of Technology (MIT) spinout company, said the application is the first-ever request from a grid-scale fusion power plant developer to a major regional transmission organization.",
       "importance_score": 10
-    },
-    {
-      "date": "2026-04-30",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "Zap Energy , a fusion energy startup based in Everett, WA, startled the energy industry this week with an unprecedented announcement that it is doubling down on atomic energy by starting work on a 10 MW sodium cooled advanced reactor in addition to its ongoing work on a fusion energy machine. Accordiong to a report by GeekWire , the company’s approach builds on technology from the Experimental Breeder Reactor-II (EBR-II), developed and tested over decades at the Idaho National…",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2026/04/30/zap-energy-doubles-down-on-fission-and-fusion/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "Zap Energy",
-          "url": "https://www.zapenergy.com/"
-        },
-        {
-          "label": "report by GeekWire",
-          "url": "https://www.geekwire.com/2026/zap-energys-nuclear-double-play-fusion-startup-is-the-first-to-add-traditional-atomic-power-to-its-lineup/"
-        },
-        {
-          "label": "Experimental Breeder Reactor-II",
-          "url": "https://en.wikipedia.org/wiki/Experimental_Breeder_Reactor_II"
-        }
-      ],
-      "entities": [],
-      "technologies": [
-        "Advanced fission",
-        "Fusion"
-      ],
-      "categories": [],
-      "search_text": "# # # Zap Energy , a fusion energy startup based in Everett, WA, startled the energy industry this week with an unprecedented announcement that it is doubling down on atomic energy by starting work on a 10 MW sodium cooled advanced reactor in addition to its ongoing work on a fusion energy machine. Accordiong to a report by GeekWire , the company’s approach builds on technology from the Experimental Breeder Reactor-II (EBR-II), developed and tested over decades at the Idaho National…",
-      "importance_score": 23
     },
     {
       "date": "2026-04-24",
@@ -11317,23 +11209,6 @@
       ],
       "search_text": "Radiant raises more than $300M for microreactor commercialization Radiant reported more than $300 million of new financing, following an earlier $165 million Series C, to scale commercialization of its Kaleidos transportable microreactor and prepare an Oak Ridge factory. This was development equity and a factory plan, not an operational fleet.",
       "importance_score": 22
-    },
-    {
-      "date": "2025-12-21",
-      "title": "# #",
-      "source_heading": "# #",
-      "summary": "Neutron Bytes is taking a break for the holiday period with new posts coming in early January. Gaudete is a sacred Christmas carol, thought to have been composed in the 16th century. It was published in “Piae Cantiones”, a collection of Finnish/Swedish sacred songs published in 1581. No music is given for the verses, but the standard tune comes from older liturgical books.",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2025/12/21/neutron-bytes-will-be-off-for-the-holidays-4/",
-      "source": "Neutron Bytes",
-      "links": [],
-      "entities": [],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [],
-      "search_text": "# # Neutron Bytes is taking a break for the holiday period with new posts coming in early January. Gaudete is a sacred Christmas carol, thought to have been composed in the 16th century. It was published in “Piae Cantiones”, a collection of Finnish/Swedish sacred songs published in 1581. No music is given for the verses, but the standard tune comes from older liturgical books.",
-      "importance_score": 10
     },
     {
       "date": "2025-12-19",
@@ -15563,39 +15438,6 @@
       "importance_score": 23
     },
     {
-      "date": "2025-07-29",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "The General Accounting Office (GAO), with the assistance of the National Academy of Sciences (NAS), is examining the legal and regulatory framework for the Department of Energy’s (DOE) nuclear waste cleanup, specifically addressing factors affecting the consistency of cleanup outcomes. While Neutron Bytes is not a member of any expert panel convened by GAO nor by the NAS, it seemed plausible to conduct a thought exercise using artificial intelligence to address these questions.",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2025/07/29/cleaning-up-inconsistencies-in-doe-em-cleanup/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "Energy Communities Alliance",
-          "url": "https://www.energyca.org/eca-updates/2022/5/25/remaining-em-cleanup-over-392-bn-breaking-down-costs-in-the-complex"
-        },
-        {
-          "label": "link",
-          "url": "https://docs.google.com/document/d/1XhlaD47yvgmLq2a06XGagjB56jj-GVvb/edit?usp=sharing&ouid=107279486598063762288&rtpof=true&sd=true"
-        },
-        {
-          "label": "link",
-          "url": "https://docs.google.com/document/d/1teCP1Rhpo9xd6D6sWeLEITbzR3P-NCA8/edit?usp=sharing&ouid=107279486598063762288&rtpof=true&sd=true"
-        }
-      ],
-      "entities": [
-        "Google",
-        "US Department of Energy"
-      ],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [],
-      "search_text": "Google US Department of Energy # # # The General Accounting Office (GAO), with the assistance of the National Academy of Sciences (NAS), is examining the legal and regulatory framework for the Department of Energy’s (DOE) nuclear waste cleanup, specifically addressing factors affecting the consistency of cleanup outcomes. While Neutron Bytes is not a member of any expert panel convened by GAO nor by the NAS, it seemed plausible to conduct a thought exercise using artificial intelligence to address these questions.",
-      "importance_score": 20
-    },
-    {
       "date": "2025-07-26",
       "title": "NRC clears a series of regulatory actions for Palisades restart",
       "category": "Restarts & uprates",
@@ -16539,77 +16381,6 @@
       "importance_score": 10
     },
     {
-      "date": "2025-06-25",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "On June 16th President Donald Trump fired a Democratic commissioner for the Nuclear Regulatory Commission (NRC). The action is part of the Trump Administrations efforts to reign in the authority of independent regulatory agencies. In response, a group of former NRC officials wrote a letter of protest to key members of the House and Senate. The full text of the letter is reproduced below.",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2025/06/25/former-nrc-officials-send-letter-of-protest-on-the-firing-of-commissioner-hanson/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "passed legislation",
-          "url": "https://www.nrc.gov/about-nrc/governing-laws/advance-act/about-advance-act.html"
-        },
-        {
-          "label": "Christopher Hanson",
-          "url": "https://en.wikipedia.org/wiki/Christopher_T._Hanson"
-        },
-        {
-          "label": "press statement",
-          "url": "https://www.ans.org/news/article-7117/statement-from-american-nuclear-society-on-the-firing-of-nrc-commissioner-hanson/"
-        }
-      ],
-      "entities": [
-        "US Nuclear Regulatory Commission"
-      ],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [
-        "Construction & licensing",
-        "Policy & international"
-      ],
-      "search_text": "US Nuclear Regulatory Commission # # # On June 16th President Donald Trump fired a Democratic commissioner for the Nuclear Regulatory Commission (NRC). The action is part of the Trump Administrations efforts to reign in the authority of independent regulatory agencies. In response, a group of former NRC officials wrote a letter of protest to key members of the House and Senate. The full text of the letter is reproduced below.",
-      "importance_score": 20
-    },
-    {
-      "date": "2025-06-21",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "The Department of Energy wants to “expedite” the testing of advanced reactors at sites other than at national labs like the INL where a number of advanced SMRs and microreactors are planning to build their first-of-a-kind plants (FOAK). A key qualification factor for applicants to the program is that the firm’s advanced reactor must be able to achieve “criticality” by 07/01/26 or about 12 months from now.",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2025/06/21/does-wishful-thinking-about-advanced-reactors/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "hotbed of testing",
-          "url": "https://neutronbytes.com/2025/03/16/inl-is-microreactor-central-for-testing-designs-fuels/"
-        },
-        {
-          "label": "Idaho National Laboratory",
-          "url": "https://www.inl.gov/"
-        },
-        {
-          "label": "Advanced Test Reactor",
-          "url": "https://inl.gov/advanced-test-reactor/"
-        }
-      ],
-      "entities": [
-        "US Department of Energy",
-        "Oklo",
-        "Westinghouse"
-      ],
-      "technologies": [
-        "Advanced fission"
-      ],
-      "categories": [
-        "Construction & licensing"
-      ],
-      "search_text": "US Department of Energy Oklo Westinghouse # # # The Department of Energy wants to “expedite” the testing of advanced reactors at sites other than at national labs like the INL where a number of advanced SMRs and microreactors are planning to build their first-of-a-kind plants (FOAK). A key qualification factor for applicants to the program is that the firm’s advanced reactor must be able to achieve “criticality” by 07/01/26 or about 12 months from now.",
-      "importance_score": 10
-    },
-    {
       "date": "2025-06-20",
       "title": "TerraPower raises $650M",
       "category": "Capital & financing",
@@ -17193,25 +16964,6 @@
       ],
       "categories": [],
       "search_text": "Lightbridge Completes Final Experiment Design for Designated ATR Core Position Lightbridge Corporation (Nasdaq: LTBR), a leader in advanced nuclear fuel technology, announced the completion of the final design review for its upcoming irradiation experiment, marking a critical step toward advancing its next-generation Lightbridge Fuel product. The design review, a required approval before proceeding with the experiment, is a significant milestone in the ongoing collaboration between Lightbridge and the Idaho National Laboratory (INL). Key highlights of this…",
-      "importance_score": 10
-    },
-    {
-      "date": "2025-06-04",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "There is a lot going on right now in the Middle East with the US trying to get a new nuclear deal with Iran while balancing threats from Israel to bomb Iran and demands by Saudi Arabia to have uranium enrichment of its own as a deterrent to Iran. Following is a modest proposal to address these issues. Obviously, a lot of details would need to be worked out but here is the basic framework.",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2025/06/04/a-proposal-for-uranium-enrichment-in-the-middle-east/",
-      "source": "Neutron Bytes",
-      "links": [],
-      "entities": [],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [
-        "Fuel & supply chain"
-      ],
-      "search_text": "# # # There is a lot going on right now in the Middle East with the US trying to get a new nuclear deal with Iran while balancing threats from Israel to bomb Iran and demands by Saudi Arabia to have uranium enrichment of its own as a deterrent to Iran. Following is a modest proposal to address these issues. Obviously, a lot of details would need to be worked out but here is the basic framework.",
       "importance_score": 10
     },
     {
@@ -27221,28 +26973,6 @@
       "importance_score": 10
     },
     {
-      "date": "2024-05-26",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "This is a segment available on YouTube from the movie Saving Private Ryan (1998). In a a US Army General reads aloud a letter sent to a mother who lost five sons in the Civil War on the Union Side. It sets the stage for the rescue mission in the movie to save Private Ryan and prevent a repeat in WWII. While it is only a movie, tt seems appropriate to post this scene from it here for the observation of Memorial Day to remember the men and women of the armed forces who made the ultimate…",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2024/05/26/memorial-day-2023/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "Saving Private Ryan",
-          "url": "https://www.imdb.com/title/tt0120815/"
-        }
-      ],
-      "entities": [],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [],
-      "search_text": "# # # This is a segment available on YouTube from the movie Saving Private Ryan (1998). In a a US Army General reads aloud a letter sent to a mother who lost five sons in the Civil War on the Union Side. It sets the stage for the rescue mission in the movie to save Private Ryan and prevent a repeat in WWII. While it is only a movie, tt seems appropriate to post this scene from it here for the observation of Memorial Day to remember the men and women of the armed forces who made the ultimate…",
-      "importance_score": 10
-    },
-    {
       "date": "2024-05-22",
       "title": "Netherlands ‘Ready To Back Plans’ For Four Large-Scale Nuclear Power Stations",
       "source_heading": "Netherlands ‘Ready To Back Plans’ For Four Large-Scale Nuclear Power Stations",
@@ -32801,38 +32531,6 @@
       ],
       "categories": [],
       "search_text": "US Nuclear Regulatory Commission US Department of Energy NuScale NuScale Partners with ORNL to Assess Use of the SMR for Combined Heat and Power NuSale Power Corporation (NYSE: SMR) announced today it is partnering with with Oak Ridge National Laboratory (ORNL) to perform a techno-economic assessment (TEA) of the firm’s small modular reactor’s (SMR) ability to implement a cost-effective steam heat augmentation design. The collaboration will assess a novel decarbonization path for a major U.S. chemical company by pairing NuScale’s SMR technology with a heat augmentation system The study will be based on process data from an…",
-      "importance_score": 10
-    },
-    {
-      "date": "2023-12-03",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "The IAEA announced in a a press statement that a first-of-its-kind nuclear energy summit will be held next year, it was announced at COP28 today. Leaders from around the world will gather in Brussels in March 2024 to highlight the role of nuclear energy in addressing the global challenges to reduce the use of fossil fuels, enhance energy security and boost economic development. Following the International Atomic Energy Agency’s Atoms4NetZero initiative, leaders from around the world…",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2023/12/03/cop28-leaders-announce-2024-nuclear-energy-summit/",
-      "source": "Neutron Bytes",
-      "links": [
-        {
-          "label": "press statement",
-          "url": "https://www.iaea.org/newscenter/pressreleases/first-ever-nuclear-energy-summit-to-be-held-in-brussels-in-march-2024"
-        },
-        {
-          "label": "net zero emissions",
-          "url": "https://eur01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.iea.org%2Freports%2Fnet-zero-by-2050&data=05%7C01%7CFredrik.Dahl%40iaea.org%7Cfd0d2823baac4fe6978c08dbc5728ed7%7Ca2f21493a4d14b7fad07819c824f5c4a%7C0%7C0%7C638320868039007125%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=sC5K04Ivt4FPItRaohkprxSYLmxw42yjEHEz%2BNMW%2FC8%3D&reserved=0"
-        },
-        {
-          "label": "annual nuclear power outlook",
-          "url": "https://www.iaea.org/ar/newscenter/pressreleases/iaea-annual-projections-rise-again-as-countries-turn-to-nuclear-for-energy-security-and-climate-action"
-        }
-      ],
-      "entities": [],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [
-        "Policy & international"
-      ],
-      "search_text": "# # # The IAEA announced in a a press statement that a first-of-its-kind nuclear energy summit will be held next year, it was announced at COP28 today. Leaders from around the world will gather in Brussels in March 2024 to highlight the role of nuclear energy in addressing the global challenges to reduce the use of fossil fuels, enhance energy security and boost economic development. Following the International Atomic Energy Agency’s Atoms4NetZero initiative, leaders from around the world…",
       "importance_score": 10
     },
     {
@@ -59143,23 +58841,6 @@
         "Capital & financing"
       ],
       "search_text": "US Department of Energy NuScale NuScale Engages Guggenheim Securities to Explore Financing Options NuScale Power, LLC (“NuScale”) announced that it has retained Guggenheim Securities, LLC , a leading financial advisory and capital markets firm, to explore financing options to accelerate the commercialization of the Company’s groundbreaking small modular reactor (SMR) technology. NuScale is majority owned by Fluor Corporation (“Fluor”) ( NYSE: FLR ), a global engineering, procurement and construction (EPC) company.",
-      "importance_score": 10
-    },
-    {
-      "date": "2021-05-10",
-      "title": "# # #",
-      "source_heading": "# # #",
-      "summary": "Kathryn Huff, Principal Deputy Assistant Secretary for Nuclear Energy Dr. Kathryn D. Huff was most recently an Assistant Professor in the Department of Nuclear, Plasma, and Radiological Engineering at the University of Illinois at Urbana-Champaign, where she led the Advanced Reactors and Fuel Cycles Research Group and was a Blue Waters Assistant Professor with the National Center for Supercomputing Applications.",
-      "category": "Other nuclear",
-      "url": "https://neutronbytes.com/2021/05/10/katy-huff-to-doe-as-acting-doe_ne1-and-permanent-ne2/",
-      "source": "Neutron Bytes",
-      "links": [],
-      "entities": [],
-      "technologies": [
-        "Traditional fission"
-      ],
-      "categories": [],
-      "search_text": "# # # Kathryn Huff, Principal Deputy Assistant Secretary for Nuclear Energy Dr. Kathryn D. Huff was most recently an Assistant Professor in the Department of Nuclear, Plasma, and Radiological Engineering at the University of Illinois at Urbana-Champaign, where she led the Advanced Reactors and Fuel Cycles Research Group and was a Blue Waters Assistant Professor with the National Center for Supercomputing Applications.",
       "importance_score": 10
     },
     {

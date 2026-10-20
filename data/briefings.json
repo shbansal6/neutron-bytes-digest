@@ -5,13 +5,13 @@
       "week_start": "2026-10-12",
       "week_end": "2026-10-18",
       "title": "Neutron Bytes — week of October 12, 2026",
-      "overview": "12 distinct source-linked developments found in Neutron Bytes coverage. News may appear in multiple tagged sector sections.",
-      "article_count": 12,
+      "overview": "11 distinct source-linked developments found in Neutron Bytes coverage. News may appear in multiple tagged sector sections.",
+      "article_count": 11,
       "generated_at": "2026-10-20",
       "sections": [
         {
           "category": "Construction & licensing",
-          "takeaway": "7 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "takeaway": "6 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
             {
               "date": "2026-10-16",
@@ -181,34 +181,12 @@
               ],
               "search_text": "US Nuclear Regulatory Commission Westinghouse Vogtle NRC updates AP1000 design certification through 2066 The NRC updated and renewed Westinghouse AP1000 design certification, incorporating lessons from Vogtle Units 3 and 4 and extending the certification through 2066. This may reduce repetitive design review for future units, but site-specific approvals and construction permits remain necessary.",
               "importance_score": 20
-            },
-            {
-              "date": "2026-10-15",
-              "title": "Other Oct. 9 reactor and fusion milestones.",
-              "category": "Fusion & research",
-              "summary": "In the same digest NB reported technical milestones for INL's MARVEL microreactor , Zap Energy's fusion capacitor prototype and an additional $30.5 million DOE award to Xcimer Energy . Treat progress toward criticality, engineering-prototype approval and fusion milestone funding as separate developments.",
-              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
-              "links": [],
-              "source": "Neutron Bytes",
-              "entities": [
-                "US Department of Energy"
-              ],
-              "technologies": [
-                "Microreactors",
-                "Fusion"
-              ],
-              "categories": [
-                "Construction & licensing",
-                "Capital & financing"
-              ],
-              "search_text": "US Department of Energy Other Oct. 9 reactor and fusion milestones. In the same digest NB reported technical milestones for INL's MARVEL microreactor , Zap Energy's fusion capacitor prototype and an additional $30.5 million DOE award to Xcimer Energy . Treat progress toward criticality, engineering-prototype approval and fusion milestone funding as separate developments.",
-              "importance_score": 32
             }
           ]
         },
         {
           "category": "Capital & financing",
-          "takeaway": "7 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "takeaway": "6 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
             {
               "date": "2026-10-16",
@@ -403,28 +381,6 @@
               ],
               "source_heading": "Germany Launches Program to Promote Private Investment In Fusion",
               "editorial": true
-            },
-            {
-              "date": "2026-10-15",
-              "title": "Other Oct. 9 reactor and fusion milestones.",
-              "category": "Fusion & research",
-              "summary": "In the same digest NB reported technical milestones for INL's MARVEL microreactor , Zap Energy's fusion capacitor prototype and an additional $30.5 million DOE award to Xcimer Energy . Treat progress toward criticality, engineering-prototype approval and fusion milestone funding as separate developments.",
-              "url": "https://neutronbytes.com/2026/10/09/googles-20-year-4-3-billion-deal-with-constellation-to-uprate-11-reactors/",
-              "links": [],
-              "source": "Neutron Bytes",
-              "entities": [
-                "US Department of Energy"
-              ],
-              "technologies": [
-                "Microreactors",
-                "Fusion"
-              ],
-              "categories": [
-                "Construction & licensing",
-                "Capital & financing"
-              ],
-              "search_text": "US Department of Energy Other Oct. 9 reactor and fusion milestones. In the same digest NB reported technical milestones for INL's MARVEL microreactor , Zap Energy's fusion capacitor prototype and an additional $30.5 million DOE award to Xcimer Energy . Treat progress toward criticality, engineering-prototype approval and fusion milestone funding as separate developments.",
-              "importance_score": 32
             }
           ]
         },
@@ -709,8 +665,8 @@
           "items": [
             {
               "date": "2026-10-15",
-              "title": "# # #",
-              "source_heading": "# # #",
+              "title": "Institutional, Not Neutronic: Why Advanced Reactors Actually Get Built, or Don’t",
+              "source_heading": "Institutional, Not Neutronic: Why Advanced Reactors Actually Get Built, or Don’t",
               "summary": "Guest Column to Neutron Bytes by: Sarah Gibboney, P.E., Founder & CEO Gibboney Nuclear, PLLC . There is an old management parable about primates in an enclosure and a pole with a bunch of bananas. 1 Every animal that climbs up the pole to score of the bananas gets shocked. Eventually the power is cut and new animals are introduced, ones who have never felt the current. The veterans pull them down anyway even though the banana pole is no longer carrying live electricity, because the…",
               "category": "Other nuclear",
               "url": "https://neutronbytes.com/2026/10/15/institutional-not-neutronic-why-advanced-reactors-actually-get-built-or-dont/",
@@ -736,7 +692,7 @@
                 "Traditional fission"
               ],
               "categories": [],
-              "search_text": "US Nuclear Regulatory Commission # # # Guest Column to Neutron Bytes by: Sarah Gibboney, P.E., Founder & CEO Gibboney Nuclear, PLLC . There is an old management parable about primates in an enclosure and a pole with a bunch of bananas. 1 Every animal that climbs up the pole to score of the bananas gets shocked. Eventually the power is cut and new animals are introduced, ones who have never felt the current. The veterans pull them down anyway even though the banana pole is no longer carrying live electricity, because the…",
+              "search_text": "US Nuclear Regulatory Commission Institutional, Not Neutronic: Why Advanced Reactors Actually Get Built, or Don’t Guest Column to Neutron Bytes by: Sarah Gibboney, P.E., Founder & CEO Gibboney Nuclear, PLLC . There is an old management parable about primates in an enclosure and a pole with a bunch of bananas. 1 Every animal that climbs up the pole to score of the bananas gets shocked. Eventually the power is cut and new animals are introduced, ones who have never felt the current. The veterans pull them down anyway even though the banana pole is no longer carrying live electricity, because the…",
               "importance_score": 10
             }
           ]
@@ -747,8 +703,8 @@
       "week_start": "2026-10-05",
       "week_end": "2026-10-11",
       "title": "Neutron Bytes — week of October 05, 2026",
-      "overview": "13 distinct source-linked developments found in Neutron Bytes coverage. News may appear in multiple tagged sector sections.",
-      "article_count": 13,
+      "overview": "12 distinct source-linked developments found in Neutron Bytes coverage. News may appear in multiple tagged sector sections.",
+      "article_count": 12,
       "generated_at": "2026-10-20",
       "sections": [
         {
@@ -1074,108 +1030,6 @@
           ]
         },
         {
-          "category": "Other developments",
-          "takeaway": "3 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
-          "items": [
-            {
-              "date": "2026-10-10",
-              "title": "Where the NYT Missed a Few Facts About Nuclear Reactors on the Moon",
-              "source_heading": "Where the NYT Missed a Few Facts About Nuclear Reactors on the Moon",
-              "summary": "The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
-              "category": "Other nuclear",
-              "url": "https://neutronbytes.com/2026/10/10/a-few-beers-short-of-a-six-pack-where-the-new-york-times-missed-a-few-facts-about-nuclear-reactors-on-the-moon/",
-              "source": "Neutron Bytes",
-              "links": [
-                {
-                  "label": "reports",
-                  "url": "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html?smid=nytcore-ios-share"
-                },
-                {
-                  "label": "lunar ice exists",
-                  "url": "https://science.nasa.gov/moon/moon-water-and-ices/"
-                },
-                {
-                  "label": "Edwin Lyman,",
-                  "url": "https://www.ucs.org/about/people/edwin-lyman"
-                }
-              ],
-              "entities": [
-                "US Department of Energy"
-              ],
-              "technologies": [
-                "Traditional fission"
-              ],
-              "categories": [],
-              "search_text": "US Department of Energy Where the NYT Missed a Few Facts About Nuclear Reactors on the Moon The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
-              "importance_score": 10
-            },
-            {
-              "date": "2026-10-10",
-              "title": "# # #",
-              "source_heading": "# # #",
-              "summary": "The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
-              "category": "Other nuclear",
-              "url": "https://neutronbytes.com/2026/10/10/a-few-beers-short-of-a-six-pack-where-the-new-york-times-missed-a-few-facts-about-nuclear-reactors-on-the-moon/",
-              "source": "Neutron Bytes",
-              "links": [
-                {
-                  "label": "reports",
-                  "url": "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html?smid=nytcore-ios-share"
-                },
-                {
-                  "label": "lunar ice exists",
-                  "url": "https://science.nasa.gov/moon/moon-water-and-ices/"
-                },
-                {
-                  "label": "Edwin Lyman,",
-                  "url": "https://www.ucs.org/about/people/edwin-lyman"
-                }
-              ],
-              "entities": [
-                "US Department of Energy"
-              ],
-              "technologies": [
-                "Traditional fission"
-              ],
-              "categories": [],
-              "search_text": "US Department of Energy # # # The New York Times reports that the U.S. is in a renewal of Cold War era of competition with Russia and China over plans to use nuclear reactors on the moon to provide power for crewed habitats especially at the lunar south pole where lunar ice exists in the permanent shadows of craters there created by ancient meteors. The ice can be harvested as water for use by the crews and to use as a propellant for rockets assigned to deep space missions. Launches from the moon, for crewed…",
-              "importance_score": 10
-            },
-            {
-              "date": "2026-10-08",
-              "title": "# # #",
-              "source_heading": "# # #",
-              "summary": "In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
-              "category": "Other nuclear",
-              "url": "https://neutronbytes.com/2026/10/08/qa-with-the-nuclear-innovation-alliance-keeping-track-of-microreactors-for-military-uses/",
-              "source": "Neutron Bytes",
-              "links": [
-                {
-                  "label": "announced",
-                  "url": "https://neutronbytes.com/2026/08/28/u-s-army-opens-the-checkbook-for-2-2-billion-to-build-microreactors-at-five-locations/"
-                },
-                {
-                  "label": "Janus Program",
-                  "url": "https://neutronbytes.com/2025/10/19/army-goes-nuclear-microreactors-set-for-us-bases-by-2028/"
-                },
-                {
-                  "label": "press statement",
-                  "url": "https://www.army.mil/article/294891/army_reaches_agreement_with_private_industry_for_nuclear_micro_reactors"
-                }
-              ],
-              "entities": [
-                "US Nuclear Regulatory Commission"
-              ],
-              "technologies": [
-                "Microreactors"
-              ],
-              "categories": [],
-              "search_text": "US Nuclear Regulatory Commission # # # In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
-              "importance_score": 22
-            }
-          ]
-        },
-        {
           "category": "Fuel & supply chain",
           "takeaway": "2 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
@@ -1291,6 +1145,76 @@
           ]
         },
         {
+          "category": "Other developments",
+          "takeaway": "2 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "items": [
+            {
+              "date": "2026-10-08",
+              "title": "Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses",
+              "source_heading": "Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses",
+              "summary": "In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/10/08/qa-with-the-nuclear-innovation-alliance-keeping-track-of-microreactors-for-military-uses/",
+              "source": "Neutron Bytes",
+              "links": [
+                {
+                  "label": "announced",
+                  "url": "https://neutronbytes.com/2026/08/28/u-s-army-opens-the-checkbook-for-2-2-billion-to-build-microreactors-at-five-locations/"
+                },
+                {
+                  "label": "Janus Program",
+                  "url": "https://neutronbytes.com/2025/10/19/army-goes-nuclear-microreactors-set-for-us-bases-by-2028/"
+                },
+                {
+                  "label": "press statement",
+                  "url": "https://www.army.mil/article/294891/army_reaches_agreement_with_private_industry_for_nuclear_micro_reactors"
+                }
+              ],
+              "entities": [
+                "US Nuclear Regulatory Commission"
+              ],
+              "technologies": [
+                "Microreactors"
+              ],
+              "categories": [],
+              "search_text": "US Nuclear Regulatory Commission Q&A with the Nuclear Innovation Alliance – Keeping Track of Microreactors  for Military Uses In August 2026 the Department of the Army announced that the Janus Program has selected five nuclear energy vendors, and five initial locations. The U.S. Army is awarding up to a combined $2.2 billion to own, construct, and operate nuclear microreactors on military installations. The Army said in its press statement that the “vendors will deliver safe, secure, and reliable nuclear power, strengthening the Army’s ability to project power globally.” The press statement also referred to…",
+              "importance_score": 22
+            },
+            {
+              "date": "2026-10-08",
+              "title": "How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market",
+              "source_heading": "How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market",
+              "summary": "Guest Blog Post for Neutron Bytes by: Elliot Marsh, NeutronRise In January 2025, Westinghouse, Korea Electric Power Corporation and Korea Hydro and Nuclear Power announced a global settlement that ended years of litigation over reactor technology. Westinghouse framed the deal as a path to future cooperation on new nuclear projects worldwide.",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/10/08/how-westinghouse-and-korea-carve-up-the-nuclear-reactor-export-market/",
+              "source": "Neutron Bytes",
+              "links": [
+                {
+                  "label": "NeutronRise",
+                  "url": "https://neutronrise.com/"
+                },
+                {
+                  "label": "global settlement",
+                  "url": "https://info.westinghousenuclear.com/news/westinghouse-announces-global-settlement-agreement-with-kepco-and-khnp"
+                },
+                {
+                  "label": "agreed to a non-binding framework",
+                  "url": "https://neutronbytes.com/2026/10/02/south-korea-u-s-ink-massive-nuclear-energy-plan/"
+                }
+              ],
+              "entities": [
+                "Westinghouse"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [],
+              "search_text": "Westinghouse How Westinghouse and Korea Carve Up the Nuclear Reactor Export Market Guest Blog Post for Neutron Bytes by: Elliot Marsh, NeutronRise In January 2025, Westinghouse, Korea Electric Power Corporation and Korea Hydro and Nuclear Power announced a global settlement that ended years of litigation over reactor technology. Westinghouse framed the deal as a path to future cooperation on new nuclear projects worldwide.",
+              "importance_score": 20
+            }
+          ]
+        },
+        {
           "category": "Offtakes & customers",
           "takeaway": "1 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
@@ -1330,8 +1254,8 @@
       "week_start": "2026-09-28",
       "week_end": "2026-10-04",
       "title": "Neutron Bytes — week of September 28, 2026",
-      "overview": "15 distinct source-linked developments found in Neutron Bytes coverage. News may appear in multiple tagged sector sections.",
-      "article_count": 15,
+      "overview": "16 distinct source-linked developments found in Neutron Bytes coverage. News may appear in multiple tagged sector sections.",
+      "article_count": 16,
       "generated_at": "2026-10-20",
       "sections": [
         {
@@ -1636,8 +1560,8 @@
             },
             {
               "date": "2026-09-30",
-              "title": "# # #",
-              "source_heading": "# # #",
+              "title": "NRC Construction Permit to TVA for BWRX-300",
+              "source_heading": "NRC Construction Permit to TVA for BWRX-300",
               "summary": "The Tennessee Valley Authority ( TVA ) achieved a nationally significant milestone in America’s nuclear energy future with the U.S. Nuclear Regulatory Commission’s (NRC) issuing the construction permit for Clinch River Unit 1, a GE Vernova Hitachi Nuclear Energy BWRX-300 small modular reactor (SMR), at TVA’s Clinch River Nuclear Site near Oak Ridge, TN. No construction date has been announced, however TVA said in its press statement, “TVA continues negotiations with industry partners…",
               "category": "Other nuclear",
               "url": "https://neutronbytes.com/2026/09/30/nrc-construction-permit-to-tva-for-bwrx-300/",
@@ -1672,7 +1596,7 @@
                 "Construction & licensing",
                 "Policy & international"
               ],
-              "search_text": "GE Vernova X-energy Tennessee Valley Authority US Nuclear Regulatory Commission TerraPower NuScale BWRX-300 # # # The Tennessee Valley Authority ( TVA ) achieved a nationally significant milestone in America’s nuclear energy future with the U.S. Nuclear Regulatory Commission’s (NRC) issuing the construction permit for Clinch River Unit 1, a GE Vernova Hitachi Nuclear Energy BWRX-300 small modular reactor (SMR), at TVA’s Clinch River Nuclear Site near Oak Ridge, TN. No construction date has been announced, however TVA said in its press statement, “TVA continues negotiations with industry partners…",
+              "search_text": "GE Vernova X-energy Tennessee Valley Authority US Nuclear Regulatory Commission TerraPower NuScale BWRX-300 NRC Construction Permit to TVA for BWRX-300 The Tennessee Valley Authority ( TVA ) achieved a nationally significant milestone in America’s nuclear energy future with the U.S. Nuclear Regulatory Commission’s (NRC) issuing the construction permit for Clinch River Unit 1, a GE Vernova Hitachi Nuclear Energy BWRX-300 small modular reactor (SMR), at TVA’s Clinch River Nuclear Site near Oak Ridge, TN. No construction date has been announced, however TVA said in its press statement, “TVA continues negotiations with industry partners…",
               "importance_score": 20
             }
           ]
@@ -1932,8 +1856,8 @@
             },
             {
               "date": "2026-09-30",
-              "title": "# # #",
-              "source_heading": "# # #",
+              "title": "NRC Construction Permit to TVA for BWRX-300",
+              "source_heading": "NRC Construction Permit to TVA for BWRX-300",
               "summary": "The Tennessee Valley Authority ( TVA ) achieved a nationally significant milestone in America’s nuclear energy future with the U.S. Nuclear Regulatory Commission’s (NRC) issuing the construction permit for Clinch River Unit 1, a GE Vernova Hitachi Nuclear Energy BWRX-300 small modular reactor (SMR), at TVA’s Clinch River Nuclear Site near Oak Ridge, TN. No construction date has been announced, however TVA said in its press statement, “TVA continues negotiations with industry partners…",
               "category": "Other nuclear",
               "url": "https://neutronbytes.com/2026/09/30/nrc-construction-permit-to-tva-for-bwrx-300/",
@@ -1968,7 +1892,7 @@
                 "Construction & licensing",
                 "Policy & international"
               ],
-              "search_text": "GE Vernova X-energy Tennessee Valley Authority US Nuclear Regulatory Commission TerraPower NuScale BWRX-300 # # # The Tennessee Valley Authority ( TVA ) achieved a nationally significant milestone in America’s nuclear energy future with the U.S. Nuclear Regulatory Commission’s (NRC) issuing the construction permit for Clinch River Unit 1, a GE Vernova Hitachi Nuclear Energy BWRX-300 small modular reactor (SMR), at TVA’s Clinch River Nuclear Site near Oak Ridge, TN. No construction date has been announced, however TVA said in its press statement, “TVA continues negotiations with industry partners…",
+              "search_text": "GE Vernova X-energy Tennessee Valley Authority US Nuclear Regulatory Commission TerraPower NuScale BWRX-300 NRC Construction Permit to TVA for BWRX-300 The Tennessee Valley Authority ( TVA ) achieved a nationally significant milestone in America’s nuclear energy future with the U.S. Nuclear Regulatory Commission’s (NRC) issuing the construction permit for Clinch River Unit 1, a GE Vernova Hitachi Nuclear Energy BWRX-300 small modular reactor (SMR), at TVA’s Clinch River Nuclear Site near Oak Ridge, TN. No construction date has been announced, however TVA said in its press statement, “TVA continues negotiations with industry partners…",
               "importance_score": 20
             }
           ]
@@ -2105,8 +2029,8 @@
             },
             {
               "date": "2026-09-30",
-              "title": "# # #",
-              "source_heading": "# # #",
+              "title": "Calif Gov Newsom Signs Bills to Accelerate Fusion and Fission",
+              "source_heading": "Calif Gov Newsom Signs Bills to Accelerate Fusion and Fission",
               "summary": "Californian Governor Gavin Newsom has signed new legislation to accelerate the development of nuclear fission, nuclear fusion, and quantum computing industries in California — paired with a $30 million investment to strengthen California’s position as the nation’s leader in these energy technologies. Standing alongside faculty and staff at a quantum lab at UC Berkeley, Governor Newsom announced he has signed legislation to accelerate the development of quantum and fusion energy in…",
               "category": "Other nuclear",
               "url": "https://neutronbytes.com/2026/09/30/calif-gov-newsom-signs-bills-to-accelerate-fusion-and-fission/",
@@ -2132,7 +2056,7 @@
               "categories": [
                 "Capital & financing"
               ],
-              "search_text": "# # # Californian Governor Gavin Newsom has signed new legislation to accelerate the development of nuclear fission, nuclear fusion, and quantum computing industries in California — paired with a $30 million investment to strengthen California’s position as the nation’s leader in these energy technologies. Standing alongside faculty and staff at a quantum lab at UC Berkeley, Governor Newsom announced he has signed legislation to accelerate the development of quantum and fusion energy in…",
+              "search_text": "Calif Gov Newsom Signs Bills to Accelerate Fusion and Fission Californian Governor Gavin Newsom has signed new legislation to accelerate the development of nuclear fission, nuclear fusion, and quantum computing industries in California — paired with a $30 million investment to strengthen California’s position as the nation’s leader in these energy technologies. Standing alongside faculty and staff at a quantum lab at UC Berkeley, Governor Newsom announced he has signed legislation to accelerate the development of quantum and fusion energy in…",
               "importance_score": 40
             },
             {
@@ -2284,6 +2208,76 @@
           ]
         },
         {
+          "category": "Other developments",
+          "takeaway": "2 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
+          "items": [
+            {
+              "date": "2026-10-01",
+              "title": "West Virginia Cancels Its Bid to be a DOE Lifecycle Campus",
+              "source_heading": "West Virginia Cancels Its Bid to be a DOE Lifecycle Campus",
+              "summary": "In a stunning case of first you see them now you don’t, the State of West Virginia sent a letter on 09/30/26 to the U.S. Department of Energy cancelling its proposal sent earlier in September to be the sixth participant in the agency’s Nuclear Lifecycle Innovation Campus Program (NLIC). The news was first reported by the Charleston, WV, based Charleston Gazette-Mail. Apparently, West Virginia Governor Patrick Morrisey and the state’s Office of Energy Director Nicholas Preservati did…",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/10/01/west-virginia-cancels-its-bid-to-be-a-doe-lifecycle-campus/",
+              "source": "Neutron Bytes",
+              "links": [
+                {
+                  "label": "first reported",
+                  "url": "https://www.wvgazettemail.com/news/energy_and_environment/wv-touted-ability-to-fast-track-permits-listed-potential-sites-in-nuclear-campus-bid/article_eb9cdf83-0134-4c58-a65c-3d1ef7fe93c3.html"
+                },
+                {
+                  "label": "West Virginia Governor Patrick Morrisey",
+                  "url": "https://governor.wv.gov/"
+                },
+                {
+                  "label": "report",
+                  "url": "https://static1.squarespace.com/static/55c4c892e4b0d1ec35bc5efb/t/6a6a304aac8cee4d6ee10116/1785344074221/ECA+Guide+on+Nuclear+Lifecycle+Innovation+Campuses.pdf"
+                }
+              ],
+              "entities": [
+                "US Department of Energy"
+              ],
+              "technologies": [
+                "Traditional fission"
+              ],
+              "categories": [],
+              "search_text": "US Department of Energy West Virginia Cancels Its Bid to be a DOE Lifecycle Campus In a stunning case of first you see them now you don’t, the State of West Virginia sent a letter on 09/30/26 to the U.S. Department of Energy cancelling its proposal sent earlier in September to be the sixth participant in the agency’s Nuclear Lifecycle Innovation Campus Program (NLIC). The news was first reported by the Charleston, WV, based Charleston Gazette-Mail. Apparently, West Virginia Governor Patrick Morrisey and the state’s Office of Energy Director Nicholas Preservati did…",
+              "importance_score": 20
+            },
+            {
+              "date": "2026-09-30",
+              "title": "Roster of Fusion Energy Startup Firms in California",
+              "source_heading": "Roster of Fusion Energy Startup Firms in California",
+              "summary": "This is a list of commercial fusion energy startup firms in California. The business listings include the name, location, type of fusion device, total investments to date, major investors, and technical milestones taking place this calendar year to date. The data for these firms was developed by using Google’s AI assisted search capabilities. The listings of investors and technical milestones are derived from trade press reportss Check the websites of these firms for updates to…",
+              "category": "Other nuclear",
+              "url": "https://neutronbytes.com/2026/09/30/calif-gov-newsom-signs-bills-to-accelerate-fusion-and-fission/",
+              "source": "Neutron Bytes",
+              "links": [
+                {
+                  "label": "TINEX project",
+                  "url": "https://today.ucsd.edu/story/uc-san-diego-a-key-part-of-new-project-led-by-general-atomics-to-advance-fusion-energy"
+                },
+                {
+                  "label": "General Atomics",
+                  "url": "https://www.ga.com/fusion-technologies"
+                },
+                {
+                  "label": "Fusion Innovative Research Engine",
+                  "url": "https://www.energy.gov/articles/us-department-energy-announces-selectees-107-million-fusion-innovation-research-engine"
+                }
+              ],
+              "entities": [
+                "Google"
+              ],
+              "technologies": [
+                "Fusion"
+              ],
+              "categories": [],
+              "search_text": "Google Roster of Fusion Energy Startup Firms in California This is a list of commercial fusion energy startup firms in California. The business listings include the name, location, type of fusion device, total investments to date, major investors, and technical milestones taking place this calendar year to date. The data for these firms was developed by using Google’s AI assisted search capabilities. The listings of investors and technical milestones are derived from trade press reportss Check the websites of these firms for updates to…",
+              "importance_score": 20
+            }
+          ]
+        },
+        {
           "category": "Offtakes & customers",
           "takeaway": "1 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
           "items": [
@@ -2368,44 +2362,6 @@
               ],
               "source_heading": "Constellation and Amazon Set a 20-Year Power Purchase Agreement",
               "editorial": true
-            }
-          ]
-        },
-        {
-          "category": "Other developments",
-          "takeaway": "1 source-linked development(s) in this theme. Refer to original Neutron Bytes reporting for the detail.",
-          "items": [
-            {
-              "date": "2026-09-30",
-              "title": "Roster of Fusion Energy Startup Firms in California",
-              "source_heading": "Roster of Fusion Energy Startup Firms in California",
-              "summary": "This is a list of commercial fusion energy startup firms in California. The business listings include the name, location, type of fusion device, total investments to date, major investors, and technical milestones taking place this calendar year to date. The data for these firms was developed by using Google’s AI assisted search capabilities. The listings of investors and technical milestones are derived from trade press reportss Check the websites of these firms for updates to…",
-              "category": "Other nuclear",
-              "url": "https://neutronbytes.com/2026/09/30/calif-gov-newsom-signs-bills-to-accelerate-fusion-and-fission/",
-              "source": "Neutron Bytes",
-              "links": [
-                {
-                  "label": "TINEX project",
-                  "url": "https://today.ucsd.edu/story/uc-san-diego-a-key-part-of-new-project-led-by-general-atomics-to-advance-fusion-energy"
-                },
-                {
-                  "label": "General Atomics",
-                  "url": "https://www.ga.com/fusion-technologies"
-                },
-                {
-                  "label": "Fusion Innovative Research Engine",
-                  "url": "https://www.energy.gov/articles/us-department-energy-announces-selectees-107-million-fusion-innovation-research-engine"
-                }
-              ],
-              "entities": [
-                "Google"
-              ],
-              "technologies": [
-                "Fusion"
-              ],
-              "categories": [],
-              "search_text": "Google Roster of Fusion Energy Startup Firms in California This is a list of commercial fusion energy startup firms in California. The business listings include the name, location, type of fusion device, total investments to date, major investors, and technical milestones taking place this calendar year to date. The data for these firms was developed by using Google’s AI assisted search capabilities. The listings of investors and technical milestones are derived from trade press reportss Check the websites of these firms for updates to…",
-              "importance_score": 20
             }
           ]
         }
@@ -3123,8 +3079,8 @@
             },
             {
               "date": "2026-09-14",
-              "title": "# # #",
-              "source_heading": "# # #",
+              "title": "U.S. Investor Ezra Garnder Sees AI Driving SMRs for Israel",
+              "source_heading": "U.S. Investor Ezra Garnder Sees AI Driving SMRs for Israel",
               "summary": "( YnetNews ) A proposed US-run nuclear and technology complex in the Negev could power data centers and chip production, but investor Ezra Gardner says Israel is delaying the deal over concerns it would lose control of the site. “If you and I stepped into a time machine right now and traveled 20 years into the future, we would see the State of Israel powered by nuclear energy, with data centers everywhere,” Ezra Gardner told the Energya website.",
               "category": "Other nuclear",
               "url": "https://neutronbytes.com/2026/09/14/u-s-investor-ezra-garnder-sees-ai-driving-smrs-for-israel/",
@@ -3150,7 +3106,7 @@
               "categories": [
                 "Capital & financing"
               ],
-              "search_text": "# # # ( YnetNews ) A proposed US-run nuclear and technology complex in the Negev could power data centers and chip production, but investor Ezra Gardner says Israel is delaying the deal over concerns it would lose control of the site. “If you and I stepped into a time machine right now and traveled 20 years into the future, we would see the State of Israel powered by nuclear energy, with data centers everywhere,” Ezra Gardner told the Energya website.",
+              "search_text": "U.S. Investor Ezra Garnder Sees AI Driving SMRs for Israel ( YnetNews ) A proposed US-run nuclear and technology complex in the Negev could power data centers and chip production, but investor Ezra Gardner says Israel is delaying the deal over concerns it would lose control of the site. “If you and I stepped into a time machine right now and traveled 20 years into the future, we would see the State of Israel powered by nuclear energy, with data centers everywhere,” Ezra Gardner told the Energya website.",
               "importance_score": 10
             }
           ]
