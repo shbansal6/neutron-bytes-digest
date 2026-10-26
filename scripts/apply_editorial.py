@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply researched weekly editorial additions after the source collector; preserve all prior JSON."""
+"""Apply researched weekly editorial additions after the source collector; preserve all prior JSON and verified permalinks."""
 import json,re,datetime
 from pathlib import Path
 from difflib import SequenceMatcher
