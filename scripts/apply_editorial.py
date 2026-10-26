@@ -27,6 +27,8 @@ def run():
    row["search_text"]=" ".join([row["title"],row["summary"],*row["entities"],*row["categories"]])
    old.append(row);existing[key]=row
   else:
+   target["title"]=row["title"]
+   target["links"]=row["links"]
    if not target.get("editorial"):
     target["summary"]=row["summary"];target["editorial"]=True
     target["categories"]=list(dict.fromkeys(target.get("categories",[])+row["categories"]))
