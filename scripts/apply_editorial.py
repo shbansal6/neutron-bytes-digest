@@ -66,7 +66,7 @@ def run():
  B["briefings"]=sorted([b]+[x for x in B["briefings"] if x.get("week_start")!=b["week_start"]],key=lambda x:x["week_start"],reverse=True)[:7]
  assert B["briefings"][0]["editorial"] and len(B["briefings"])<=7
  A["updated_at"]=patch["generated_at"];B["generated_at"]=patch["generated_at"]
- ap.write_text(json.dumps(A,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
- bp.write_text(json.dumps(B,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+ ap.write_text(json.dumps(A,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+ bp.write_text(json.dumps(B,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print("Editorial merge complete",len(old),"archive entries;",len(issues),"week stories;",len(B["briefings"]),"briefings")
 if __name__=="__main__":run()
