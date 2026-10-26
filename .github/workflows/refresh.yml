@@ -37,6 +37,8 @@ jobs:
         run: python -m py_compile scripts/refresh.py scripts/taxonomy.py scripts/audit.py
       - name: Reconcile Neutron Bytes reports and regenerate source-linked weekly archive
         run: python scripts/refresh.py
+      - name: Merge researched editorial weekly additions and preserve curation
+        run: python scripts/apply_editorial.py
       - name: Validate archive completeness
         run: python scripts/audit.py
       - name: Test rendered homepage and global searches

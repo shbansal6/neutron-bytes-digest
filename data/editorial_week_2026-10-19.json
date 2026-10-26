@@ -1,0 +1,433 @@
+{
+  "week_start": "2026-10-19",
+  "week_end": "2026-10-25",
+  "generated_at": "2026-10-26",
+  "overview": "Two Neutron Bytes posts dated October 20 and October 24 yielded 14 distinct developments or market analyses. Proposed reactor capacities of 960 MW Xe-100 in Indiana, up to roughly 6 GW of CANDU concepts, and 6.6 GW of Kentucky AP1000s remain pre-construction—not contracted offtake. More tangible steps were Radiant's Navy selection, Antares' first DOE safety-design gate, NRC's demonstration-evidence rule, NuCube's $25 million financing commitment and Westinghouse's approximately $1 billion LEU+ investment. IPO and regulatory staffing issues remain key execution constraints.",
+  "group_takeaways": {
+    "Commercial projects and prospective customers": "Indiana's 960 MWe Xe-100 study, an indicative up-to-6 GW CANDU MOU and Kentucky's 6.6 GW AP1000 campus remain prospective; none is a newly executed nuclear PPA or funded construction order. Brownfield grid access and anchor-customer engagement improve optionality, not bankability.",
+    "Defense deployments and microreactor milestones": "Radiant's Navy selection represents a specific prospective defense customer, while Antares' DOE safety-design approval advances an experimental reactor rather than commercial authorization. Westinghouse's reported eVinci pivot toward government markets underscores the gap between microreactor prototypes and bankable civilian demand.",
+    "Regulation, permitting and siting": "NRC's rule allows demonstration evidence to support, not replace, independent commercial licensing. Indiana's community program may reduce siting friction. Korea's regulator staffing gap illustrates why reactor design strength alone does not produce licence-ready export projects.",
+    "Capital formation and nuclear fuel": "NuCube's $25 million commitment is conditional transaction financing, not a completed merger. Westinghouse's approximately $1 billion LEU+ facility is a concrete supply-chain capital program. The Nuclear Company's IPO deferral highlights how financing risk scales with multi-reactor greenfield ambitions."
+  },
+  "articles": [
+    {
+      "date": "2026-10-24",
+      "title": "Amazon, X-energy and AEP advance proposed 960 MW Indiana Xe-100 project",
+      "source_heading": "X-Energy, Amazon, AEP Plan 12 Advanced Reactors",
+      "category": "Construction & licensing",
+      "summary": "X-energy, Amazon and AEP agreed to study 12 Xe-100 units (960 MWe) at the former Breed coal station in Sullivan County, Indiana. Amazon will provide development funding. This is a feasibility-stage project within a broader 5 GW-plus collaboration, not a signed PPA, approved construction permit or committed operating capacity.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [],
+      "source": "Neutron Bytes",
+      "entities": [
+        "Amazon",
+        "X-energy",
+        "AEP",
+        "Xe-100",
+        "Indiana"
+      ],
+      "technologies": [
+        "Advanced fission"
+      ],
+      "categories": [
+        "Construction & licensing",
+        "Offtakes & customers",
+        "Capital & financing"
+      ],
+      "importance_score": 86,
+      "editorial": true,
+      "group": "Commercial projects and prospective customers"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "AtkinsRéalis and Hoosier Energy sign CANDU Indiana exploration MOU",
+      "source_heading": "AtkinsRéalis Group Inc Plans Six CANDU Units for Indiana Sites",
+      "category": "Construction & licensing",
+      "summary": "AtkinsRéalis, Indiana and Hoosier Energy signed an MOU to explore a CANDU campus. NB's body describes up to eight approximately 700 MWe units and roughly 6 GW, although the subsection headline says six; the unit count remains indicative. A June 2026 NRC regulatory engagement plan is pre-application work, not an issued US licence or a construction order.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [
+        {
+          "label": "NRC regulatory engagement plan (June)",
+          "url": "https://www.nrc.gov/docs/ML2617/ML26177A190.pdf"
+        }
+      ],
+      "source": "Neutron Bytes",
+      "entities": [
+        "AtkinsRéalis",
+        "Hoosier Energy",
+        "CANDU",
+        "Indiana"
+      ],
+      "technologies": [
+        "Traditional fission"
+      ],
+      "categories": [
+        "Construction & licensing",
+        "Offtakes & customers"
+      ],
+      "importance_score": 65,
+      "editorial": true,
+      "group": "Commercial projects and prospective customers"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "AtkinsRéalis considered for Turkey's proposed Sinop nuclear project",
+      "source_heading": "Canaidian PM Carney says AtkinsRealis is a Contender to Build Nuclear Power Plant in Turkey",
+      "category": "Construction & licensing",
+      "summary": "NB cites Reuters reporting that Canadian Prime Minister Carney views AtkinsRéalis as a contender for Turkey's planned second nuclear plant at Sinop. AtkinsRéalis is assessing potential CANDU deployment, while Turkey is evaluating several international suppliers. No contract award, financing close or final reactor selection was announced.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [
+        {
+          "label": "Reuters report linked by NB",
+          "url": "https://www.reuters.com/world/middle-east/carney-says-atkinsrealis-is-contender-build-nuclear-power-plant-turkey-2026-10-23/"
+        }
+      ],
+      "source": "Neutron Bytes",
+      "entities": [
+        "AtkinsRéalis",
+        "Turkey",
+        "Sinop",
+        "CANDU"
+      ],
+      "technologies": [
+        "Traditional fission"
+      ],
+      "categories": [
+        "Construction & licensing",
+        "Policy & international"
+      ],
+      "importance_score": 38,
+      "editorial": true,
+      "group": "Commercial projects and prospective customers"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Radiant selected for 1 MWe Kaleidos at Naval Weapons Station Crane",
+      "source_heading": "Radiant to Power Naval Weapons Station in Indiana",
+      "category": "Offtakes & customers",
+      "summary": "The Navy selected Radiant's 1 MWe transportable Kaleidos HTGR for planned deployment at Naval Weapons Station Crane, Indiana. Radiant is also working with Army and Air Force programs. Its full-scale INL DOME test sequence and planned 150-hour unattended run will inform licensing and reliability, but the reactor is not yet operating at the naval site.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [
+        {
+          "label": "NRC Kaleidos pre-application page",
+          "url": "https://www.nrc.gov/facilities-safety/new-reactors/advanced-reactors/who-were-working-with/pre-application-activities/radiant-kaleidos"
+        },
+        {
+          "label": "WNN Kaleidos testing background",
+          "url": "https://www.world-nuclear-news.org/articles/kaleidos-microreactor-begins-journey-to-idaho"
+        }
+      ],
+      "source": "Neutron Bytes",
+      "entities": [
+        "Radiant",
+        "Kaleidos",
+        "US Navy",
+        "Naval Weapons Station Crane",
+        "DOME"
+      ],
+      "technologies": [
+        "Microreactors"
+      ],
+      "categories": [
+        "Offtakes & customers",
+        "Construction & licensing"
+      ],
+      "importance_score": 82,
+      "editorial": true,
+      "group": "Defense deployments and microreactor milestones"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Westinghouse reportedly pivots eVinci from commercial grid to defense and space",
+      "source_heading": "Westinghouse Pivots Away from Commercial Uses for the eVinci Microreactor",
+      "category": "Capital & financing",
+      "summary": "Within its Radiant discussion, NB reports that Westinghouse withdrew eVinci from INL DOME testing, paused a commercial factory plan and redirected microreactor work toward defense, space and government markets. The DOE-linked 663°C criticality experiment is a component/core milestone, not operation of a completed electricity-producing unit. The commercial pivot is NB-reported.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [
+        {
+          "label": "DOE eVinci criticality milestone (background)",
+          "url": "https://www.energy.gov/ne/articles/westinghouse-evinci-microreactor-achieves-criticality-milestone"
+        }
+      ],
+      "source": "Neutron Bytes",
+      "entities": [
+        "Westinghouse",
+        "eVinci",
+        "DOME",
+        "US Department of Energy"
+      ],
+      "technologies": [
+        "Microreactors"
+      ],
+      "categories": [
+        "Capital & financing",
+        "Construction & licensing"
+      ],
+      "importance_score": 70,
+      "editorial": true,
+      "group": "Defense deployments and microreactor milestones"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Indiana launches Advanced Nuclear Ready Communities tiers",
+      "source_heading": "Indiana Prepares Communities for Nuclear Energy",
+      "category": "Policy & international",
+      "summary": "Indiana's Nuclear Ready, Nuclear Engaged and Nuclear Advanced tiers offer communities a framework for local support, site planning and workforce readiness. Retired coal plant infrastructure could lower development friction, but a designation does not constitute an NRC licence, a utility commitment or project financing.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [
+        {
+          "label": "Indiana nuclear-ready program",
+          "url": "https://www.in.gov/oed/indianas-energy-policy/advanced-nuclear-ready/"
+        }
+      ],
+      "source": "Neutron Bytes",
+      "entities": [
+        "Indiana",
+        "Advanced Nuclear Ready Communities Program"
+      ],
+      "technologies": [
+        "Advanced fission",
+        "Traditional fission"
+      ],
+      "categories": [
+        "Policy & international",
+        "Construction & licensing"
+      ],
+      "importance_score": 45,
+      "editorial": true,
+      "group": "Regulation, permitting and siting"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "The Nuclear Company proposes 6.6 GW Kentucky AP1000 campus",
+      "source_heading": "The Nuclear Company Proposes to Build Six AP1000s in Kentucky",
+      "category": "Construction & licensing",
+      "summary": "The Nuclear Company outlined Prosperity One in Lewis County, Kentucky: up to six AP1000 reactors, approximately 6.6 GWe, on about 4,200 acres with river and transmission access. NB describes prospective site work and approvals from 2028. No final investment decision, binding offtake or financing package was disclosed; the article's $60 billion estimate is illustrative, not a committed budget.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [],
+      "source": "Neutron Bytes",
+      "entities": [
+        "The Nuclear Company",
+        "Prosperity One",
+        "Kentucky",
+        "AP1000",
+        "Westinghouse"
+      ],
+      "technologies": [
+        "Traditional fission"
+      ],
+      "categories": [
+        "Construction & licensing",
+        "Capital & financing"
+      ],
+      "importance_score": 81,
+      "editorial": true,
+      "group": "Commercial projects and prospective customers"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "The Nuclear Company delays anticipated IPO",
+      "source_heading": "What About the Delayed IPO?",
+      "category": "Capital & financing",
+      "summary": "NB cites an October 14 Axios report that The Nuclear Company deferred an anticipated 2026 IPO as nuclear equity sentiment weakened. NB says there had been no publicly filed SEC registration for that offering, so it is not a withdrawn public S-1. The delay reinforces the capital challenge facing its proposed multibillion-dollar AP1000 campus.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [
+        {
+          "label": "Axios IPO report linked by NB",
+          "url": "https://www.axios.com/pro/climate-deals/2026/10/14/nuclear-company-ipo-delay"
+        }
+      ],
+      "source": "Neutron Bytes",
+      "entities": [
+        "The Nuclear Company",
+        "IPO",
+        "Westinghouse"
+      ],
+      "technologies": [
+        "Traditional fission"
+      ],
+      "categories": [
+        "Capital & financing"
+      ],
+      "importance_score": 62,
+      "editorial": true,
+      "group": "Capital formation and nuclear fuel"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Antares Mark-1 clears initial DOE nuclear safety design gate",
+      "source_heading": "Antares Clears First DOE Authorization Gate for Mark-1",
+      "category": "Construction & licensing",
+      "summary": "DOE approved Antares' Nuclear Safety Design Agreement for Mark-1, establishing the initial safety-design basis for a planned 2027 electricity-producing INL demonstration. Mark-0 achieved criticality in June 2026; Mark-1 is intended to add a nitrogen Brayton power conversion system. The NSDA is not an NRC commercial operating licence or a completed power-generation milestone; defense deliveries are targeted from 2028.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [],
+      "source": "Neutron Bytes",
+      "entities": [
+        "Antares",
+        "Mark-1",
+        "Mark-0",
+        "DOE",
+        "Idaho National Laboratory"
+      ],
+      "technologies": [
+        "Microreactors"
+      ],
+      "categories": [
+        "Construction & licensing",
+        "Policy & international"
+      ],
+      "importance_score": 76,
+      "editorial": true,
+      "group": "Defense deployments and microreactor milestones"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "NRC finalizes use of DOE demonstration evidence in commercial licensing",
+      "source_heading": "NRC Completes Rule to Streamline Licensing for DOE Reactors",
+      "category": "Construction & licensing",
+      "summary": "The NRC finalized amendments to 10 CFR Parts 50 and 53 enabling applicants to submit relevant DOE or Defense Department demonstration analyses and test data in commercial reactor licence applications. NRC review remains independent and applicants must address differences in design, site and hazards. NB says effectiveness follows Federal Register publication by 30 days, not the date of the roundup.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [],
+      "source": "Neutron Bytes",
+      "entities": [
+        "US Nuclear Regulatory Commission",
+        "DOE",
+        "10 CFR Part 50",
+        "10 CFR Part 53"
+      ],
+      "technologies": [
+        "Advanced fission",
+        "Microreactors"
+      ],
+      "categories": [
+        "Construction & licensing",
+        "Policy & international"
+      ],
+      "importance_score": 74,
+      "editorial": true,
+      "group": "Regulation, permitting and siting"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Applied Atomics and Dairyland explore Wisconsin Genoa SMRs",
+      "source_heading": "Applied Atomics Tags Up with Dairyland for SMRs in Wisconsin",
+      "category": "Construction & licensing",
+      "summary": "Applied Atomics and Dairyland signed a letter of intent to evaluate SMRs at the retired Genoa plant site in Wisconsin; Dairyland may explore a future PPA, but no executed power purchase agreement was announced. Applied Atomics has licensed BWXT's land-based mPower design. NB gives differing 100 MW concept and 195 MW legacy design figures, so final unit size is not settled.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [
+        {
+          "label": "Applied Atomics mPower licence (June)",
+          "url": "https://www.appliedatomics.com/newsroom/applied-atomics-secures-mpower-license"
+        }
+      ],
+      "source": "Neutron Bytes",
+      "entities": [
+        "Applied Atomics",
+        "Dairyland Power Cooperative",
+        "BWXT",
+        "mPower",
+        "Genoa"
+      ],
+      "technologies": [
+        "Traditional fission",
+        "Advanced fission"
+      ],
+      "categories": [
+        "Construction & licensing",
+        "Offtakes & customers"
+      ],
+      "importance_score": 62,
+      "editorial": true,
+      "group": "Commercial projects and prospective customers"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Alaska development authority agrees $25 million NuCube equity investment",
+      "source_heading": "NuCube Energy Lands $25 Million Investment in from Alaska Development Authority",
+      "category": "Capital & financing",
+      "summary": "Alaska's AIDEA agreed on October 19 to invest $25 million in NuCube Class A shares at $9.25 each. NB says this qualifies toward a $75 million minimum-cash condition for NuCube's proposed Launch Two business combination, not that the merger has closed. NuCube intends to fund NuSun microreactor development and licensing; the up-to-15 MWe rating remains a design target.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [],
+      "source": "Neutron Bytes",
+      "entities": [
+        "NuCube",
+        "AIDEA",
+        "Launch Two",
+        "NuSun",
+        "Alaska"
+      ],
+      "technologies": [
+        "Microreactors"
+      ],
+      "categories": [
+        "Capital & financing",
+        "Construction & licensing"
+      ],
+      "importance_score": 76,
+      "editorial": true,
+      "group": "Capital formation and nuclear fuel"
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Westinghouse plans $1 billion South Carolina LEU+ fuel plant expansion",
+      "source_heading": "Westinghouse to Expand South Carolina Nuclear Fuel Plant",
+      "category": "Fuel & supply chain",
+      "summary": "Westinghouse announced approximately $1 billion for an advanced LEU+ fabrication facility at Columbia Fuel Fabrication in Hopkins, South Carolina. NB reports construction underway and an expected 2030 start. Fuel enriched to 5–8% U-235 could support longer operating cycles and future AP1000 supply, but no contracted annual production capacity was specified; LEU+ is distinct from HALEU.",
+      "url": "https://neutronbytes.com/2026/10/24/nuclear-reactor-developers-target-indiana-kentucky-for-sites-and-customers/",
+      "links": [],
+      "source": "Neutron Bytes",
+      "entities": [
+        "Westinghouse",
+        "Columbia Fuel Fabrication Facility",
+        "LEU+",
+        "AP1000"
+      ],
+      "technologies": [
+        "Traditional fission"
+      ],
+      "categories": [
+        "Fuel & supply chain",
+        "Capital & financing"
+      ],
+      "importance_score": 80,
+      "editorial": true,
+      "group": "Capital formation and nuclear fuel"
+    },
+    {
+      "date": "2026-10-20",
+      "title": "South Korea's SMR design pipeline faces licensing and staffing bottleneck",
+      "source_heading": "South Korea Builds Reactors Fast; Licensing Slows Them Down",
+      "category": "Construction & licensing",
+      "summary": "NB's October 20 guest analysis argues that Korean advanced-reactor exports are constrained by regulator capacity, despite strong engineering. It cites 18 NSSC reviewers already committed to i-SMR, planned staffing of 33 in 2027 and 39 by 2029–30, and advanced-design standards potentially not ready until 2032. KHNP's i-SMR design application was filed in February 2026; this article is analysis, not a new licence award.",
+      "url": "https://neutronbytes.com/2026/10/20/south-korea-builds-reactors-fast-licensing-slows-them-down/",
+      "links": [
+        {
+          "label": "OECD-NEA SMR dashboard cited by NB",
+          "url": "https://www.oecd-nea.org/jcms/pl_105518/the-nea-small-modular-reactor-dashboard-third-edition"
+        },
+        {
+          "label": "WNN i-SMR filing linked by NB",
+          "url": "https://world-nuclear-news.org/articles/standard-design-approval-sought-for-i-smr"
+        }
+      ],
+      "source": "Neutron Bytes",
+      "entities": [
+        "South Korea",
+        "NSSC",
+        "KHNP",
+        "i-SMR",
+        "SMART100"
+      ],
+      "technologies": [
+        "Advanced fission"
+      ],
+      "categories": [
+        "Construction & licensing",
+        "Policy & international"
+      ],
+      "importance_score": 64,
+      "editorial": true,
+      "group": "Regulation, permitting and siting"
+    }
+  ]
+}
